@@ -82,6 +82,7 @@
 	\gdef\@labelTypeProjectINF{Projekt-INF}%
 	\gdef\@labelTypeFachstudie{Fachstudie}%
 	\gdef\@labelTypeProzessanalyse{Prozessanalyse}%
+	\gdef\@labelTypeProposal{Proposal}%
 	
 	\gdef\@labelCourseCS{Informatik}%
 	\gdef\@labelCourseSE{Softwaretechnik}%
@@ -305,7 +306,7 @@
     \vbox to 60mm{\hsize=95mm\parindent=0pt
       \vskip 10mm plus 30mm minus 7.5mm
       \begin{center}\@setsize\large{14pt}\xiipt\@xiipt %%\large
-        \@labelType\ Nr.\,\MCS@number
+        \@labelType
       \end{center}%
       \vskip 12.5mm plus 12.5mm minus 10mm
       \begin{center}\@setsize\LARGE{22pt}\xviipt\@xviipt %%\LARGE
@@ -329,16 +330,7 @@
       \item[\@labelSupvervisor:]\MCS@supervisor
     \end{USCCover@TBlist}%
     \vfill}%
-  \vbox to 70mm{%%%%% ==> 85 mm von oben
-    \begin{USCCover@TBlist}%
-      \item[\@labelStartdate:]\MCS@startdate
-      \item[\@labelEnddate:]\MCS@enddate
-      \ifx\@crk\relax \else
-          \vskip 1.5\baselineskip
-          \item[\@labelcrk:]\MCS@crk
-      \fi
-    \end{USCCover@TBlist}%
-    \vfill}%
+ 
 
  \vss}\hss}%
   %
