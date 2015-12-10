@@ -1,0 +1,17 @@
+INDEX VERSION 1.127+/home/pht/git/forschungsmethoden_ICTS/project/.metadata/.plugins/org.eclipse.jdt.core
+2319532706.index
+1085037457.index
+1864131121.index
+2183402355.index
+3793489513.index
+805439817.index
+1250309998.index
+3557196787.index
+3717679833.index
+3997995348.index
+1330018120.index
+3938554568.index
+827857785.index
+3693731505.index
+139237507.index
+4228781206.index
