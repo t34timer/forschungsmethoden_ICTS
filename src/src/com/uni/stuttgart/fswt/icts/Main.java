@@ -26,7 +26,7 @@ public class Main {
 
             System.out.println("Unbehandelter Fehler:\n\n" + e.getMessage());
             for(StackTraceElement stackElement : e.getStackTrace()) {
-                System.out.println("\n\t" + stackElement.toString());
+                System.out.println("\t" + stackElement.toString());
             }
         }
     }
@@ -34,7 +34,20 @@ public class Main {
     private static void printExceptions(String module, ArrayList<Exception> exceptionArrayList) {
         if (exceptionArrayList != null && exceptionArrayList.size() > 0)
         {
+            System.out.println("Fehler im Modul \"" + module + "\"");
 
+            for (Exception ex : exceptionArrayList) {
+                printException(ex, "");
+            }
         }
+    }
+
+    private static void printException(Exception ex, String indent) {
+        System.out.println(indent + ex.getMessage());
+        for(StackTraceElement stackElement : ex.getStackTrace()) {
+            System.out.println(indent + "\t" + stackElement.toString());
+        }
+
+        if (ex.)
     }
 }

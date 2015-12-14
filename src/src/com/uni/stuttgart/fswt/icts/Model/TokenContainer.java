@@ -22,8 +22,16 @@ public class TokenContainer {
 
         for (String word : input.split("\\s")) {
 
-            String lemmaWord = _lemmaCache.containsKey(word) ? _lemmaCache.get(word) : Lemmatizer.lemmatize(word);
-            WordFrequency frequency = _tokens.containsKey(word) ? _tokens.get(word) : new WordFrequency(lemmaWord);
+            String lemmaWord;
+
+            if (_lemmaCache.containsKey(word)) {
+                lemmaWord = _lemmaCache.get(word);
+            } else {
+                lemmaWord = Lemmatizer.lemmatize(word);
+                _lemmaCache.put(word, lemmaWord);
+            }
+
+            WordFrequency frequency = _tokens.containsKey(lemmaWord) ? _tokens.get(lemmaWord) : new WordFrequency(lemmaWord);
 
             frequency.incrementWordCount(1);
             _tokens.put(lemmaWord, frequency);
