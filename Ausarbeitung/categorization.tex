@@ -1,0 +1,23 @@
+\subsection{Categorizing the Tickets and Commits}
+
+If an assignment of a ticket to a commit is not possible one might want to think of another way narrowing them down to a specific category or something similar. Having already tokenized the commits and the tickets the basis for such a categorization of these commits and tickets is already established. Knowing how often a specific token (e.g. a specific word such as ''GUI'') occurs, enables mapping tickets to commits depending on their occurrences. It would be possible to map all commits which contain the word ''GUI'' to those tickets containing it as well. For designing this mapping process it is important to set some ground rules. For instance it should be clear which cardinality is to be applied for the mapping. Assuming the most occurring word is prioritized we have 4 different cases to address.
+In case one the commit is mapped to only one ticket which makes the mapping pretty simple. The commit containing the word occurring the most is mapped to a corresponding ticket. The choice of the tickets also depends on this occurrence. Once mapped, the commit and the ticket are not to be used in any further mapping. This only applies if it is safe to assume that each commit addresses one specific ticket.
+
+The second case is a little bit more complicated. Here one commit might belong to several tickets. Although this case is usually quite rare it cannot be ignored.
+
+Description 
+
+
+The third case would be mapping several commits to one ticket. This case is probably the one which is to be considered the most. 
+
+Description 
+
+
+The last case deals with mapping several commits to several tickets. This case can be separated into either the second or the third case. This separation depends on whether the commits are supposed to be mapped to tickets or the other way around. The most common case would be mapping commits to tickets. In this case one could simply look at each single commit and map it to its corresponding tickets (case two). The other way would imply to look at each single ticket mapping it to its corresponding commits.
+
+Although it is very easy to differentiate between these four cases it is not always safe to assume that they can be implicitly applied.  One obvious reason for this is that commits and their corresponding messages are created by human-beings who make mistake every once in a while.
+
+Transititon?
+
+What about the mapping considering not only one but multiple words?. Having to words (''GUI'' and ''performance'') occurring 15 and 23 times it cannot be ensured that the mapping would always return the same result. The result depends on which word is mapped first. This raises the question which word is to be prioritized? 
+
