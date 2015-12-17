@@ -37,6 +37,6 @@
 *.toc
 *.tpt
 *.xref
-ausarbeitung.pdf
+main.pdf
 graphics/*.pdf_tex
 graphics/*svg-converted-to.pdf
