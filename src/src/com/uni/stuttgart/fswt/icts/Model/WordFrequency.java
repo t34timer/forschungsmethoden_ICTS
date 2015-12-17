@@ -24,4 +24,9 @@ public class WordFrequency {
 
     public void incrementWordCount(int increment) { _wordCount += increment;}
     public void decrementWordCount(int decrement) { _wordCount -= decrement; }
+
+    @Override
+    public String toString() {
+        return String.format("{%s}: ->%s<-", getWordCount(), getWord());
+    }
 }

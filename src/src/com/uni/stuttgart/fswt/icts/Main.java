@@ -1,6 +1,7 @@
 package com.uni.stuttgart.fswt.icts;
 
 import com.uni.stuttgart.fswt.icts.Controller.FileReader;
+import com.uni.stuttgart.fswt.icts.Controller.TokenManager;
 import com.uni.stuttgart.fswt.icts.Model.Issue;
 import com.uni.stuttgart.fswt.icts.Model.Result;
 
@@ -12,7 +13,6 @@ public class Main {
 	// write your code here
 
         Result<ArrayList<Issue>> issues;
-        Result<ArrayList<String>> words;
 
         try {
             // 1.) Einlesen, Tokens extrahieren & lemmatisieren
@@ -20,6 +20,7 @@ public class Main {
             printExceptions("FileReader", issues.getExceptions());
 
             // 2.) Wort-Tabelle erstellen
+            TokenManager.initialize(issues.getResult(), new ArrayList<>());
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -42,12 +43,14 @@ public class Main {
         }
     }
 
-    private static void printException(Exception ex, String indent) {
+    private static void printException(Throwable ex, String indent) {
         System.out.println(indent + ex.getMessage());
         for(StackTraceElement stackElement : ex.getStackTrace()) {
             System.out.println(indent + "\t" + stackElement.toString());
         }
 
-        if (ex.)
+        if (ex.getCause() != null) {
+            printException(ex.getCause(), indent + "   ");
+        }
     }
 }
