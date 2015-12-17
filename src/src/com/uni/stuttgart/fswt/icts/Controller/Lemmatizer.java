@@ -1,18 +1,33 @@
 package com.uni.stuttgart.fswt.icts.Controller;
 
-import com.uni.stuttgart.fswt.icts.Model.Result;
+import ahmet.aker.POSTaggersALanguage;
+import ahmet.aker.Util;
+import ahmet.aker.LemmatizerAhmetAker;
 
-import java.util.ArrayList;
+import java.io.IOException;
+import java.util.Map;
 
-/**
- * Created by GM on 10.12.2015.
- */
 public class Lemmatizer {
+
+    private static String resourcesFolder = "./res";
+    private static Map<String, String> posMap;
+    private static POSTaggersALanguage posTagger = new POSTaggersALanguage();
 
     private Lemmatizer() { /* Singleton */ }
 
+    public static void init() throws IOException {
+       Lemmatizer.posMap  = Util.getFileContentAsMap(
+               Lemmatizer.resourcesFolder + "/universal-pos-tags/dePOSMapping.txt", "######", true);
+    }
+
     public static String lemmatize(String word) {
-        // Hier sollte die Logik für das Lemmatisieren rein
-        return word;
+        try {
+            String[] words = {word};
+            String[] posTaggedVersion = Lemmatizer.posTagger.posTag(words, "de", Lemmatizer.resourcesFolder);
+            String generalType = Lemmatizer.posMap.get(posTaggedVersion[0].toLowerCase());
+            return LemmatizerAhmetAker.getLemma(Lemmatizer.resourcesFolder, word, "de", generalType);
+        } catch (Exception e) {
+            return word;
+        }
     }
 }
