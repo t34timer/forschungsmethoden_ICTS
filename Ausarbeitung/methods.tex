@@ -5,3 +5,63 @@ In order to find a relation between the commit messages and the issues, we need 
 
 
 We also have access to the date, theme and the author for both commit messages and issues. This kind of information can be useful when matching issues with commit messages. For example, if a commit is done after an issue was submitted, it is less likely that the cause of this issue is related to that commit. Similarly the theme and the author of commits and issues can help us classify the input and provide better results. Grouping the commits and issues by their themes can increase the accuracy of matching and when the common words are not enough to determine a match, the system can provide a set of commits with a similar theme to the issue, instead of a single matching commit. This might make it easier to find the commit manually, since the user has to only search a portion of the commits.
+
+\subsection{Parsing}
+
+\subsubsection{Parsing Issues}
+Issues are provided as a .csv file, which is extracted from JIRA issue tracking system. When we investigate the file, we realize that it follows the common .csv features and uses '';'' to separate the columns. We have read and separated the values in our Java code and mapped it to an instance of our Issue class shown in Figure \ref{fig:issue}. 
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.7]{issueClass}
+\caption{Issue Java Class}
+\label{fig:issue}
+\end{figure}
+
+One difference from a standard .csv format that the file exported from JIRA issue tracking system had was the additional description lines. Some issues have exception messages and log files attached to them to make it easier to describe the issue and provide further resources for the developer, who will fix the issue. These descriptions contain multiple lines and thus a standard .csv parser cannot properly detect them. Since the additional descriptions might be useful to understand more on what the issue is about, which is important for our case, we have implemented an additional functionality to detect these description lines and store them in our object.
+
+We have created a regular expression shown in Figure \ref{fig:regexp} that detects whether a string is a new data record or not.
+
+\begin{figure}
+\centering
+\verb/[0-9]+;[^\\n]+/
+\caption{Regular Expression used to detect a new data record}
+\label{fig:regexp}
+\end{figure}
+
+When reading each line of issue, we check the next line in the document before we move onto the next issue and we use the regular expression to determine whether this next line is a new issue or a line that contains additional description about the current issue. If we detect additional description lines, then we also store them in the respective places in our java object
+
+Each issue object is then added to an ArrayList to store for further processing.
+
+\subsubsection{Parsing Commits}
+
+Commits are extracted from an SVN repository as a .txt file. Each line in the file represents a single commit. The information about the commit is separated by ''\#\#'' characters and each line is ended with ''\**'' characters. Some commits also contain the duration of that particular task in the commit message, encoded by the ''@'' character followed by the time taken for that task. An example line of commit can be seen in Figure \ref{fig:commitLine}.
+
+\begin{figure}
+\centering
+\verb/4013453##Markt Benedikt##Thu Feb 20 04:39:35 2014##Delete Button Problem bei Links umgangen refs #803 @1h\**  /
+\caption{An example line of commit}
+\label{fig:commitLine}
+\end{figure}
+
+We have parsed each commit line in our Java program by separating them by ''\#\#'' characters, and then mapping them to an instance of our Commit Java class, shown in Figure \ref{fig:commit}. We also detect the duration of each task by searching the ''@'' character inside the commit message. The resulting Commit objects are then stored in an ArrayList for further processing.
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.7]{commitClass}
+\caption{Commit Java Class}
+\label{fig:commit}
+\end{figure}
+
+\subsection{Tokenization}
+
+When we set the description and the topic of an Issue object and the description of a Commit object, the input is immediately tokenized and stored in respective TokenContainer objects, which stores the tokens and their frequencies in a table like structure.
+
+The tokenization process is done by separating each input text by whitespace characters. The resulting words are stored in a TokenContainer and the TokenContainer is responsible for counting the frequencies of the words in the input text. Later we can use the TokenContainer object to access every token and their frequencies.
+
+
+\subsection{Lemmatization}
+
+We use a library developed by Dr. Dipl. Inf. Ahmet Aker from University of Sheffield to do the lemmatization. The library provides a functionality to determine the part-of-speech of a word and then it gives the lemma for that word given the correct part-of-speech. The library has its own dictionary for part-of-speech tagging and lemmatization, and it supports English, German, Dutch, Spanish, Italian and French languages. We chose this library because the commit messages and issue descriptions contains words from both English and German, thus we need a library with multilingual support.
+
+After getting the lemma for each word, we remove that token from our TokenContainer and instead insert the lemma as a new token. This way different words that have the same lemma are counted as a single type of token and the frequency is also properly calculated.
