@@ -70,6 +70,8 @@ The tokenization process is done by separating each input text by whitespace cha
 
 \subsection{Lemmatization}
 
-We use a library developed by Dr. Dipl. Inf. Ahmet Aker from University of Sheffield to do the lemmatization. The library provides a functionality to determine the part-of-speech of a word and then it gives the lemma for that word given the correct part-of-speech. The library has its own dictionary for part-of-speech tagging and lemmatization, and it supports English, German, Dutch, Spanish, Italian and French languages. We chose this library because the commit messages and issue descriptions contains words from both English and German, thus we need a library with multilingual support.
+We use a library developed by Dr. Dipl. Inf. Ahmet Aker from University of Sheffield to do the lemmatization. The library provides a functionality to determine the part-of-speech of a word and then it gives the lemma for that word given the correct part-of-speech. The library has its own dictionary for part-of-speech tagging and lemmatization, and it supports English, German, Dutch, Spanish, Italian and French languages.
 
 After getting the lemma for each word, we remove that token from our TokenContainer and instead insert the lemma as a new token. This way different words that have the same lemma are counted as a single type of token and the frequency is also properly calculated.
+
+There are other lemmatization libraries, e.g. OpenNLP or StanfordNLP, but most of these libraries only offer English lemmatizers. Our commit messages and issue descriptions are mostly German, so we looked for a tool with support for the German language. There are only few free tools available on the web, so we had to chose the library we are using. Probably the results would be more accurate if we had English commit messages and issue descriptions and we could have used a more distributed NLP tool for lemmatization.
