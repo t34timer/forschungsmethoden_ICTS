@@ -20,14 +20,21 @@ public class Lemmatizer {
                Lemmatizer.resourcesFolder + "/universal-pos-tags/dePOSMapping.txt", "######", true);
     }
 
-    public static String lemmatize(String word) {
-        try {
-            String[] words = {word};
-            String[] posTaggedVersion = Lemmatizer.posTagger.posTag(words, "de", Lemmatizer.resourcesFolder);
-            String generalType = Lemmatizer.posMap.get(posTaggedVersion[0].toLowerCase());
-            return LemmatizerAhmetAker.getLemma(Lemmatizer.resourcesFolder, word, "de", generalType);
-        } catch (Exception e) {
-            return word;
+    public static String[] lemmatize(String[] words) {
+        String[] result = new String[words.length];
+
+        String[] posTaggedVersion = Lemmatizer.posTagger.posTag(words, "de", Lemmatizer.resourcesFolder);
+        String generalType = Lemmatizer.posMap.get(posTaggedVersion[0].toLowerCase());
+
+
+        for (int i = 0; i < words.length; i++) {
+            try {
+                result[i] = LemmatizerAhmetAker.getLemma(Lemmatizer.resourcesFolder, words[i], "de", generalType);
+            } catch (Exception e) {
+                result[i] = words[i];
+            }
         }
+
+        return result;
     }
 }
