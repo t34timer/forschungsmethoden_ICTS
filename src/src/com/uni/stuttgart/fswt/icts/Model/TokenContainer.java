@@ -2,6 +2,7 @@ package com.uni.stuttgart.fswt.icts.Model;
 
 import com.uni.stuttgart.fswt.icts.Controller.Lemmatizer;
 
+import java.io.IOException;
 import java.util.HashMap;
 
 /**
@@ -16,21 +17,13 @@ public class TokenContainer {
     public HashMap<String, WordFrequency> getTokens() { return _tokens; }
 
 
-    public void Tokenize(String input) {
+    public void Tokenize(String input) throws IOException {
 
         _tokens =  new HashMap<>();
+        Lemmatizer.init();
+        String[] _lemmatizedTokens = Lemmatizer.lemmatize(input.split("\\s"));
 
-        for (String word : input.split("\\s")) {
-
-            String lemmaWord;
-
-            if (_lemmaCache.containsKey(word)) {
-                lemmaWord = _lemmaCache.get(word);
-            } else {
-                lemmaWord = Lemmatizer.lemmatize(word);
-                _lemmaCache.put(word, lemmaWord);
-            }
-
+        for (String lemmaWord : _lemmatizedTokens) {
             WordFrequency frequency = _tokens.containsKey(lemmaWord) ? _tokens.get(lemmaWord) : new WordFrequency(lemmaWord);
 
             frequency.incrementWordCount(1);
