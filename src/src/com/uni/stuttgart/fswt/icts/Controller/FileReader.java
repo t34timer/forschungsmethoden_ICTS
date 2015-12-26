@@ -1,5 +1,6 @@
 package com.uni.stuttgart.fswt.icts.Controller;
 
+import com.uni.stuttgart.fswt.icts.Model.Commit;
 import com.uni.stuttgart.fswt.icts.Model.Issue;
 import com.uni.stuttgart.fswt.icts.Model.Result;
 
@@ -18,8 +19,11 @@ import java.util.regex.Pattern;
  */
 public class FileReader {
 
-    private static String IS_NEW_DATARECORD_REGEX = "[0-9]+;[^\\n]+";
+    private static final Pattern NEW_LINE_PATTERN = Pattern.compile("[0-9]+;[^\\n]+");
+
+    // Regex to match CSV-Lines
     private static String CSV_REGEX = "[0-9]+(;[^;]*?){21}(?=(\\n[0-9]+;)|$)";
+
     private static DateFormat DATE_FORMAT_MINUTES = new SimpleDateFormat("dd.MM.yyyy HH:mm");
     private static DateFormat DATE_FORMAT_DATE = new SimpleDateFormat("dd.MM.yyyy");
 
@@ -98,7 +102,7 @@ public class FileReader {
             {
                 followingLine = lines.get(currentLineIndex);
 
-                if (!Pattern.matches(IS_NEW_DATARECORD_REGEX, followingLine)) {
+                if (!NEW_LINE_PATTERN.matcher(followingLine).find()) {
 
                     descriptionLines.append("\n");
                     descriptionLines.append(followingLine);
@@ -117,10 +121,11 @@ public class FileReader {
     }
 
     // Lädt die Commit-Messages
-    public static Result<ArrayList<Object>> readCommits(String commitLogFilePath) {
+    public static Result<ArrayList<Commit>> readCommits(String commitLogFilePath) {
         // todo
         return null;
     }
+
 
     private static Date tryParseDate(String input, DateFormat format) {
         if (input == null || input.length() < 10) {

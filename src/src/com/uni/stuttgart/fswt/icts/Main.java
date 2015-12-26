@@ -1,10 +1,13 @@
 package com.uni.stuttgart.fswt.icts;
 
 import com.uni.stuttgart.fswt.icts.Controller.FileReader;
+import com.uni.stuttgart.fswt.icts.Controller.Lemmatizer;
 import com.uni.stuttgart.fswt.icts.Controller.TokenManager;
+import com.uni.stuttgart.fswt.icts.Model.Commit;
 import com.uni.stuttgart.fswt.icts.Model.Issue;
 import com.uni.stuttgart.fswt.icts.Model.Result;
 
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class Main {
@@ -13,11 +16,21 @@ public class Main {
 	// write your code here
 
         Result<ArrayList<Issue>> issues;
+        Result<ArrayList<Commit>> commits;
+
+        try {
+            Lemmatizer.init();
+        } catch (IOException ex) {
+            printException("Lemmatizer@Init", ex);
+        }
 
         try {
             // 1.) Einlesen, Tokens extrahieren & lemmatisieren
             issues = FileReader.readIssueCSV(args[0]);
-            printExceptions("FileReader", issues.getExceptions());
+            printExceptions("FileReader@Issues", issues.getExceptions());
+
+            commits = FileReader.readCommits(args[1]);
+            printExceptions("FileReader@Commits", commits.getExceptions());
 
             // 2.) Wort-Tabelle erstellen
             TokenManager.initialize(issues.getResult(), new ArrayList<>());
@@ -41,6 +54,11 @@ public class Main {
                 printException(ex, "");
             }
         }
+    }
+
+    private static void printException(String module, Exception ex) {
+        System.out.println("Fehler im Modul \"" + module + "\"");
+        printException(ex, "");
     }
 
     private static void printException(Throwable ex, String indent) {

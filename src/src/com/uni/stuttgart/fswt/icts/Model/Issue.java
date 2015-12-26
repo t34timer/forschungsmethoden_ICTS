@@ -58,7 +58,7 @@ public class Issue {
     }
     public void setTopic(String topic) {
         this.topic = topic;
-        _topicTokens.Tokenize(topic);
+        _topicTokens.tokenize(topic);
     }
 
     public String getDescription() {
@@ -66,7 +66,7 @@ public class Issue {
     }
     public void setDescription(String description) {
         this.description = description;
-        _desctiptionTokens.Tokenize(description);
+        _desctiptionTokens.tokenize(description);
     }
 
 
