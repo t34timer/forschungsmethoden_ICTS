@@ -1,40 +1,78 @@
 \subsection{Categorizing the Tickets and Commits}
 
-If an assignment of a ticket to a commit is not possible one might want to think of another way for narrowing them down to a specific category or something similar. This section describes some ideas for achieving a categorization of commits and tickets in order to be able to support mapping them manually or at least summarize those which refer to a similar topic.
+If an assignment of a ticket to a commit is not possible one might want to think of another way for narrowing them down to a specific category or something similar.
+This section describes some ideas for achieving a categorization of commits and tickets in order to be able to support mapping them manually or at least summarize those which refer to a similar topic.
 
 \subsubsection{Why categorization?}
 
-It is really difficult to explicitly map commits to tickets. One reason for that are the four different cases which have to be considered in this kind of mapping.\\
+It is really difficult to explicitly map commits to tickets.
+One reason for that are the four different cases which have to be considered in this kind of mapping.\\
 
-In case one the commit is mapped to only one ticket which makes the mapping pretty simple. The commit is mapped to a corresponding ticket and both are not to be used in any further mapping. This only applies if it is safe to assume that each commit addresses one specific ticket which leads to the second case.\\
-In the second case it is allowed that one commit might belong to several tickets. Although this case is usually quite rare it cannot be ignored. For instance implementing a function which was defined in a ticket could lead to improve efficiency of another functionality or anything similar which was described in another ticket. Obviously the commit would address to two different tickets in this case.\\
-The third case would be the other way around which means mapping several commits to one ticket. This case is probably the one which is to be considered the most. In many cases it is not possible to resolve a problem stated in a ticket within a short amount of time. This results in interrupting the work on the ticket and continue working on it on another time. In this case it is inevitable to save the changes which were already made which usually happens by committing them. It is now necessary to be able to gather all commits linked to this specific ticket and map them accordingly.\\
-The last case deals with mapping several commits to several tickets. This case might not be seen as actuall case since it can be separated into either the second and the third case. This separation depends on whether the commits are supposed to be mapped to tickets or the other way around. The most common case would be mapping commits to tickets. In this case one could simply look at each single commit and map it to its corresponding tickets (case two). The other way would imply to look at each single ticket mapping it to its corresponding commits.\\
-These 4 cases illustrate that the affiliation of a specific commit to a specific is not always to be taken for granted. This leads to another way of mapping commits and tickets without having to explicitly map them to each other. Instead one creates categories out of the token of the commits and tickets and relates them to the category they fit in where as it is not specified that they can only be mapped to one category.
+In case one the commit is mapped to only one ticket which makes the mapping pretty simple.
+The commit is mapped to a corresponding ticket and both are not to be used in any further mapping.
+This only applies if it is safe to assume that each commit addresses one specific ticket which leads to the second case.\\
+In the second case it is allowed that one commit might belong to several tickets.
+Although this case is usually quite rare it cannot be ignored.
+For instance implementing a function which was defined in a ticket could lead to improve efficiency of another functionality or anything similar which was described in another ticket.
+Obviously the commit would address to two different tickets in this case.\\
+The third case would be the other way around which means mapping several commits to one ticket.
+This case is probably the one which is to be considered the most.
+In many cases it is not possible to resolve a problem stated in a ticket within a short amount of time.
+This results in interrupting the work on the ticket and continue working on it on another time.
+In this case it is inevitable to save the changes which were already made which usually happens by committing them.
+It is now necessary to be able to gather all commits linked to this specific ticket and map them accordingly.\\
+The last case deals with mapping several commits to several tickets.
+This case might not be seen as actuall case since it can be separated into either the second and the third case.
+This separation depends on whether the commits are supposed to be mapped to tickets or the other way around.
+The most common case would be mapping commits to tickets.
+In this case one could simply look at each single commit and map it to its corresponding tickets (case two).
+The other way would imply to look at each single ticket mapping it to its corresponding commits.\\
+These 4 cases illustrate that the affiliation of a specific commit to a specific is not always to be taken for granted.
+This leads to another way of mapping commits and tickets without having to explicitly map them to each other.
+Instead one creates categories out of the token of the commits and tickets and relates them to the category they fit in where as it is not specified that they can only be mapped to one category.
 
 \subsubsection{Creating categories}
 
-Having already tokenized and lemmatized the commits and the tickets the basis for such a categorization of these commits and tickets is established. Knowing how often a specific token (e.g. a specific word such as ''GUI'', ''bug'' or ''interface'') occurs, enables the creation of categories  depending on their occurrences. It would be possible to map commits and tickets which contain the word ''GUI'' to the corresponding category. For designing this mapping process it is important determine some restriction for creating categories as well as assigning commits and tickets to them. 
+Having already tokenized and lemmatized the commits and the tickets the basis for such a categorization of these commits and tickets is established.
+Knowing how often a specific token (e.g. a specific word such as ''GUI'', ''bug'' or ''interface'') occurs, enables the creation of categories  depending on their occurrences.
+It would be possible to map commits and tickets which contain the word ''GUI'' to the corresponding category.
+For designing this mapping process it is important determine some restriction for creating categories as well as assigning commits and tickets to them. 
 
 \paragraph{Quantity of keywords}
 
-In order to create a category we need to define a quantity of words refering to the same part of the software. For instance in order to refer to the ''graphical user interface'' you could write about the ''GUI'' or about the ''front end''. It is also possible to simple refer to it as ''user interface'' or ''UI''. These mentioned words would be the quantity of words for the graphical user interface. \\
-As you can see creating category makes use of several (different) tokens which might be valid in several categories. Assigning ''user interface'' to the category of the graphical user interface implies that the token ''interface'' is mapped to this category as well. If a commit or ticket now refers to another kind of ''interface'' such as ''library interface'' is it not possible to map it to a unique category. This raises the question how to handle this kind of overlapping. 
+In order to create a category we need to define a quantity of words refering to the same part of the software.
+For instance in order to refer to the ''graphical user interface'' you could write about the ''GUI'' or about the ''front end''.
+It is also possible to simple refer to it as ''user interface'' or ''UI''.
+These mentioned words would be the quantity of words for the graphical user interface. \\
+As you can see creating category makes use of several (different) tokens which might be valid in several categories.
+Assigning ''user interface'' to the category of the graphical user interface implies that the token ''interface'' is mapped to this category as well.
+If a commit or ticket now refers to another kind of ''interface'' such as ''library interface'' is it not possible to map it to a unique category.
+This raises the question how to handle this kind of overlapping. 
 
 \paragraph{Frequency range and token summary}
 
-On the one hand one could assume that words which are written next to each other (e.g. ''user'' and  ''interface'') have the same frequency within this ticket with a deviation of 'x'. The deviation is necessary because the token ''user'' could be refered to independent to the word ''interface''. This also applies the other way around. \\
-One the other hand this assumption does not guarantee an explicit mapping. Considering the fact that categorizing tickets and commits is only done if a specific mapping of them failed one should think about loosen the constraints.
-In order to summarize several tokens to a single one the definition should not rely on the frequency itself and it should not aim to a specific mapping. A loosened definition enables a summary of several words to a ''new token'' for the categorization which raises the chance of successfully mapping commits and tickets. In this case the user can optionally define a treshhold for a frequency of a token which has to be met in order to be used for the creation of a new token and finally a new category.
+On the one hand one could assume that words which are written next to each other (e.g. ''user'' and  ''interface'') have the same frequency within this ticket with a deviation of 'x'.
+The deviation is necessary because the token ''user'' could be refered to independent to the word ''interface''.
+This also applies the other way around. \\
+One the other hand this assumption does not guarantee an explicit mapping.
+Considering the fact that categorizing tickets and commits is only done if a specific mapping of them failed one should think about loosen the constraints.
+In order to summarize several tokens to a single one the definition should not rely on the frequency itself and it should not aim to a specific mapping.
+A loosened definition enables a summary of several words to a ''new token'' for the categorization which raises the chance of successfully mapping commits and tickets.
+In this case the user can optionally define a treshhold for a frequency of a token which has to be met in order to be used for the creation of a new token and finally a new category.
 
 
 \subsubsection{Mapping to categories}
 
-Generally one would assume that a commit or ticket which was mapped once cannot be mapped again. This does not apply to mapping commits and tickets to categories since a commit or ticket can refer to several categories. This depends on the created categories and cannot be defined generally.\\
-This leads to mapping commits and tickets to categories independent of them being already mapped. Also the result or components of the previous mapping should influence further mappings. The mapping itself depends on the categories and the tokens they were made of. Basically all commits and tickets which contain a token fitting into any category are mapped to it accordingly. \\
-Concerning the mapping there are some tolerances which the user himself can adapt to his needs and preferences. For instance the user can define a treshhold for the frequency which has to be met in order to be mapped to a category. This treshhold might even be related to the treshhold for the creation of the category itself. \\
-The way of mapping commits and tickets to a category as well as the way of creating those categories has many aspects which can be changed and adpated by the user. They can depend on preferences, previous experiences or correlations between the token frequency.
-
-
-
+Generally one would assume that a commit or ticket which was mapped once cannot be mapped again.
+This does not apply to mapping commits and tickets to categories since a commit or ticket can refer to several categories.
+This depends on the created categories and cannot be defined generally.\\
+This leads to mapping commits and tickets to categories independent of them being already mapped.
+Also the result or components of the previous mapping should influence further mappings.
+The mapping itself depends on the categories and the tokens they were made of.
+Basically all commits and tickets which contain a token fitting into any category are mapped to it accordingly. \\
+Concerning the mapping there are some tolerances which the user himself can adapt to his needs and preferences.
+For instance the user can define a treshhold for the frequency which has to be met in order to be mapped to a category.
+This treshhold might even be related to the treshhold for the creation of the category itself. \\
+The way of mapping commits and tickets to a category as well as the way of creating those categories has many aspects which can be changed and adpated by the user.
+They can depend on preferences, previous experiences or correlations between the token frequency.
 
