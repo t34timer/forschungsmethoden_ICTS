@@ -53,7 +53,7 @@ We have created a regular expression shown in Figure \ref{fig:regexp} that detec
 \end{figure}
 
 When reading each line of issue, we check the next line in the document before we move onto the next issue and we use the regular expression to determine whether this next line is a new issue or a line that contains additional description about the current issue.
-If we detect additional description lines, then we also store them in the respective places in our java object
+If we detect additional description lines, then we also store them in the respective places in our java object.
 
 Each issue object is then added to an ArrayList to store for further processing.
 
@@ -103,5 +103,6 @@ This way different words that have the same lemma are counted as a single type o
 
 There are other lemmatization libraries, e.g. OpenNLP or StanfordNLP, but most of these libraries only offer English lemmatizers.
 Our commit messages and issue descriptions are mostly German, so we looked for a tool with support for the German language.
-There are only few free tools available on the web, so we had to chose the library we are using.
+There are only few free tools available on the web and even less which support the required language.
+That is why we decided to choose the previously described library.
 Probably the results would be more accurate if we had English commit messages and issue descriptions and we could have used a more distributed NLP tool for lemmatization.
