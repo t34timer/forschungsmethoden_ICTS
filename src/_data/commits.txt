@@ -1,0 +1,1107 @@
+ 3978edb##Fabian Toth##Mon Mar 3 16:10:35 2014##refs #132 Doch noch ein Commit als Vorbereitung auf die mögliche Weiterentwicklung auf Sourceforge\**
+ db6dcc7##Fabian Toth##Mon Mar 3 16:00:38 2014##refs #132 Letzter Commit auf diesem Repository. Release für Sourceforge\**
+ e81ce46##Fabian Toth##Mon Mar 3 15:54:48 2014##refs #132 Vorbereitung für letztes privates Release\**
+ 94a8a35##Heidenwag Jarkko##Fri Feb 28 14:11:39 2014##Erledigt. Beispiel-haz im wiki ist auch angepasst. refs #812 @1\**
+ e991a2c##Heidenwag Jarkko##Thu Feb 27 11:08:46 2014##Last merge of #888 did not contain the changes, so here they are.\**
+ c0b9b70##Jarkko Heidenwag##Wed Feb 26 14:59:09 2014###888 in master gemerged\**
+ ba76689##Sebastian Sieber##Wed Feb 26 13:38:38 2014##refs #887 added updtae link to preferences\**
+ c54fe40##Lukas Balzer##Wed Feb 26 11:50:11 2014##created Class Diagramms and changed package structure a bit\**
+ df7b829##Jarkko Heidenwag##Thu Feb 20 10:25:04 2014##Merge branch 'master' of git@astpa.plan.io:astpa-stupro2013.anwendung.git\**
+ ab3f069##Jarkko Heidenwag##Thu Feb 20 10:24:35 2014##erledigt refs #816\**
+ 1290b7d##Toth Fabian##Thu Feb 20 10:20:31 2014##TODO entfernt\**
+ a37b4fb##Jarkko Heidenwag##Thu Feb 20 07:55:15 2014##Copyright-Header in allen Klassen, in denen er noch nicht vorhanden war, hinzugefügt. Strings externalisiert und Duplikate und nicht verwendete Strings entfernt. refs #883 @2\**
+ 16565ab##Markt Benedikt##Thu Feb 20 05:49:32 2014##Icons auf gleiche Größe und Abstand gebracht, neue Icons gemacht die bei niedrigerer Auflösung besser aussehen. refs #866 @2h\**
+ 4013453##Markt Benedikt##Thu Feb 20 04:39:35 2014##Delete Button Problem bei Links umgangen refs #803 @1h\**
+ c501bee##Sebastian Sieber##Thu Feb 20 03:55:53 2014##Merge branch 'master' of ssh://git@astpa.plan.io/astpa-stupro2013.anwendung.git\**
+ 8f1bc1b##Sebastian Sieber##Thu Feb 20 03:48:29 2014##Merge remote-tracking branch 'origin/master' into 882\**
+ b8a2f3d##Sebastian Sieber##Thu Feb 20 03:39:26 2014##refs #882 bugfixes\**
+ 7869c8d##Markt Benedikt##Thu Feb 20 03:24:58 2014##Neue Zellen im UCA und CF View wechseln sofort in den Editiermodus refs #845 @1.1h\**
+ 2cd78ae##Markt Benedikt##Thu Feb 20 02:14:39 2014##Farbe korrigiert\**
+ 11916c6##Markt Benedikt##Thu Feb 20 02:02:49 2014##Graue Strings Behoben refs #810 @1h\**
+ eeb32ce##Markt Benedikt##Thu Feb 20 01:06:14 2014##Installer: unnötige dateien gelöscht refs #882 @5min\**
+ c87c7c3##Markt Benedikt##Thu Feb 20 00:51:41 2014##Bug mit dem linking popup behoben @5h\**
+ 29428f7##Markt Benedikt##Wed Feb 19 22:25:34 2014##Merge branch 'master' into 863\**
+ 93f2a6e##Fabian Toth##Wed Feb 19 22:24:12 2014##@5m Beim Linking View wieder einen Rand eingefügt\**
+ 90037d6##Markt Benedikt##Wed Feb 19 22:23:54 2014##Enter Beendet Eingabe\**
+ b4c61a0##Markt Benedikt##Wed Feb 19 22:00:38 2014##Zeilenhöhe gefixt refs #788 @2.5h\**
+ 9ce068c##Markt Benedikt##Wed Feb 19 19:22:16 2014##Fehler in UCAView behoben (text wurde nicht aktualisiert) refs #808 @10m\**
+ 249c32c##Markt Benedikt##Wed Feb 19 18:45:09 2014##UCA und CF Grid Cells vereinheitlicht refs #808 @20m\**
+ 3b24701##Markt Benedikt##Wed Feb 19 18:19:09 2014##Default einträge verschwinden in CF View refs #808 @30min\**
+ 9be704b##Markt Benedikt##Wed Feb 19 17:35:26 2014##Green Hover Marker Removed @10m\**
+ 5734d87##Patrick Wickenhaeuser##Mon Feb 17 21:20:18 2014##Neues Projekt wird erstellt und der System Description View geht auf, wenn show welcome page ausgeschaltet ist.\**
+ b21d7a1##Patrick Wickenhaeuser##Sun Feb 16 13:00:22 2014##Default Text bei leeren UCAs. Confirmation Dialog auch bei den Causal Factors.\**
+ 5430a32##Patrick Wickenhaeuser##Sun Feb 16 12:35:39 2014##Confirmation Dialog bevor eine UCA geloescht wird.\**
+ f97c625##Patrick Wickenhaeuser##Sun Feb 16 10:32:56 2014##Grid TODOs, FIXMEs erledigt\**
+ 5e7edaf##Lukas Balzer##Sat Feb 15 12:05:29 2014##fixed bug by setting booleans right, added code comments refs #876 @0.5h\**
+ 55a35c8##Lukas Balzer##Tue Feb 11 11:48:56 2014##set path to uri refs #877 @15m\**
+ 47658c9##Lukas Balzer##Tue Feb 11 11:46:51 2014##changed logo path to URI refs #886 @5m\**
+ 880cd27##Lukas Balzer##Tue Feb 11 10:47:16 2014##fixed image path for the pdf export refs #877 @1h\**
+ 9735b0c##Fabian Toth##Thu Feb 6 22:57:03 2014##refs #884 @30m auf der Suche nach dem Bug einen anderen Fehler korrigiert\**
+ 150b68c##Toth Fabian##Wed Feb 5 12:53:30 2014##refs #132 Vorbereitung für nächste Entwicklungsphase\**
+ 190d007##Toth Fabian##Wed Feb 5 12:51:56 2014##refs #132 Vorbereitung auf Sprint Release Hotfix 0.14.1\**
+ 5d62737##Toth Fabian##Wed Feb 5 12:33:50 2014##fixes #754 Show welcome page in View Container gezogen\**
+ b3d1890##Toth Fabian##Wed Feb 5 12:10:03 2014##refs #132 Vorbereitung für nächste Entwicklungsphase\**
+ 49efdc3##Toth Fabian##Wed Feb 5 12:07:46 2014##refs #132 Vorbereitung auf Sprint Release 14\**
+ eae6b47##Markt Benedikt##Tue Feb 4 22:39:13 2014##Bug behoben refs #808 @ 1h\**
+ 1da36ae##Patrick Wickenhaeuser##Tue Feb 4 22:00:35 2014##Neuen hover Button eingebaut.\**
+ d169138##Lukas Balzer##Tue Feb 4 10:18:33 2014##removed senseless implement IComponent and  resulting todos refs #817 @5m\**
+ 619f39a##Lukas Balzer##Tue Feb 4 08:29:45 2014##fixed Bug and a few code violations refs #874 @5m\**
+ 7853a73##Fabian Toth##Mon Feb 3 22:05:02 2014##refs #872 @2m noch eine Änderung an der hazschema\**
+ edde661##Toth Fabian##Mon Feb 3 15:08:20 2014##@2m Rechtschreibfehler korrigiert\**
+ c161b7d##Toth Fabian##Mon Feb 3 14:09:09 2014##@5m kleine Korrektur beim Laden\**
+ a9ee14c##Jarkko Heidenwag##Mon Feb 3 12:51:27 2014##Die .xsd ist refactored und wieder in die Validierung beim Laden einer .haz eingebunden. Versionierung fehlt jedoch noch, da .haz-Dateien nach unserer Strategie die Version enthalten müssen (schemaVersion="1.0", o.ä.). refs #812 @5\**
+ ec92f5a##Sebastian Sieber##Mon Feb 3 01:59:18 2014##refs #814 removed log to file\**
+ d956f78##Sebastian Sieber##Mon Feb 3 01:43:17 2014##refs #814 test welcome page\**
+ 4338027##Sebastian Sieber##Mon Feb 3 01:36:07 2014##refs #814 test welcome page\**
+ c7826e2##Sebastian Sieber##Mon Feb 3 01:33:35 2014##refs #814 test welcome page\**
+ 4a23789##Sebastian Sieber##Mon Feb 3 01:18:33 2014##refs #813 test welcome page\**
+ 5efc31b##Sebastian Sieber##Mon Feb 3 00:46:15 2014##refs #814 test welcome screen\**
+ 3416a11##Sebastian Sieber##Mon Feb 3 00:40:43 2014##refs #814 test welcome page\**
+ d36f971##Sebastian Sieber##Mon Feb 3 00:12:16 2014##Merge branch 'master' of ssh://git@astpa.plan.io/astpa-stupro2013.anwendung.git\**
+ e7c6dda##Sebastian Sieber##Mon Feb 3 00:10:31 2014##refs #814 added logging to file\**
+ c785367##Patrick Wickenhaeuser##Mon Feb 3 00:08:15 2014##Erstes Element im Linking view ausgewaehlt.\**
+ 8229b72##Sebastian Sieber##Sun Feb 2 23:45:46 2014##refs #814 try to fix show welcome on startup option\**
+ 3ca4cb3##Sebastian Sieber##Sun Feb 2 23:07:46 2014##refs #821 removed logger from preference manager\**
+ 4ea36f0##Sebastian Sieber##Sun Feb 2 22:53:47 2014##refs #821 removed several preference pages\**
+ b32ad44##Sebastian Sieber##Sun Feb 2 22:31:28 2014##refs #821 write preference pag ids to file\**
+ 19c6cf2##Sebastian Sieber##Sun Feb 2 22:10:16 2014##refs #821 read preference page ids post startup\**
+ c10e7ff##Fabian Toth##Sun Feb 2 16:57:30 2014##refs #132 @1 Versucht das Dependencymanagement zu verbessern\**
+ c6ed113##Fabian Toth##Sun Feb 2 15:36:31 2014##refs #700 @2m Tests formatiert\**
+ 2b72d1b##Fabian Toth##Sun Feb 2 15:24:18 2014##refs #700 @10m eine Zeile beim deaktivieren vergessen\**
+ f6f2120##Fabian Toth##Sun Feb 2 15:12:44 2014##refs #700 @5m Tests welche auf dem Jenkins fehlschlagen deaktiviert\**
+ 44e9c95##Fabian Toth##Sun Feb 2 14:37:00 2014##refs #700 @30m finished the observer tests\**
+ 013399c##Babkovich Aliaksei##Sun Feb 2 09:53:57 2014##Merge branch 'master' into 834\**
+ 358f196##Babkovich Aliaksei##Sun Feb 2 08:58:47 2014##Description in tooltip linked with messages. refs #834\**
+ a72e652##Babkovich Aliaksei##Sun Feb 2 08:44:01 2014##Merge branch '833' into 834\**
+ 086c3cd##Babkovich Aliaksei##Sat Feb 1 21:11:32 2014##Anchorsgrid added. Unnecessary cod in editpolicy deleted. refs #833\**
+ 209a4e0##Babkovich Aliaksei##Sat Feb 1 21:04:33 2014##AnchorsGrid added refs #833\**
+ a7ace07##Lukas Balzer##Sat Feb 1 18:48:44 2014##little improvement in refrsh of connections refs #827 @10m\**
+ 1bef3e4##Lukas Balzer##Sat Feb 1 18:23:59 2014##Merge branch 'master' into 827\**
+ 9098ff9##Lukas Balzer##Sat Feb 1 18:23:50 2014##adapted text offset and constraints refs #806 @1.5h\**
+ cf00d2b##Babkovich Aliaksei##Sat Feb 1 16:44:13 2014##First attempt to parallelize threads (ConcurrentExeption) refs #833\**
+ f762e41##Babkovich Aliaksei##Sat Feb 1 16:22:10 2014##First attemt to connection tooltip refs #834\**
+ 98ccb05##Babkovich Aliaksei##Sat Feb 1 15:48:39 2014##FeedBack policy deleted, because of tooltip insertion. refs #833\**
+ 54f6e30##Babkovich Aliaksei##Sat Feb 1 15:31:17 2014##ToolTip is now separated for each component, but without Messages String. ref #834\**
+ ec00f1f##Lukas Balzer##Sat Feb 1 15:06:38 2014##looked up the problem with the labels refs #827 @1h\**
+ dcf244a##Babkovich Aliaksei##Sat Feb 1 14:28:51 2014##Tooltip added, but not separeted to Component types. refs #834\**
+ 76215cb##Babkovich Aliaksei##Sat Feb 1 13:43:09 2014##Component order on palette changed. refs #850 @0.08\**
+ 2cb6408##Babkovich Aliaksei##Sat Feb 1 13:27:09 2014##Just new branch.\**
+ 1ab940d##Jarkko Heidenwag##Fri Jan 31 19:29:23 2014##@50min Merge branch '858'\**
+ 19b07e9##Jarkko Heidenwag##Fri Jan 31 18:35:59 2014##erledigt refs #837 @1\**
+ b937e8f##Jarkko Heidenwag##Fri Jan 31 17:36:23 2014##erledigt refs #809 @40min\**
+ 37703c7##Jarkko Heidenwag##Fri Jan 31 16:53:53 2014##Erledigt. Funktioniert jetzt auch während der Eingabe des Titels. refs #852 @15min\**
+ 5c6336e##Jarkko Heidenwag##Fri Jan 31 16:38:42 2014##Tab order so angepasst, dass durch Tab nach der table die description aktiv ist. In der System Description strg+a um cmd+a ergänzt. refs #852 @1.5\**
+ 7397214##Lukas Balzer##Fri Jan 31 16:21:51 2014##cleaned up the controlstructure package a bit refs #143 @1h\**
+ add6991##Babkovich Aliaksei##Fri Jan 31 15:09:43 2014##Trying ImageDescriptor variant from file. refs #770 @0.5\**
+ 2a047bc##Jarkko Heidenwag##Fri Jan 31 14:57:43 2014##Im AccidentsView erledigt. Restliche CTVs sind dann in 809 erhalten, da beide Aufgaben auf gleiche Weise gelöst werden. refs #846 @4.5\**
+ e353ad8##Sebastian Sieber##Fri Jan 31 13:44:42 2014##refs #868 added icons to export wizard 		  usability features implemented\**
+ 2715017##Lukas Balzer##Fri Jan 31 13:17:33 2014##Merge branch 'master' into 827\**
+ 3d3f50c##Lukas Balzer##Fri Jan 31 12:57:46 2014##adapted tests\**
+ 8e26121##Lukas Balzer##Fri Jan 31 12:48:55 2014##fixed refresh bug and synchroniesing layouts done refs #827 @1.5h\**
+ 27b3726##Sebastian Sieber##Fri Jan 31 10:32:49 2014##refs #868 added filter extensions for logo file\**
+ 76a8732##Jarkko Heidenwag##Fri Jan 31 10:26:36 2014##Erledigt. Als Hotkey habe ich ein einfaches 'n' bestimmt, was schnell geändert werden kann, falls erwünscht. Der TableViewer muss aktiv sein, wenn die Taste gedrückt wird, da der Listener ihm gehört. refs #854 @2\**
+ 5d50fda##Jarkko Heidenwag##Fri Jan 31 02:01:59 2014##Aufgrund der Limitierungen von SWT ist es unmöglich, bei SWT.FULL_SELECTION durch Enter eine Zelle die nicht in der ersten Spalte liegt über den TableViewerEditor zu editieren, da nur Zellen der ersten Spalte (hinter der full selection versteckt) selektiert werden können, falls die ganze Zeile markiert angezeigt werden soll. Die ActivationStrategy des Editors registriert Tastatureingaben (im Gegensatz zu Klicks) nur, wenn die zu editierende Zelle bereits markiert ist. Es ist weder möglich, eine bestimmte Zelle zu selektieren, noch den Editor sonstwie über eine Tastatureingabe zu aktivieren. Vorerst ist SWT.FULL_SELECTION aus, damit mithilfe eines FocusCellManagers Titel-Zellen markiert und mit Enter editiert werden können. refs #809 @7\**
+ 698af90##Jaqueline##Fri Jan 31 01:34:13 2014##refs #857 @2h Neue Logos eingefügt\**
+ b7035a7##Jaqueline##Thu Jan 30 22:57:20 2014##Merge remote-tracking branch 'origin/857'\**
+ 50acc95##Jaqueline##Thu Jan 30 22:47:47 2014##refs #857 @3.25h xsl-refactoring and commenting\**
+ 482d53d##Jaqueline##Thu Jan 30 19:30:15 2014##refs #857 @10m Text-Box-Komponenten aus der Causal Factors entfernt\**
+ e81c1cd##Sebastian Sieber##Thu Jan 30 19:26:45 2014##refs #868 show chosen text color           added new color icons           added png and jpeg filter to export wizard           changed shortcut text Strg+a to Strg+A...\**
+ a213643##Fabian Toth##Wed Jan 29 13:04:44 2014##refs #700 @5m Warnings entfernt\**
+ 9047e27##Fabian Toth##Wed Jan 29 13:01:46 2014##refs #700 @5m removed warnings\**
+ 4638de8##Toth Fabian##Sat Jan 25 14:45:01 2014##refs #700, refs #830 @1,25 Tests hinzugefügt\**
+ 8cba3bb##Lukas Balzer##Fri Jan 24 13:09:02 2014##Text is now set correctly refs #869 @1h\**
+ b0bfc23##Lukas Balzer##Fri Jan 24 13:02:42 2014##redone extract superclass, created two views for the CS Steps to prevent unnecessary redraw refs # 838 @2h\**
+ d6b65a4##Lukas Balzer##Fri Jan 24 12:52:31 2014##lable does only affect the size if necessary refs #831 @10m\**
+ b1300ec##Jarkko Heidenwag##Thu Jan 23 19:47:46 2014##implemented with radio buttons refs #858 @30min\**
+ 6c5bed2##Toth Fabian##Thu Jan 23 19:35:54 2014##refs #132 @2m unnötige Dependencies aus dem Testprojekt entfernt\**
+ f94d3da##Jarkko Heidenwag##Thu Jan 23 19:17:01 2014##erledigt refs #847 @5min\**
+ 9a4d55d##Fabian Toth##Thu Jan 23 17:17:07 2014##refs #590 @30m "Navigation" entfernt und nebenbei noch einen Fehler in der UpdateRoutine korrigiert\**
+ 5b080f3##Fabian Toth##Thu Jan 23 10:56:14 2014##refs #580 @2m Sysouts entfernt\**
+ 98aed05##Fabian Toth##Thu Jan 23 10:55:16 2014##refs #580 @10m Fehler beim Speichern einer System Description ohne Font behoben\**
+ f25f9f2##Fabian Toth##Thu Jan 23 01:47:12 2014##refs #580 @20m Fonts funktionieren jetzt\**
+ af9cdfe##Fabian Toth##Thu Jan 23 01:25:50 2014##refs #580 @1h StyleRangeAdapter neu geschrieben, die Fonts funktionieren trotzdem noch nicht\**
+ c830537##Fabian Toth##Thu Jan 23 00:30:11 2014##refs #753 @1h Exception beim Speichern der System Description gefixt\**
+ 236b445##Fabian Toth##Wed Jan 22 23:15:56 2014##refs #132 @2m listfiles aus der pom entfernt\**
+ 62c655e##Fabian Toth##Wed Jan 22 23:13:35 2014##refs #132 @5m Listfiles Projekt entfernt und in eine jar ausgelagert\**
+ 2d1b498##Fabian Toth##Wed Jan 22 22:48:03 2014##refs #868 @45m Export Finished Event hinzugefügt und Export Wizard korrigiert. Das ganze Datenmodell formatiert\**
+ 9611bc2##Toth Fabian##Wed Jan 22 12:18:55 2014##refs #132 Vorbereitung auf Sprint 14\**
+ 53d1aa1##Toth Fabian##Wed Jan 22 12:16:34 2014##refs #132 Vorbereitung auf Sprint Release 13\**
+ a4c6054##Lukas Balzer##Wed Jan 22 12:02:33 2014##layouts are only synchronized once refs #799 @10m\**
+ 1b88df5##Babkovich Aliaksei##Tue Jan 21 16:42:25 2014##final part of achors grid code merged (but with exception: ConcurrentModificationExecption for anchors Hashmap). Feedback erase function uncommented. refs #770 @1\**
+ bba9fd6##Babkovich Aliaksei##Tue Jan 21 14:55:28 2014##next part of anchors grid merged refs #770\**
+ 622236a##Babkovich Aliaksei##Tue Jan 21 14:42:42 2014##license added\**
+ 575a9b6##Babkovich Aliaksei##Tue Jan 21 14:35:23 2014##First attempt to feedback added in layout. Part of anchors feedback merged. refs #770 @6\**
+ d94ced6##Lukas Balzer##Tue Jan 21 14:00:53 2014##zoom levels and position are stored in both steps refs #819 @2h\**
+ 0733e59##Lukas Balzer##Tue Jan 21 09:09:55 2014##highlighter now vanishes if mouse exites refs #818 @15m\**
+ a1cea85##Lukas Balzer##Tue Jan 21 08:32:43 2014##Merge branch 'master' of git@astpa.plan.io:astpa-stupro2013.anwendung.git\**
+ ac29994##Lukas Balzer##Tue Jan 21 08:32:24 2014##add removeHighlighter when activeTool changes refs #818 @15m\**
+ e4c9e2b##Fabian Toth##Mon Jan 20 11:36:35 2014##refs #700 @1m Warning entfernt\**
+ 943159a##Fabian Toth##Mon Jan 20 11:09:17 2014##Validierung der .haz deaktiviert\**
+ aad1222##Jarkko Heidenwag##Mon Jan 20 05:45:01 2014##Erledigt! Beim Laden einer fehlerhaften .haz bekommt der User die Meldung "This .haz-file is invalid!". Der genaue Grund wird im Log gedruckt und sonst passiert nichts (à la Programmabsturz, ungewöhnliches Verhalten, etc.). refs #779 @12\**
+ a30da99##Jarkko Heidenwag##Mon Jan 20 05:34:34 2014##Erledigt! Beim Laden einer fehlerhaften .haz bekommt der User die Meldung "This .haz-file is invalid!". Der genaue Grund wird im Log gedruckt und sonst passiert nichts (à la Programmabsturz, ungewöhnliches Verhalten, etc.). refs #779 @12\**
+ f8bc1d9##Lukas Balzer##Mon Jan 20 00:51:51 2014##Merge branch '797'\**
+ 639d51f##Lukas Balzer##Mon Jan 20 00:39:55 2014##pulled textEditor\**
+ 4332c81##Lukas Balzer##Mon Jan 20 00:34:59 2014##Merge branch 'master' into 797\**
+ 606ab48##Patrick Wickenhaeuser##Sun Jan 19 23:56:59 2014##Welcome Screen sollte jetzt auch beim Build aufgehen.\**
+ e1abce4##Sebastian Sieber##Sun Jan 19 22:49:13 2014##Merge branch '796'\**
+ f0b942f##Sebastian Sieber##Sun Jan 19 22:39:53 2014##refs #796 setAccelerator to context menu\**
+ 4956741##Jaqueline##Sun Jan 19 22:35:43 2014##Merge remote-tracking branch 'origin/769'\**
+ 4d12a71##Sebastian Sieber##Sun Jan 19 22:30:12 2014##refs #796 export: added filepath to wizard 		  systemdescription: limit project name, lock coolitems, str+a, 							 added context menu, 		  preference: added font color to pdf export\**
+ eeec215##Lukas Balzer##Sun Jan 19 22:28:11 2014##fixed some warnings refs #799 @10m\**
+ 2fbd5cb##Patrick Wickenhaeuser##Sun Jan 19 22:19:25 2014##Welcome View Tooltips in der Statusline.\**
+ ca13666##Jaqueline##Sun Jan 19 22:14:28 2014##refs #769 @2h Logo, Company, Custom-Color added - node-checks inserted\**
+ df6f400##Patrick Wickenhaeuser##Sun Jan 19 22:07:39 2014##Spaltenbreiten werden beim Maximieren angepasst.\**
+ 1053f2e##Lukas Balzer##Sun Jan 19 21:58:24 2014##fixed problem with direct edit refs #799 @2h\**
+ c096035##Lukas Balzer##Sun Jan 19 21:57:33 2014##added layout synchronisation after starting a new project refs #799 @1.5h\**
+ 85b643a##Lukas Balzer##Sun Jan 19 21:54:48 2014##improved refresh and resize of the PM refs #795 @1.5h\**
+ 63e54af##Lukas Balzer##Sun Jan 19 21:50:37 2014##improved resize routine and made dashed lines appear as dashed refs #771 @1h\**
+ fe3c461##Patrick Wickenhaeuser##Sun Jan 19 21:43:07 2014##Close Button, der nur angezeigt wird, wenn ein Projekt offen ist.\**
+ d62bea7##Jaqueline##Sun Jan 19 19:49:52 2014##refs #769 @1h Total-Page-Number and pre-conditions\**
+ 3c8f2e4##Jaqueline##Sun Jan 19 18:16:21 2014##refs #769 @1h Beauty- and Bug-Fixes for Causal Factors added\**
+ fd07d28##Fabian Toth##Sun Jan 19 17:49:59 2014##refs #700 @1m removed a warning\**
+ fa920af##Fabian Toth##Sun Jan 19 17:48:19 2014##refs #700 @5m fixed the test\**
+ 8200a01##Jaqueline##Sun Jan 19 17:14:29 2014##refs #769 @8h CausalFactorsTable finally added\**
+ 5e14ec8##Fabian Toth##Sun Jan 19 15:58:45 2014##refs #753 @15m Versucht den Fehler zu finden\**
+ 83b05aa##Lukas Balzer##Fri Jan 17 17:21:01 2014##the layouts are only synchronized after the initial creation refs #799 @1h\**
+ cccdf33##Toth Fabian##Wed Jan 15 15:08:05 2014##quick fix add componentoffset refs\**
+ d6d08bf##Toth Fabian##Wed Jan 15 14:29:16 2014##About Dialog angepasst, COntrol Structure angepasst\**
+ 3e02ccc##Lukas Balzer##Wed Jan 15 13:42:52 2014##adapt property step_editor refs #799 @5m\**
+ de482e8##Lukas Balzer##Wed Jan 15 13:34:12 2014##Merge branch 'master' into 797\**
+ f4d602c##Jarkko Heidenwag##Tue Jan 14 20:12:52 2014##Merged and externalized strings refs #767 @20min\**
+ 2c94e2f##Jarkko Heidenwag##Tue Jan 14 19:59:09 2014##Merge branch '767'\**
+ 62844dd##Jarkko Heidenwag##Tue Jan 14 19:58:31 2014##Removed old about dalog and implemented the a handler for the new one, with the version number and everything from the old one refs #767 @3\**
+ a4f9c2a##Jarkko Heidenwag##Tue Jan 14 14:46:19 2014##Merge branch '791'\**
+ 5747258##Jarkko Heidenwag##Tue Jan 14 14:44:53 2014##Added COMMAND+A to both the tables and descriptions refs #790 @10min\**
+ 02463d0##Lukas Balzer##Tue Jan 14 13:51:42 2014##fixed a bug in the ComponentModel added connection Reconnect offset refs #799 @1h\**
+ 93d4f69##Jaqueline##Tue Jan 14 11:02:44 2014##refs #769 @1h Bad Page-Breaks removed, some Stylefixes added\**
+ 7080b2f##Jarkko Heidenwag##Mon Jan 13 20:27:57 2014##erledigt refs #791 @3\**
+ af230d4##Jarkko Heidenwag##Mon Jan 13 17:31:01 2014##Implementierung mit einem KeyListener refs #790 @0.5\**
+ 0e53382##Fabian Toth##Mon Jan 13 15:53:48 2014##refs #759 @15m Das Datenmodell der StatusLine wird jetzt auch gesetzt wenn ein neues Projekt erstellt wird, obwohl schon eines vorhanden ist.\**
+ 42d4c6e##Fabian Toth##Mon Jan 13 15:40:11 2014##refs #539 @5m Fehler behoben\**
+ 1f1486c##Lukas Balzer##Mon Jan 13 15:38:17 2014##a process variable is now inserted below the previous one refs #760 @1h\**
+ 1710f1f##Fabian Toth##Mon Jan 13 15:34:34 2014##refs #745 @2m Textboxen aus der Causal Factors Table entfernt\**
+ 9d965a4##Fabian Toth##Mon Jan 13 15:00:33 2014##refs #766 @2m Prepare for export wieder entfernt\**
+ 0d64fdb##Fabian Toth##Mon Jan 13 14:58:51 2014##Merge branch 'master' of git@astpa.plan.io:astpa-stupro2013.anwendung.git\**
+ dc2a931##Fabian Toth##Mon Jan 13 14:58:45 2014##refs #776 @45m Logo, Firma und Farbe hinzugefügt\**
+ 352b6ef##Patrick Wickenhaeuser##Mon Jan 13 14:50:20 2014##Checkstyle Warnings aus den Messages entfernt\**
+ 05bd7d4##Lukas Balzer##Mon Jan 13 14:23:42 2014##adapted orientation of the connections refs #771 @0.5h\**
+ a011aa5##Jaqueline##Sun Jan 12 21:03:28 2014##refs #769 @2h "Control Structure Diagram" and "Control Structure Diagram with Process Model" FINALLY inserted and fitted in\**
+ 4550f32##Lukas Balzer##Sun Jan 12 13:07:38 2014##made component layout in step1&3 independent from each other refs #795 @1.5h\**
+ 85543d6##Lukas Balzer##Sun Jan 12 09:59:13 2014##added export function for cs images refs #792 @3.5h\**
+ 45137e5##Jarkko Heidenwag##Thu Jan 9 19:18:09 2014##erledigt refs #785 @5min\**
+ 8350b0e##Lukas Balzer##Thu Jan 9 15:36:08 2014##snap to component fixed refs #762 @10m\**
+ efc3aac##Toth Fabian##Wed Jan 8 13:38:21 2014##refs #132 VOrbereitung auf Sprint 13\**
+ ec28cbd##Toth Fabian##Wed Jan 8 12:46:57 2014##refs #132 Vorbereitung für Sprint Release 12\**
+ 3328fc7##Toth Fabian##Wed Jan 8 12:44:39 2014##Export WIzard deaktiviert\**
+ 888aa75##Lukas Balzer##Wed Jan 8 12:31:48 2014##Path variables changed\**
+ b9f4f85##Sebastian Sieber##Tue Jan 7 00:29:01 2014##Merge remote-tracking branch 'origin/master' into 313\**
+ 2575ea3##Sebastian Sieber##Tue Jan 7 00:09:22 2014##refs #313 extract texteditor to astpa.util\**
+ c6ace07##Sebastian Sieber##Mon Jan 6 23:38:01 2014##Merge remote-tracking branch 'origin/662'\**
+ 63aa78d##Sebastian Sieber##Mon Jan 6 23:33:44 2014##refs #662 added preference listeners to views to change label fonts 		  immediately. 		  added export wizard 		  added export preferences to preference page\**
+ 9578a71##Babkovich Aliaksei##Mon Jan 6 22:57:38 2014##Merge branch '674'\**
+ 5e9d8a8##Babkovich Aliaksei##Mon Jan 6 22:50:51 2014##Unnecessary fuction deleted\**
+ 2c709ae##Babkovich Aliaksei##Mon Jan 6 22:34:15 2014##Merge branch 'master' of git@astpa.plan.io:astpa-stupro2013.anwendung.git\**
+ f87a771##Babkovich Aliaksei##Mon Jan 6 22:26:28 2014##Controlled Process changed to Process for less errors.\**
+ 00144f5##Babkovich Aliaksei##Mon Jan 6 22:12:03 2014##Variable name 'PROCESS' changed to 'CONTROLLED_PROCESS'.\**
+ dc0621e##Babkovich Aliaksei##Mon Jan 6 22:02:36 2014##Farbliche Aufleuchtung hinzugefügt; Verbindungslogik hinzugefügt; Verschiebung mit hilfe von Pfeilen war früher integriert. refs #674\**
+ b5e8969##Lukas Balzer##Mon Jan 6 15:10:58 2014##Merge branch '721'\**
+ 49df215##Lukas Balzer##Mon Jan 6 15:07:17 2014##inserted new icons refs #736 @5m\**
+ 0c5acf9##Lukas Balzer##Mon Jan 6 14:58:49 2014##implement automatic resize function and offset constants for positioning refs 727 @4h\**
+ 1b0a6ad##Fabian Toth##Mon Jan 6 13:05:38 2014##refs #700 @5m Test korrigiert\**
+ 62ee644##Jaqueline##Mon Jan 6 10:35:26 2014##Merge branch '739'\**
+ 115b969##Sebastian Sieber##Mon Jan 6 10:37:28 2014##refs #662 added methods to perform default and ok options\**
+ 811d3ee##Jaqueline##Mon Jan 6 10:34:09 2014##Merge remote-tracking branch 'origin/739'\**
+ 3542eb9##Jaqueline##Mon Jan 6 10:32:46 2014##Merge remote-tracking branch 'origin/master' into 739\**
+ b421e2e##Sebastian Sieber##Mon Jan 6 10:16:20 2014##refs #662 set default constants for preferences\**
+ e8ef9db##Sebastian Sieber##Mon Jan 6 09:38:46 2014##refs #313 Bugfixes and util class\**
+ d08e72a##Markt Benedikt##Mon Jan 6 06:45:19 2014##refs #733 @40m\**
+ c940f03##Markt Benedikt##Mon Jan 6 06:07:31 2014##Merge branch 'master' into 730\**
+ ed14786##Markt Benedikt##Mon Jan 6 05:51:40 2014##Warnings gefixt refs #743 @10m\**
+ 2ee5bac##Markt Benedikt##Mon Jan 6 05:41:07 2014##Beschreibungen zu Hazard linking hinzugefügt, Refactoring, versucht FocusOut Bug zu beheben. refs #743 @1.5h\**
+ e281cac##Markt Benedikt##Mon Jan 6 04:04:00 2014##Überflüssige Debugmessages entfernt\**
+ 6ddeeeb##Markt Benedikt##Mon Jan 6 04:02:11 2014##Zeilenumbruch bei Hazardlinks gefixt, Farben für Links refs #743 @1.5h\**
+ 3c1ed6f##Markt Benedikt##Mon Jan 6 02:31:40 2014##Update für hazard links gefixt refs #728 @1h\**
+ 9fe1f71##Markt Benedikt##Mon Jan 6 02:28:48 2014##Mehrere Zeilen für verlinkte Hazards refs #743 @3h\**
+ afcdee1##Jaqueline##Mon Jan 6 00:20:40 2014##refs #739 @40m UCA-Table-Missing-Child-Bug fixed\**
+ e8f9a9f##Jaqueline##Sun Jan 5 23:41:03 2014##refs #739 @1h Corresponding Safety Constraints-table filled, NullPointerChecks for Corresponding Safety Constraints added\**
+ 079f0b4##Patrick Wickenhaeuser##Sun Jan 5 23:33:56 2014##UCA und CSC Spaltenbreite abhaengig von der Fenstergroesse.\**
+ 21ca050##Patrick Wickenhaeuser##Sun Jan 5 23:04:39 2014##Andere Hintergrundfarbe bei unbearbeiteten UCAs\**
+ 6088b2d##Jaqueline##Sun Jan 5 22:32:06 2014##refs #739 @30m NullPointerChecks for Control Actions and Unsafe Control Actions added\**
+ fef1b62##Markt Benedikt##Sun Jan 5 16:51:07 2014##Link mit einmal enter/doppelklick #743 @2.75h\**
+ cedf533##Patrick Wickenhaeuser##Sun Jan 5 22:09:37 2014##Tooltips\**
+ cb2bfa5##Jaqueline##Sun Jan 5 22:09:07 2014##refs #739 @1h NullPointerChecks for Accidents, Hazards, SafetyConstriants, SystemGoals and DesignRequirements added\**
+ c894b3f##Patrick Wickenhaeuser##Sun Jan 5 21:41:53 2014##Variable SHOW_WELCOME_ON_STARTUP im PreferenceStore\**
+ 8eebe66##Jaqueline##Sun Jan 5 21:02:17 2014##refs #739 @7h Unsafe Control Actions finally works\**
+ c3dd121##Jaqueline##Sun Jan 5 21:00:06 2014##refs #739 @1h xsl verändert, an den UCA gefummelt\**
+ 9c1537f##Patrick Wickenhaeuser##Sun Jan 5 20:10:50 2014##Welcome page ersetzt.\**
+ a1854d0##Lukas Balzer##Sun Jan 5 19:03:47 2014##tried to implement automatic resize function refs 727 @3.5h\**
+ 396ceb0##Jaqueline##Sun Jan 5 01:06:49 2014##refs #739 @1h xsl verändert, an den UCA gefummelt\**
+ 8fe3c89##Jaqueline##Sun Jan 5 00:52:55 2014##Merge remote-tracking branch 'origin/master' into 739\**
+ 4273b41##Patrick Wickenhaeuser##Sat Jan 4 21:40:32 2014##Transparenz fixed.\**
+ 8d0968d##Patrick Wickenhaeuser##Sat Jan 4 20:42:23 2014##Welcome screen mit swt nachgebaut.\**
+ 478a803##Lukas Balzer##Sat Jan 4 17:32:31 2014##corrected the picture export refs #722 @2.5h\**
+ 26a5a06##Lukas Balzer##Sat Jan 4 09:36:46 2014##Merge branch 'master' into 721\**
+ d86cd5f##Fabian Toth##Fri Jan 3 11:27:33 2014##refs #740 @30m Links auch bei den Causal Factors hinzugefügt\**
+ 161ea17##Fabian Toth##Fri Jan 3 10:58:40 2014##refs #740 @15m Links bei den Unsafe Control Actions hinzugefügt\**
+ 3a4796b##Jaqueline##Fri Jan 3 01:21:15 2014##refs #739 @3h UCA ausgelesen und in die Tabelle eingeordnet - Schoenheits-OP der UCA-Tabelle folgt noch\**
+ 83976a9##Jaqueline##Thu Jan 2 21:52:41 2014##refs #739 @8h xsl umgestellt und verbessert und code gekürzt\**
+ ffb17d9##Fabian Toth##Thu Jan 2 21:40:43 2014##Merge branch 'master' of git@astpa.plan.io:astpa-stupro2013.anwendung.git\**
+ f566814##Fabian Toth##Thu Jan 2 21:40:33 2014##refs #700 @5m Tests verbessert\**
+ c05471c##Patrick Wickenhaeuser##Thu Jan 2 21:27:48 2014##Statische Codeanalyse violations entfernt.\**
+ c633587##Jarkko Heidenwag##Thu Jan 2 19:15:03 2014##Merge branch '714'\**
+ 42ad9d6##Jarkko Heidenwag##Thu Jan 2 18:03:04 2014##erledigt refs #715 @1.5\**
+ 6b5e74d##Jarkko Heidenwag##Thu Jan 2 16:32:29 2014##erledigt refs #714 @1.5\**
+ d4213eb##Jarkko Heidenwag##Thu Jan 2 19:01:41 2014##erledigt refs #455 @1\**
+ a2b86ff##Fabian Toth##Thu Jan 2 18:44:38 2014##refs #583 @1,5 unsaved changes werden jetzt bei einem Update beachtet\**
+ fd959e6##Jarkko Heidenwag##Thu Jan 2 18:03:04 2014##erledigt refs #715 @1.5\**
+ 6d917c8##Jarkko Heidenwag##Thu Jan 2 16:32:29 2014##erledigt refs #714 @1.5\**
+ 094f695##Fabian Toth##Thu Jan 2 15:37:34 2014##refs #740 @10m Nullpointer wird jetzt verhindert falls der PFad gesetzt wird aber kein Export ansteht\**
+ d56c3c8##Fabian Toth##Thu Jan 2 15:30:00 2014##refs #740 @15m Fehler beim Speichern der Pfade behoben\**
+ 0704a42##Fabian Toth##Thu Jan 2 15:09:28 2014##refs #740 @5m <controlaction> in <cac> umbenannt\**
+ 7543cbb##Lukas Balzer##Thu Jan 2 15:05:30 2014##added feedback borders to process valuesrefs #727 @1.5h\**
+ 60d8630##Fabian Toth##Thu Jan 2 15:02:40 2014##Merge branch 'master' of git@astpa.plan.io:astpa-stupro2013.anwendung.git\**
+ a44fa49##Fabian Toth##Thu Jan 2 14:58:50 2014##refs #740 @45m Vorbereitung zur Speicherung der Pfade zu den Bildern gemacht\**
+ 511bd0c##Jarkko Heidenwag##Thu Jan 2 14:53:37 2014##Merge branch '679'\**
+ 9a22460##Fabian Toth##Thu Jan 2 12:40:10 2014##refs #700 @30m Tests hinzugefügt\**
+ 0bf0cec##Lukas Balzer##Tue Dec 31 15:20:09 2013##added feedback and auto adaption of size to pm refs #727 @1.5h\**
+ 786382e##Lukas Balzer##Tue Dec 31 12:21:12 2013##removed selection with offset and collaps in step 3 refs #720 @1h\**
+ 526e6b4##Lukas Balzer##Tue Dec 31 09:09:21 2013##adapt connectionAnchor Highlighter refs #720 @1h\**
+ b3efe25##Lukas Balzer##Sat Dec 28 16:48:21 2013##implemented basic e-area refs #720 @1.5h\**
+ a2230ee##Lukas Balzer##Sat Dec 28 11:31:32 2013##images are stored in the workspace refs #722 @1h\**
+ 338f379##Lukas Balzer##Sat Dec 28 09:46:31 2013##removed opacity from TextBox refs #725 @10m\**
+ a631f14##Lukas Balzer##Sat Dec 28 09:37:24 2013##add fix refs #731 @15m\**
+ e7c1712##Lukas Balzer##Sat Dec 28 09:15:23 2013##prevent the refresh of the processModel in step 1 refs #677 @15m\**
+ 7fc481c##Fabian Toth##Fri Dec 20 22:40:59 2013##refs #700 @5m fehlschlagende Tests auskommentiert\**
+ 3caa44e##Fabian Toth##Fri Dec 20 10:13:51 2013##refs #734 @10m Es werden jetzt in der Causal Factor Table nur noch verlinkte Safety Constraints angezeigt\**
+ 9064358##Fabian Toth##Fri Dec 20 10:04:41 2013##refs #673 @15m Projektname aus Navigation entfernt\**
+ 8391fc3##Jarkko Heidenwag##Thu Dec 19 07:09:45 2013##Moved the compareTo() methods to ATableModel refs #697 @15min\**
+ a88e2f4##Jarkko Heidenwag##Thu Dec 19 06:50:43 2013##reimplemented with Comparable due to performance issues refs #697 @1\**
+ f785c27##Jarkko Heidenwag##Thu Dec 19 05:27:28 2013##fixed refs #697 @2\**
+ af1cb69##Jarkko Heidenwag##Thu Dec 19 04:09:14 2013##corrected this, all other occurrences of lowercase terms and a few other typos refs #708 @0.5\**
+ d8c7e49##Jarkko Heidenwag##Thu Dec 19 00:48:54 2013##erledigt refs #679 @1\**
+ 3a9dad7##Fabian Toth##Wed Dec 18 22:34:36 2013##refs #700 @5m nächster Versuch für einen Fix\**
+ 0590e9e##Fabian Toth##Wed Dec 18 22:29:16 2013##refs #700 @10m Versucht Test zu fixen\**
+ 77d7ca7##Toth Fabian##Wed Dec 18 14:59:48 2013##refs #132 Nochmal Vorbereitung für Sprint 12\**
+ cce2de9##Toth Fabian##Wed Dec 18 14:52:42 2013##Strings korrigiert\**
+ 6a3071f##Toth Fabian##Wed Dec 18 14:40:53 2013##refs #132 Vorbereitung für Hotfix Release 0.11.1\**
+ 5cbdd37##Toth Fabian##Wed Dec 18 14:39:55 2013##Bug der das Laden verhindert gefixt\**
+ d4a5c48##Toth Fabian##Wed Dec 18 12:51:06 2013##refs #132 Vorbereitung auf Sprint 12\**
+ f7a6dfb##Toth Fabian##Wed Dec 18 12:43:21 2013##refs #132 Vorbereitung für Sprint Release 11\**
+ 0d73d03##Toth Fabian##Wed Dec 18 11:59:12 2013##Bug gefixt, der das Erstellen eines neuen Projekts verhindert\**
+ 26ed3d0##Lukas Balzer##Wed Dec 18 09:40:08 2013##fixed bug refs #710 @1.5h\**
+ 1814c19##Lukas Balzer##Wed Dec 18 09:39:22 2013##Merge branch 'master' of git@astpa.plan.io:astpa-stupro2013.anwendung.git\**
+ 5f13cb0##Fabian Toth##Wed Dec 18 01:05:13 2013##refs #700 @45m mehr Tests hinzugefügt\**
+ 1391076##Markt Benedikt##Tue Dec 17 15:22:44 2013##Noch mehr Debug Meldungen\**
+ 227f42a##Markt Benedikt##Tue Dec 17 15:15:04 2013##Debug Messages Added\**
+ 075d646##Lukas Balzer##Tue Dec 17 14:56:40 2013##removed border from textField\**
+ 0cae223##Markt Benedikt##Tue Dec 17 13:36:39 2013##Titel von Causal Factors View in Causal Factors Table geändert\**
+ ab1ed81##Markt Benedikt##Tue Dec 17 13:33:50 2013##PMD violations fixed refs #630 @1h\**
+ dfb4f4e##Markt Benedikt##Mon Dec 16 20:29:06 2013##Die eine letzte warning refs #630 @0.1min\**
+ 8e4ec4b##Markt Benedikt##Mon Dec 16 20:27:11 2013##Delete fixed refs #630 @10min\**
+ 7f76417##Markt Benedikt##Mon Dec 16 20:18:10 2013##Refactoring refs #630 @1.5h\**
+ a6ee495##Fabian Toth##Mon Dec 16 17:28:49 2013##Merge branch 'master' of git@astpa.plan.io:astpa-stupro2013.anwendung.git\**
+ 4e0f7b5##Patrick Wickenhaeuser##Mon Dec 16 16:43:32 2013##Not Hazardous wieder eingefügt, wenn nichts verlinkt ist.\**
+ 7d492ec##Fabian Toth##Mon Dec 16 16:40:08 2013##refs #700 @30m angefangen ObserverTest zu schreiben\**
+ 3f91334##Patrick Wickenhaeuser##Mon Dec 16 16:13:17 2013##Versuch einen Bug in der UCA table auf Mac zu fixen.\**
+ adb6707##Fabian Toth##Mon Dec 16 15:32:26 2013##refs #700 @45m Tests für die Validierung hinzugefügt und gefundene Fehler entfernt\**
+ 245b24a##Patrick Wickenhaeuser##Mon Dec 16 12:39:18 2013##Warnings im GridWrapper beseitigt.\**
+ 89d73e0##Patrick Wickenhaeuser##Mon Dec 16 12:21:25 2013##Refactored und Warnings im Grid und UCA view beseitigt.\**
+ 27aee7c##Fabian Toth##Mon Dec 16 12:12:44 2013##@5m Bug der den start von A-STPA auf nicht Windows Rechnern verhindert gefixt\**
+ d09e5d3##Fabian Toth##Mon Dec 16 11:43:47 2013##refs #700 @1 weitere Tests hinzugefügt und Bugs behoben\**
+ 585d162##Fabian Toth##Mon Dec 16 10:52:51 2013##Merge branch 'master' of git@astpa.plan.io:astpa-stupro2013.anwendung.git\**
+ 9ed3560##Fabian Toth##Mon Dec 16 10:52:44 2013##refs #700 @45m Tests hinzugefügt und Bugs gefixt\**
+ b6393df##Lukas Balzer##Mon Dec 16 10:09:21 2013##fixed pmd error refs #670 @5m\**
+ 4d80c50##Lukas Balzer##Mon Dec 16 09:46:20 2013##Merge branch 'master' of git@astpa.plan.io:astpa-stupro2013.anwendung.git\**
+ 59bd5f4##Lukas Balzer##Mon Dec 16 09:46:09 2013##sry interface vergessen\**
+ 1e3b6ac##Jaqueline##Mon Dec 16 01:07:12 2013##refs #663 @10m added fop.xsl with a little style-fix\**
+ f1a7ab0##Jaqueline##Mon Dec 16 00:56:01 2013##Merge branch 'master' of ssh://git@astpa.plan.io/astpa-stupro2013.anwendung.git\**
+ 4c51f8a##Lukas Balzer##Mon Dec 16 00:53:43 2013##Merge branch 'master' into 670\**
+ 9144299##Jaqueline##Mon Dec 16 00:51:03 2013##refs #663 @4h got some data, created UCA-Table (with some filler), created Corresponding safety Constraints table (with filler)\**
+ 44a40db##Lukas Balzer##Mon Dec 16 00:45:55 2013##changed the whole structure of the two cs steps to fix some nasty bug refs #647 @5h\**
+ 28500ea##Fabian Toth##Mon Dec 16 00:45:28 2013##refs #700 @45m Test hinzugefügt\**
+ 1b301a3##Fabian Toth##Sun Dec 15 23:24:39 2013##refs #699 @15m Beim löschen eines Hazards werden jetzt auch automatisch alle Links gelöscht, dadurch gibt es keine Excetion mehr\**
+ 6dbeecd##Fabian Toth##Sun Dec 15 23:04:05 2013##Merge branch 'master' of git@astpa.plan.io:astpa-stupro2013.anwendung.git\**
+ 39a9055##Fabian Toth##Sun Dec 15 23:03:57 2013##closes #680 @10m\**
+ 29d5316##Markt Benedikt##Sun Dec 15 22:53:15 2013##Merge branch 'master' into 66\**
+ 2e79393##Markt Benedikt##Sun Dec 15 22:42:26 2013##Datei vergessen\**
+ ce538f9##Markt Benedikt##Sun Dec 15 22:41:44 2013##Merge branch '66' of ssh://astpa.plan.io/astpa-stupro2013.anwendung into 66\**
+ 11fdd95##Markt Benedikt##Sun Dec 15 22:41:33 2013##Field Assist Popup geht beim klick auf oh yeah thats right refs #630 @1.5h\**
+ e4be82e##Sebastian Sieber##Sun Dec 15 22:19:49 2013##Merge branch '641'\**
+ 87c31c6##Sebastian Sieber##Sun Dec 15 22:13:23 2013##Merge remote-tracking branch 'origin/master' into 641\**
+ 6e8fc41##Sebastian Sieber##Sun Dec 15 22:12:47 2013##refs #641 changed default font size to 9.\**
+ eafe273##Patrick Wickenhaeuser##Sun Dec 15 22:08:53 2013##Pop up list wird nur geöffnet wenn es items gibt.\**
+ 394029c##Sebastian Sieber##Sun Dec 15 22:08:28 2013##refs #641 standardize view fonts and preference page\**
+ b1d54f9##Patrick Wickenhaeuser##Sun Dec 15 22:01:48 2013##Popup list koordinaten korrigiert\**
+ 86d57ca##Patrick Wickenhaeuser##Sun Dec 15 21:53:52 2013##Import safety constraints pop up list.\**
+ 5019ac4##Markt Benedikt##Sun Dec 15 21:03:34 2013##Merge branch 'master' into 66 @20min\**
+ 56c2a36##Patrick Wickenhaeuser##Sun Dec 15 20:40:12 2013##Kleine fixes.\**
+ 7a18000##Fabian Toth##Sun Dec 15 20:35:22 2013##refs #664 getCorrespondingSafetyCosntarints Methode in das Interface für die Causal Factors hinzugefügt\**
+ dde929e##Markt Benedikt##Sun Dec 15 20:33:34 2013##Delete in GridCellLinking implementiert refs #630 @20min\**
+ fd1a510##Fabian Toth##Sun Dec 15 20:27:52 2013##refs #664 @10m Methode zum Löschen eines Causal Factors hinzugefügt\**
+ 87f495f##Patrick Wickenhaeuser##Sun Dec 15 20:25:18 2013##Delete button bei den causal factors, Kommentiert und Warnings behoben.\**
+ a007ba4##Fabian Toth##Sun Dec 15 20:12:58 2013##refs #664 @10m Laden und Speichern der Causal Factors Tabelle aktiviert\**
+ 105ee99##Patrick Wickenhaeuser##Sun Dec 15 19:52:01 2013##Link button Skalierung auf 32x32 begrenzt.\**
+ 55e741f##Fabian Toth##Sun Dec 15 19:41:29 2013##refs #664 @10m Speichern gefixt\**
+ 3c7d8d8##Patrick Wickenhaeuser##Sun Dec 15 19:36:57 2013##Spalten labels in Tabellen.\**
+ bcb5567##Fabian Toth##Sun Dec 15 19:12:26 2013##refs #664 noch ein Fix fürs Datenmodell\**
+ 8952fa3##Patrick Wickenhaeuser##Sun Dec 15 18:45:14 2013##Causal factor new safety constraint und alles wird ins Datenmodell uebernommen.\**
+ a70da45##Markt Benedikt##Sun Dec 15 18:29:54 2013##remove methode in Content Providern implementiert refs #630 @5min\**
+ ce06ed8##Jaqueline##Sun Dec 15 17:35:03 2013##refs #663 @2h PDF-Bugs fixed, Added some datas (System Description, ...)\**
+ e22be91##Patrick Wickenhaeuser##Sun Dec 15 16:56:51 2013##Delete link button events fixed.\**
+ f506dc7##Patrick Wickenhaeuser##Sun Dec 15 15:27:52 2013##Merge branch '66' of git@astpa.plan.io:astpa-stupro2013.anwendung.git into 66\**
+ 9aba462##Patrick Wickenhaeuser##Sun Dec 15 15:27:42 2013##Buttons in die Linking Zelle eingebaut.\**
+ 4597cb2##Markt Benedikt##Sun Dec 15 15:20:32 2013##Neue Buttons in allen größen und formen refs630 @30min\**
+ f90f718##Patrick Wickenhaeuser##Sun Dec 15 15:05:41 2013##Buttons ueberarbeitet\**
+ f92ab48##Patrick Wickenhaeuser##Sun Dec 15 14:19:50 2013##Relative mouse position fuer mouse events in Zellen.\**
+ 84acb09##Fabian Toth##Sun Dec 15 12:38:05 2013##refs #664 @10m Zwei Fixes im Datenmodell\**
+ 0180642##Sebastian Sieber##Sun Dec 15 11:34:43 2013##refs #642 new branch\**
+ bc35921##Markt Benedikt##Sat Dec 14 22:04:17 2013##Einige Warnings behoben refs #630 @1m\**
+ 9af3fc7##Markt Benedikt##Sat Dec 14 21:59:23 2013##Linking in CausalFactorsTable gefixt refs #630 @30min\**
+ b624842##Markt Benedikt##Sat Dec 14 21:28:30 2013##Versucht nullpointer Exception in der CausalFactorsTable zu fixen refs #630 @2.5h\**
+ 9db4cce##Markt Benedikt##Sat Dec 14 18:53:45 2013##Buttons "hüpfen" nicht mehr weg refs #630 @20min\**
+ 6d15947##Markt Benedikt##Sat Dec 14 18:31:24 2013##Delete Button verkleinert\**
+ 1a4df03##Markt Benedikt##Sat Dec 14 18:23:40 2013##Merge branch '66' of ssh://astpa.plan.io/astpa-stupro2013.anwendung into 66\**
+ 3ae3ae8##Markt Benedikt##Sat Dec 14 18:19:59 2013##Delete Link Buttons beim Hovern refs #630 @3h\**
+ 8f4574d##Patrick Wickenhaeuser##Sat Dec 14 18:00:33 2013##Images in 16x16 und 32x32\**
+ 6f7ae7d##Patrick Wickenhaeuser##Sat Dec 14 15:14:18 2013##Linken mit Enter und FocusOut bug fixed.\**
+ 1a8a4b6##Markt Benedikt##Sat Dec 14 15:10:35 2013##Autocomplete Filter geändert\**
+ 113d33b##Markt Benedikt##Sat Dec 14 14:46:53 2013##Merge branch '66' of ssh://astpa.plan.io/astpa-stupro2013.anwendung into 66\**
+ 54ce06d##Markt Benedikt##Sat Dec 14 14:34:36 2013##Enter bestätigt Link Eingabe refs #630 @10m\**
+ 8a19d65##Patrick Wickenhaeuser##Sat Dec 14 14:33:34 2013##16x16 grid buttons, WidgetDisposed bug fixed.\**
+ 6ef851f##Markt Benedikt##Sat Dec 14 14:23:25 2013##Problem mit compare methoden behoben refs #630 @5m\**
+ c73d989##Markt Benedikt##Sat Dec 14 14:17:09 2013##Bereits verlinkte items werden ausgeblendet refs #630 @10m\**
+ dd1e6c0##Markt Benedikt##Sat Dec 14 14:04:38 2013##Sortieren von Verlinkten hazards implementiert refs #630 @30m\**
+ a0b9715##Markt Benedikt##Sat Dec 14 13:30:26 2013##Merge branch '66' of ssh://astpa.plan.io/astpa-stupro2013.anwendung into 66\**
+ 1136d7b##Markt Benedikt##Sat Dec 14 13:30:14 2013##Linking Cell in Causal Factors Table eingefügt refs #630 @0.75h\**
+ fde44a2##Patrick Wickenhaeuser##Sat Dec 14 13:26:16 2013##Link button und Anzeige gefixed.\**
+ c816bd7##Markt Benedikt##Sat Dec 14 12:41:38 2013##Refactoring abgeschlossen refs #630 @2h\**
+ 69c4050##Patrick Wickenhaeuser##Fri Dec 13 23:34:25 2013##Button Darstellung verbessert, delete Button fuer UCAs, versucht Probleme mit Hover zu fixen, Buttons auf 16x16 umgestellt.\**
+ 0bc8043##Fabian Toth##Fri Dec 13 21:49:14 2013##Merge branch 'master' of git@astpa.plan.io:astpa-stupro2013.anwendung.git\**
+ db790a8##Patrick Wickenhaeuser##Thu Dec 12 19:35:45 2013##ClassCastException im error view fixed.\**
+ 87d48b0##Lukas Balzer##Thu Dec 12 19:25:29 2013##curious problem with action refresh refs #647 @1.5h\**
+ 44e60cb##Fabian Toth##Thu Dec 12 17:43:42 2013##refs #664 @15m Ein paar Tests hinzugefügt\**
+ 24a5e65##Fabian Toth##Thu Dec 12 17:16:13 2013##Merge remote-tracking branch 'origin/master' into 580\**
+ 2a2ae16##Lukas Balzer##Thu Dec 12 12:28:46 2013##Merge branch 'master' into 670\**
+ 2d767dd##Lukas Balzer##Thu Dec 12 12:09:30 2013##added rekursive translateFromParent refs #690 @0.5\**
+ e9e5220##Fabian Toth##Thu Dec 12 11:23:18 2013##refs #627 @10m listfiles Projekt ins Repo hinzugefügt. 32 bit Installer hinzugefügt\**
+ 0eba76a##Fabian Toth##Thu Dec 12 11:13:32 2013##refs #627 @3m nächster Versuch\**
+ e2384f8##Fabian Toth##Thu Dec 12 11:10:13 2013##refs #627 @7m nächster Versuch\**
+ 18d5528##Fabian Toth##Thu Dec 12 11:02:54 2013##refs #627 @10m nächster Versuch\**
+ 8c1bf2e##Fabian Toth##Thu Dec 12 10:53:46 2013##refs #627 noch was geändert\**
+ da0e31f##Fabian Toth##Thu Dec 12 10:52:54 2013##refs #627 @5m nächster Versuch\**
+ e3db0dd##Fabian Toth##Thu Dec 12 10:49:00 2013##refs #627 @5m nächster Versuch\**
+ b1747c1##Fabian Toth##Thu Dec 12 10:44:51 2013##refs #627 @15m die Pfade für den Installer stimmen noch nicht. Vielleicht fixt der Commit das Problem\**
+ f2657ef##Lukas Balzer##Thu Dec 12 10:38:27 2013##added automatik resize funktion refs #670 @1.5h\**
+ 719f128##Fabian Toth##Thu Dec 12 10:34:09 2013##refs #627 @10m fixed the listfiles.jar\**
+ 87e0a3b##Fabian Toth##Thu Dec 12 10:28:41 2013##refs #627 @10m fixed the nsi script\**
+ 232f673##Fabian Toth##Thu Dec 12 10:22:11 2013##refs #627 Tippfehler im Script beseitigt\**
+ da5b151##Fabian Toth##Thu Dec 12 10:19:46 2013##refs #627 @45m Script geändert und versucht in jenkins einzufügen\**
+ 3104fcb##Fabian Toth##Wed Dec 11 20:00:27 2013##refs #627 @2 wrote a listfiles program in java and added the installer to the repository\**
+ f985f97##Lukas Balzer##Wed Dec 11 19:48:05 2013##implemented positioning constraints refs #670 @4h\**
+ 538445e##wickenpk##Wed Dec 11 15:00:51 2013##Unsafe control actions werden ins Datenmodell uebernommen, FocusGained und FocusLost events\**
+ 8c4fbbd##Lukas Balzer##Wed Dec 11 14:00:44 2013##added components for variables and values and started implementing logik refs #670 @5h\**
+ f15316e##Patrick Wickenhaeuser##Tue Dec 10 21:20:18 2013##Eingebaut, dass mehrere Buttons in jede Art von Zelle eingefügt werden können. Kommentiert, Refactored und Warnings beseitigt.\**
+ b2f5eeb##Patrick Wickenhaeuser##Tue Dec 10 18:15:03 2013##Causal factors view und Text editor Zelle.\**
+ 196f0cb##Fabian Toth##Mon Dec 9 18:21:51 2013##refs #580 @1 StyleRangeAdapter implementiert. Font fehlt noch\**
+ 4c8ccf4##Lukas Balzer##Mon Dec 9 16:39:17 2013##added editPart, figure and started to change editing for variables refs #670 @1h\**
+ b89e72e##Fabian Toth##Mon Dec 9 16:30:12 2013##Merge remote-tracking branch 'origin/master' into 580\**
+ 6c4b657##Fabian Toth##Mon Dec 9 16:26:48 2013##refs #649 @15m Änderungen nochmal eingefügt\**
+ e06f4a5##Lukas Balzer##Mon Dec 9 16:07:30 2013##bug fixed refs #658 @3h\**
+ f185213##Fabian Toth##Mon Dec 9 16:04:37 2013##refs #664 @10m Corresponding Safety Constraints werden nun gespeichert und können geladen werden\**
+ 532418d##Fabian Toth##Mon Dec 9 15:50:03 2013##refs #648 @1,25 Workspace wird jetzt in user.home\.astpa\ erstellt\**
+ 17cb554##Patrick Wickenhaeuser##Sat Dec 7 11:25:41 2013##public modifier aus dem ITableContentProvider genommen\**
+ 83711fa##Lukas Balzer##Fri Dec 6 13:12:49 2013##turned out as a big problem with undo/redo because of changing ids in the datamodel, made a id mapping refs #686 @3h\**
+ 9e73cda##Lukas Balzer##Thu Dec 5 16:56:41 2013##accidently removed bugfix by merging master refs #647\**
+ 26efe05##Lukas Balzer##Thu Dec 5 15:09:47 2013##Merge remote-tracking branch 'origin/master'\**
+ d480817##Lukas Balzer##Thu Dec 5 14:59:11 2013##added undo/redo Buttons fixed bug refs #647 @1h\**
+ 02107ec##Lukas Balzer##Thu Dec 5 14:57:53 2013##changed zoom Bar, fixed Bug with connection Anchors\**
+ 1994183##Jarkko Heidenwag##Thu Dec 5 14:47:47 2013##Merge branch '661' @15min\**
+ ff45189##Jarkko Heidenwag##Thu Dec 5 14:33:31 2013##CSCView filter with radioButtons implemented. The fix for bug #573 somehow sneaked in again in the AccidentView. Fixed it again. refs #661 @2\**
+ 213c5d0##Toth Fabian##Thu Dec 5 11:59:51 2013##refs #652 @30m Es werden jetzt nur noch die Elemente zurückgegeben die verlinkte Hazards haben\**
+ 37f1e38##Toth Fabian##Thu Dec 5 11:41:14 2013##refs #649 @45m Pdf wird nach dem Export geöffnet und während dem Export wird in der Progressbar angezeigt dass der Export läuft\**
+ 16d237c##Jarkko Heidenwag##Thu Dec 5 10:34:23 2013##adjusted the TableFilter to the CSCView table refs #661 @30min\**
+ e298037##Toth Fabian##Wed Dec 4 12:42:03 2013##refs #132 Vorbereitung auf Sprint 11\**
+ 0fb6f9e##Toth Fabian##Wed Dec 4 12:34:56 2013##refs #132 Vorbereitung auf Release 10\**
+ b0cc9a4##Toth Fabian##Wed Dec 4 12:25:44 2013##Merge branch 'master' of git@astpa.plan.io:astpa-stupro2013.anwendung.git\**
+ bcc43a5##Toth Fabian##Wed Dec 4 12:25:38 2013##plugin.xml gefixt Export wieder möglich\**
+ 6dd52dc##Jarkko Heidenwag##Wed Dec 4 12:22:19 2013##CSCView editor fixed refs #631 @30min\**
+ 88ed583##Toth Fabian##Wed Dec 4 11:48:33 2013##Corresponding Safety Constraint View wieder aktiviert und Observer hinzugefügt\**
+ 3a5b974##Toth Fabian##Wed Dec 4 11:22:55 2013##refs #460 Tests gefixt\**
+ 076aefb##Markt Benedikt##Wed Dec 4 00:42:16 2013##Copyright Header korrigiert refs #593 @20m\**
+ c182508##Markt Benedikt##Wed Dec 4 00:17:02 2013##Fehlende Kommentare ergänzt und ITableContentProvider verschoben refs #633 @10m\**
+ 1652a63##Jarkko Heidenwag##Tue Dec 3 16:49:36 2013##deleting accidents or hazards won't lead to a nullpointer anymore refs #628 @1.5\**
+ ed2d427##Lukas Balzer##Tue Dec 3 14:42:48 2013##Merge branch 'master' of git@astpa.plan.io:astpa-stupro2013.anwendung.git\**
+ 1a977a9##Lukas Balzer##Tue Dec 3 14:42:34 2013##fixed bug #634 @1\**
+ 44a91e3##Fabian Toth##Tue Dec 3 11:13:21 2013##refs #580 Angefangen einen Style Range Adapter zu implementieren\**
+ 63d4569##Fabian Toth##Tue Dec 3 11:12:36 2013##refs #580 @45m Versucht die Style Ranges zu Speichern. Hat nicht geklappt. Die Project Description wird jetzt ohne Style gespeichert\**
+ 9ea3e0f##Fabian Toth##Tue Dec 3 09:38:07 2013##Manifest korrigiert und Items in der Navigation deaktiviert\**
+ 1ea9682##Jarkko Heidenwag##Tue Dec 3 07:31:50 2013##fixed opening the CSCView @15min\**
+ 03794d1##Jarkko Heidenwag##Tue Dec 3 07:06:09 2013##Merge branch '587'\**
+ 1d43be3##Toth Fabian##Mon Dec 2 15:24:30 2013##Überflüssigen Handler entfernt\**
+ 3bcec35##Lukas Balzer##Mon Dec 2 15:16:36 2013##removed undo/redo Buttons\**
+ 6bb933d##Fabian Toth##Mon Dec 2 12:23:31 2013##Fehler behoben\**
+ ddc28c8##Fabian Toth##Mon Dec 2 10:01:13 2013##Merge remote-tracking branch 'origin/master' into 595\**
+ 9d31dcb##Markt Benedikt##Mon Dec 2 01:22:09 2013##Merge branch 'master' into 66\**
+ 80b38d4##Markt Benedikt##Mon Dec 2 01:18:19 2013##Datei jetzt auch zum index hinzugefügt... :S\**
+ c3f69c9##Markt Benedikt##Mon Dec 2 01:16:58 2013##GridCellLinking Generalisiert refs #596 @3.75h\**
+ 07f633b##Sebastian Sieber##Sun Dec 1 23:28:13 2013##Merge branch 'master' of ssh://git@astpa.plan.io/astpa-stupro2013.anwendung.git\**
+ 508729b##Fabian Toth##Sun Dec 1 23:21:03 2013##refs #595 @30m Tests angepasst\**
+ cf187b5##Sebastian Sieber##Sun Dec 1 22:54:53 2013##refs #566 added preference page 		  deleted package astpa.prefs 		  adjusted preferences via preference page\**
+ 658df39##Markt Benedikt##Sun Dec 1 21:29:30 2013##Merge branch '66' of ssh://astpa.plan.io/astpa-stupro2013.anwendung into 66\**
+ bb3f843##Patrick Wickenhaeuser##Sun Dec 1 21:28:05 2013##Alten UCA view geloescht. Prototyp Zellen in den Causal Factors view eingebaut - Kann wegen abhaengigkeiten zum UCA view und GridWrapper noch nicht sinnvoll umgesetzt werden.\**
+ 4b20b6a##Markt Benedikt##Sun Dec 1 21:21:29 2013##ILinkable vorläufig entfernt refs #596 @1m\**
+ 5077b18##Patrick Wickenhaeuser##Sun Dec 1 21:11:53 2013##Refactoring und Kommentare\**
+ 55313a1##Lukas Balzer##Sun Dec 1 21:11:24 2013##Merge branch 'master' into 599\**
+ 5089574##Lukas Balzer##Sun Dec 1 20:53:25 2013##replacedmethod Anchor.isSource() with Anchor.isFlying() refs #450 @0.4h\**
+ 04b419d##Markt Benedikt##Sun Dec 1 20:44:50 2013##Linking geht bedingt.. refs #596 @45m\**
+ cf21623##Markt Benedikt##Sun Dec 1 20:01:17 2013##Versucht Linking zu fixen refs #596 @8h\**
+ 804b0e2##Markt Benedikt##Sun Dec 1 17:25:39 2013##Autocomplete matcher gefixt refs #596 @1h\**
+ 515f7f5##Babkovich Aliaksei##Sat Nov 30 23:39:41 2013##Merge remote-tracking branch 'origin/master' into 554\**
+ e4bf6da##Patrick Wickenhaeuser##Sat Nov 30 18:42:13 2013##Kontext menu und loeschen mit dem Delete Button bzw. dem mac Ding...\**
+ 585cc36##Patrick Wickenhaeuser##Sat Nov 30 18:09:40 2013##Word wrapping und automatisches Resize bei Zellen\**
+ af22370##Patrick Wickenhaeuser##Sat Nov 30 15:51:35 2013##Zelltyp eingebaut, der sich wie ein SWT Composite verhaellt und Link Zelle darauf umgebaut.\**
+ 9606493##Fabian Toth##Sat Nov 30 14:32:38 2013##Merge remote-tracking branch 'origin/master' into 595\**
+ be43762##Fabian Toth##Sat Nov 30 14:31:09 2013##refs #496 @15m Warnings entfernt\**
+ 024dbed##Fabian Toth##Sat Nov 30 13:58:42 2013##refs #496 @1,5h Typsicherheit und korrektes Verhalten bei null Paramater hinzugefügt\**
+ 29e3a23##Lukas Balzer##Sat Nov 30 12:33:16 2013##added resizeability to rootConnections refs #450 @2\**
+ 57a4c52##Patrick Wickenhaeuser##Fri Nov 29 21:42:04 2013##Unsafe Control Actions view umgebaut. Auto complete field eingebaut. Composites koennen jetzt in die Zellen gesetzt werden.\**
+ 2387c0f##Lukas Balzer##Fri Nov 29 19:45:04 2013##implemented relative positioning of anchors and zoom ability refs #450 @3.5h\**
+ 8f5c172##Patrick Wickenhaeuser##Fri Nov 29 16:04:47 2013##Hover und Multi select implementiert.\**
+ b680b2e##Patrick Wickenhaeuser##Fri Nov 29 15:01:30 2013##Add, link und delete Buttons eingebaut. Hintergrundfarbe der Zellen laesst sich einstellen.\**
+ 8ebafaa##Patrick Wickenhaeuser##Fri Nov 29 13:40:22 2013##Mouse Events, Darstellung verbessert und bug fixes.\**
+ 54bf85b##Jarkko Heidenwag##Fri Nov 29 12:15:00 2013##Set an absolute size for the add and delete buttons in CommonTableViews refs #506 @15min\**
+ c48ecfc##Patrick Wickenhaeuser##Fri Nov 29 00:57:51 2013##Mit refactoring angefangen. Nebula Tabellen Linien mit abwechselnd gefaerbten Hintergruenden ersetzt.\**
+ 801c213##Fabian Toth##Fri Nov 29 00:44:18 2013##refs #496 @45m angefangen das Datenmodell abzuhärten\**
+ 5bcafcc##Fabian Toth##Thu Nov 28 23:59:40 2013##refs #595 @2,5h Interface für Causal Factors fertig gemacht\**
+ 187bfa3##Markt Benedikt##Thu Nov 28 19:24:26 2013##Autocomplete jetzt im cell editor refs #596 @ 50m\**
+ 8f10f3d##Markt Benedikt##Thu Nov 28 19:07:44 2013##Diesmal wirklich...\**
+ 853cb92##Markt Benedikt##Thu Nov 28 13:41:17 2013##Autocomplete implementiert refs #596 @4h\**
+ 9811f8a##Markt Benedikt##Thu Nov 28 17:35:18 2013##Merge branch '597' into 66\**
+ 712f3e2##Lukas Balzer##Thu Nov 28 15:39:21 2013##problem with connection registry refs #450 @3.5h\**
+ 3570712##Jaqueline##Thu Nov 28 11:50:59 2013##refs #518 @5m Supress Warnings removed\**
+ 9f54f30##Jaqueline##Thu Nov 28 11:37:57 2013##refs #619 Process Model Icon added @1h\**
+ 3fd6550##Jaqueline##Thu Nov 28 10:42:48 2013##@10 min fixed .xsl added\**
+ 45b6105##Jaqueline##Thu Nov 28 10:38:32 2013##@5m resized one icon\**
+ 46d4c80##Jarkko Heidenwag##Thu Nov 28 04:47:42 2013##Implemented EditingSupport for the corresponding safety constraints refs #64 @1\**
+ 99899f5##Jaqueline##Wed Nov 27 23:54:40 2013##NEW Navigationbar-Icons\**
+ b4e9c9c##Jaqueline##Wed Nov 27 23:51:01 2013##refs #529 @7h Creation Date hinzugefügt\**
+ 356e23c##Babkovich Aliaksei##Wed Nov 27 15:38:42 2013##Control Structure Diagram with Process Model added to the third step. Only Process Model component is available. refs #554 @2\**
+ a08d403##Jarkko Heidenwag##Wed Nov 27 13:52:35 2013##Typo fixed and strings externalized refs#64 @5min\**
+ 7fd18a9##Jarkko Heidenwag##Wed Nov 27 13:44:39 2013##Linked the button of the navigation bar with the cscview refs #64 @5min\**
+ 44c0c06##Jarkko Heidenwag##Wed Nov 27 13:16:53 2013##Merge remote-tracking branch 'origin/595' into 587\**
+ 395a828##Sebastian Sieber##Tue Nov 26 22:26:15 2013##changed font size of the label for the project name from 11 to 9\**
+ f475ba1##Lukas Balzer##Tue Nov 26 15:36:38 2013##added nodePolicy to rootEditPart started implementing logic refs #450 @2.5h\**
+ c6a7b5d##Markt Benedikt##Tue Nov 26 14:17:50 2013##ILinkable Interface hinzugefügt refs #597 @10m\**
+ 0fdb979##Lukas Balzer##Tue Nov 26 12:38:26 2013##added undo/redo in Toolbar and added coordinate translate in CSAnchor refs #480 @3\**
+ 584021c##Jarkko Heidenwag##Tue Nov 26 02:27:17 2013##Existing entries should now be listed correctly refs #64 @15min\**
+ 00c7d71##Jarkko Heidenwag##Tue Nov 26 02:12:31 2013##began CSCView refs #64 @2\**
+ 5ad6c87##Patrick Wickenhaeuser##Mon Nov 25 23:49:03 2013##Nebula grid wrapper Prototyp.\**
+ 567768c##Jarkko Heidenwag##Mon Nov 25 23:02:03 2013##Merge branch '587' @10min\**
+ a88b0ed##Jarkko Heidenwag##Mon Nov 25 21:34:16 2013##gefixed refs #573 @2\**
+ e433575##Lukas Balzer##Mon Nov 25 15:41:17 2013##added Toolbar for Zooming refs #480 @4h\**
+ 00f0838##Toth Fabian##Mon Nov 25 15:40:36 2013##refs #460 Datenmodell für Causal Factors angefangen\**
+ 2809a20##Sebastian Sieber##Sun Nov 24 21:41:14 2013##refs #564 sort font names\**
+ b664e54##Fabian Toth##Sat Nov 23 11:32:06 2013##refs #595 @30m Tests hinzugefügt\**
+ dc35813##Lukas Balzer##Fri Nov 22 17:44:23 2013##zoom tool implemented refs #480 @2.5h\**
+ 2c8add8##Lukas Balzer##Thu Nov 21 19:12:49 2013##Enabled zoom and added useless ZoomBar refs #480 @4h\**
+ 1422932##Lukas Balzer##Thu Nov 21 11:52:08 2013##Merge branch 'master' of git@astpa.plan.io:astpa-stupro2013.anwendung.git\**
+ cb438ca##Lukas Balzer##Thu Nov 21 11:51:51 2013##PrintViewer() implemented refs #447 @0.5h\**
+ 4040f73##Fabian Toth##Thu Nov 21 10:34:39 2013##refs #595 Tests hinzugefügt\**
+ cde1b52##Fabian Toth##Thu Nov 21 00:32:05 2013##refs #552 @2m Komma zwischen Datum und Uhrzeit hinzugefügt\**
+ c78ce0c##Fabian Toth##Thu Nov 21 00:00:21 2013##refs #547 @1 Datenmodell für Corresponding Safety Constraints implementiert\**
+ 3c295ec##Jaqueline##Wed Nov 20 22:56:18 2013##@15min conflicts removed\**
+ 6c08c5a##Jaqueline##Wed Nov 20 22:31:53 2013##@5m quick fixes and uploads (intro.css, introContent.xml and fopxsl.xsl)\**
+ 2dbfe60##Fabian Toth##Wed Nov 20 22:14:29 2013##refs #552 @20m Creation Date hinzugefügt\**
+ 4698af2##Fabian Toth##Wed Nov 20 19:35:16 2013##refs #552 @10m Fehler behoben\**
+ f2f2dbb##Fabian Toth##Wed Nov 20 19:24:46 2013##refs #552 @5m Erste Anpassungen an der .haz\**
+ 0acf826##Jarkko Heidenwag##Wed Nov 20 16:15:21 2013##Buttons sind quadratisch und links refs #506 @0.1\**
+ efcb50f##Jarkko Heidenwag##Wed Nov 20 13:39:05 2013##Suppressed warnings refs #587 @10min\**
+ 2ee79a9##Sebastian Sieber##Wed Nov 20 01:56:41 2013##refs #556 fixed: "There are unsaved changes"\**
+ a1ddd3e##Sebastian Sieber##Wed Nov 20 01:29:09 2013##Merge branch '565'\**
+ f101930##Sebastian Sieber##Wed Nov 20 01:17:05 2013##refs #565 fixed fore-/background color bug\**
+ d098d23##Fabian Toth##Wed Nov 20 00:31:10 2013##refs #132 @15m Release gebaut und das Repo für Sprint 10 vorbereitet\**
+ a339758##Fabian Toth##Wed Nov 20 00:23:39 2013##refs #132 @5m Vorbereitung zum Release\**
+ 14d45bc##Fabian Toth##Wed Nov 20 00:04:55 2013##@2m Nochmal den Formatter über das ganze Projekt laufen lassen\**
+ 3aa3618##Fabian Toth##Tue Nov 19 23:48:27 2013##refs #580 @5m Speichern der Project Description deaktiviert\**
+ c5ea4cd##Sebastian Sieber##Tue Nov 19 23:02:38 2013##Merge branch 'master' of ssh://git@astpa.plan.io/astpa-stupro2013.anwendung.git\**
+ 287861d##Sebastian Sieber##Tue Nov 19 23:02:22 2013##refs #485 remerged\**
+ 2431463##Fabian Toth##Tue Nov 19 23:00:06 2013##Merge branch 'master' of git@astpa.plan.io:astpa-stupro2013.anwendung.git\**
+ f9d2412##Fabian Toth##Tue Nov 19 22:59:38 2013##refs #575 @5m Unsafe Control Actions werden jetzt gespeichert\**
+ 2a095bb##Sebastian Sieber##Tue Nov 19 22:51:19 2013##Merge branch '458'\**
+ 0232a23##Patrick Wickenhaeuser##Tue Nov 19 22:32:37 2013##Xsl fo Datei geupdated.\**
+ c374836##Patrick Wickenhaeuser##Tue Nov 19 22:10:09 2013##Neuer UCA view und das Datenmodell dazu gemerged (ein paar Dateien waren nicht im index, haben dh. im letzten commit gefehlt)\**
+ 980aee1##Patrick Wickenhaeuser##Tue Nov 19 21:10:32 2013##Neuer UCA view und das Datenmodell dazu gemerged\**
+ f66fe9e##Fabian Toth##Tue Nov 19 18:29:01 2013##@2m Kompletten Code mit den neuen Einstellungen formatiert\**
+ 688a81a##Markt Benedikt##Tue Nov 19 17:33:37 2013##Author-Tags wiederhergestellt.. refs #462 @5m\**
+ c8dd455##Markt Benedikt##Tue Nov 19 17:14:44 2013##Revert "Copyright header in source dateien eingefügt refs #462 @20m"\**
+ d3eed2e##Markt Benedikt##Tue Nov 19 16:26:35 2013##Copyright header in source dateien eingefügt refs #462 @20m\**
+ 66fbc44##Fabian Toth##Mon Nov 18 21:49:58 2013##fixes #557 @5m Nach dem Start gibt es jetzt keine ungespeicherten Änderungen mehr\**
+ 79c8bee##Lukas Balzer##Mon Nov 18 21:12:51 2013##fixed two little bugs in undo connection and editorLocator refs #563 @10m\**
+ 6431c39##Lukas Balzer##Mon Nov 18 15:14:15 2013##bug fixed refs #475 @5m\**
+ c43e6af##Lukas Balzer##Mon Nov 18 13:52:58 2013##fixed bug refs #553 @10m\**
+ 1ad8fb4##Toth Fabian##Mon Nov 18 12:14:52 2013##@2m Step 3.1 umbenannt und Navigation schmaler gemacht\**
+ bb25dfc##Lukas Balzer##Mon Nov 18 11:31:08 2013##disabled zoom\**
+ c6ea969##Toth Fabian##Mon Nov 18 09:30:36 2013##refs #186 @1m noch mehr Warnings entfernt\**
+ 1b586fa##Toth Fabian##Mon Nov 18 09:28:45 2013##refs #186 @1m Warning entfernt\**
+ f3f43a1##Babkovich Aliaksei##Mon Nov 18 00:39:43 2013##Merge branch 'master' of git@astpa.plan.io:astpa-stupro2013.anwendung.git\**
+ 1fdaf9b##Babkovich Aliaksei##Mon Nov 18 00:39:19 2013##Master merged with branch 502 refs #502 @1\**
+ db79e9a##Fabian Toth##Sun Nov 17 23:59:00 2013##@5m fixed Tests\**
+ f13fc30##Sebastian Sieber##Sun Nov 17 22:18:37 2013##refs #458 added an array of style ranges to data model. 		  set style ranges to description text\**
+ 70017f9##Sebastian Sieber##Sun Nov 17 20:07:00 2013##refs #<465> changed text limit of project name 			added NewProject to messages.properties 			removed initialization of project name\**
+ 9a7782e##Lukas Balzer##Sun Nov 17 18:49:54 2013##added the new palette icons refs #504 @0.2h\**
+ 53b8df4##Fabian##Sun Nov 17 17:23:32 2013##Merge branch 'master' of git@astpa.plan.io:astpa-stupro2013.anwendung.git\**
+ 00dfd9d##Fabian##Sun Nov 17 17:23:22 2013##@2m neue Icons hinzugefügt\**
+ a2e0c42##Fabian##Sun Nov 17 17:19:50 2013##@15m neue Icons hinzugefügt\**
+ a7b9c7b##Lukas Balzer##Sun Nov 17 14:38:45 2013##Merge branch '479'\**
+ 10dc926##Lukas Balzer##Sun Nov 17 14:02:23 2013##problems with maven and fixed zoom accidently refs #479 @1h\**
+ 3e11342##Lukas Balzer##Sat Nov 16 17:12:11 2013##connection delete and connect highlighter added #479 @1.5h\**
+ 9a955c4##Jarkko Heidenwag##Fri Nov 15 17:16:42 2013##Alle externalisierten Strings auf mehrfachen Wunsch hin refactored refs #464 @2\**
+ d712bcc##Lukas Balzer##Fri Nov 15 16:51:12 2013##fixed bug in load prozess refs #551 @1h\**
+ 2e7ca6c##Lukas Balzer##Fri Nov 15 11:27:10 2013##abstracted all basic Functions from CSEditor refs #519 @0.5\**
+ 8e8741c##Fabian Toth##Thu Nov 14 23:18:14 2013##refs #479 @30m Speichern des Control Structure Diagramms ermöglicht. Laden geht noch nicht\**
+ f5311c0##Lukas Balzer##Thu Nov 14 20:25:05 2013##Deleted GEF Models, fixed code violations apart from one in connectionPolicy refs #519 @3h\**
+ 160ddd3##Lukas Balzer##Thu Nov 14 20:18:52 2013##finish adapting refs #503 @4h\**
+ dafb270##Fabian Toth##Thu Nov 14 18:58:42 2013##refs #479 @10m neue Methode für das Abrufen der Connections hinzugefügt\**
+ 3912219##Toth Fabian##Thu Nov 14 12:15:43 2013##refs #186 @20m Fehler, dass der Progress nicht angezeigt wird behoben\**
+ 8ae6b56##Toth Fabian##Thu Nov 14 11:57:07 2013##refs #186 @5m Statusline view entfernt\**
+ 25a6d69##Toth Fabian##Thu Nov 14 11:32:03 2013##refs #186 @10m STrings in die richtige Datei verschoben\**
+ 80c09b3##Toth Fabian##Thu Nov 14 11:05:49 2013##refs #186 @1m Statusline aktiviert\**
+ d07f38f##Toth Fabian##Thu Nov 14 11:04:19 2013##refs #186 @5m neue Strings externalisiert\**
+ a1771a1##Toth Fabian##Thu Nov 14 11:03:37 2013##Merge remote-tracking branch 'origin/master' into 186\**
+ 467ec9c##Fabian Toth##Wed Nov 13 22:12:18 2013##refs #549 @10m Tests angepasst\**
+ 171f094##Fabian Toth##Wed Nov 13 21:53:30 2013##refs #549 15m Methoden die das Datenmodell auf den Export bzw. das Speichern vorbereiten hinzugefügt\**
+ 0c15044##Fabian Toth##Wed Nov 13 21:31:47 2013##refs #549 @20m Methoden hinzugefügt um das Datenmodell auf den Export vorzubereiten\**
+ 24f74a4##Fabian Toth##Wed Nov 13 20:29:28 2013##refs #543 @20m Tests angepasst\**
+ 6f44364##Fabian Toth##Wed Nov 13 18:57:38 2013##refs #543 @20m Datenmodell weiter angepasst\**
+ b962972##Fabian Toth##Wed Nov 13 18:35:38 2013##refs #543 @5m Tests angepasst\**
+ 361b513##Fabian Toth##Wed Nov 13 18:32:34 2013##Merge branch '479' of git@astpa.plan.io:astpa-stupro2013.anwendung.git into 479\**
+ 470c6bd##Fabian Toth##Wed Nov 13 18:32:28 2013##refs #543 @30m Root ins Datenmodell genommen\**
+ 217a1ef##Lukas Balzer##Wed Nov 13 18:08:45 2013##Merge branch 'master' into 479\**
+ 5b4a233##Lukas Balzer##Wed Nov 13 17:48:26 2013##Adapt controlstructure refs #503 @3h\**
+ 18f1117##Jarkko Heidenwag##Wed Nov 13 16:21:42 2013##Merge branch '506'\**
+ a5e3dca##Jarkko Heidenwag##Wed Nov 13 15:55:54 2013##Layout angepasst, halb so große Icons refs #506 @1\**
+ c0280fc##Lukas Balzer##Tue Nov 12 16:54:06 2013##Adapt controlstructure refs #503 @7h\**
+ 6e7f9d7##Jarkko Heidenwag##Tue Nov 12 15:56:23 2013##erledigt refs #464 @2.7\**
+ 2e1e347##Patrick Wickenhaeuser##Tue Nov 12 12:52:14 2013##Magic number entfernt.\**
+ 8991d08##Patrick Wickenhaeuser##Tue Nov 12 12:46:41 2013##IDataModelObserver in IViewBase integriert und geloescht\**
+ dacd8d0##Fabian Toth##Mon Nov 11 18:08:56 2013##refs #186 @10m Projektnamen aus Statusleiste entfernt\**
+ 5f49d8a##Lukas Balzer##Mon Nov 11 17:12:21 2013##Merge branch 'master' into 479\**
+ e564cbf##Lukas Balzer##Mon Nov 11 17:00:29 2013##adapt controlstructure refs #503 @1.5h\**
+ ff7bbf3##Patrick Wickenhaeuser##Mon Nov 11 16:18:38 2013##TSM Tests aus dem anwendungs repo geloescht\**
+ 97b9ae0##Patrick Wickenhaeuser##Mon Nov 11 15:32:05 2013##Pdf Export Prototyp entfernt\**
+ 1b69490##Toth Fabian##Mon Nov 11 13:38:18 2013##refs #186 @10m changed name of the product\**
+ 671ce2c##Toth Fabian##Mon Nov 11 12:10:25 2013##refs #186 @15m Fehler behoben\**
+ 1a55834##Toth Fabian##Mon Nov 11 09:39:06 2013##refs #186 @1m kleinen Fehler behoben\**
+ c584f6b##Jarkko Heidenwag##Mon Nov 11 08:27:20 2013##erledigt refs #280 @5\**
+ 173c0d2##Fabian Toth##Sun Nov 10 23:14:08 2013##refs #186 @2h Updateroutine implementiert\**
+ 237d46d##Jarkko Heidenwag##Sat Nov 9 17:09:10 2013##erledigt refs #506 @1\**
+ 0cdcc12##Jarkko Heidenwag##Sat Nov 9 16:05:00 2013##refs #440 @0.2\**
+ 9218a47##Jarkko Heidenwag##Sat Nov 9 15:53:21 2013##erledigt refs #268 @0.5\**
+ bee305c##Fabian Toth##Fri Nov 8 18:33:13 2013##fixes #515 @15m getComponents() die alle Rootelemente liefert hinzugefügt\**
+ 4086e68##Lukas Balzer##Fri Nov 8 17:08:16 2013##began to adapt gef model to the DataModel refs #503 @5.5h\**
+ abe246e##Fabian Toth##Thu Nov 7 18:34:48 2013##refs #459 Komplettes Datenmodell auf UUIDs umgestellt\**
+ 4c892c9##Toth Fabian##Thu Nov 7 13:54:52 2013##refs #459 @10m angefangen ids von String auf UUID umzustellen\**
+ 8dc1f13##Toth Fabian##Thu Nov 7 13:35:33 2013##refs #236 @45m Readme Ordner und notice.html entfernt\**
+ 46518cf##Toth Fabian##Thu Nov 7 10:53:50 2013##refs #493 @15m Vor dem Speichern wird jetzt die onClose() Methode aller Views aufgerufen\**
+ cdefe41##Fabian Toth##Wed Nov 6 19:23:32 2013##refs #372 @2m In New Project geändert\**
+ 14ae89b##Fabian Toth##Tue Nov 5 23:24:28 2013##refs #132 @1m ui.tests nochmal gelöscht\**
+ 115904f##Fabian Toth##Tue Nov 5 23:14:00 2013##refs #132 @10m Vorbereitung auf Sprint 9\**
+ 9af9a34##Fabian Toth##Tue Nov 5 23:10:41 2013##refs #132 Vorbereitung zum Release\**
+ d921642##Markt Benedikt##Tue Nov 5 20:23:02 2013##Tests hinzugefügt refs #456 @ 2h\**
+ d1d0c78##Fabian Toth##Tue Nov 5 19:19:24 2013##Merge branch 'master' of git@astpa.plan.io:astpa-stupro2013.anwendung.git\**
+ 2a51e05##Fabian Toth##Tue Nov 5 19:19:15 2013##refs #435 @5m Projektname wird nun ganz links angezeigt\**
+ 4bac358##Lukas Balzer##Tue Nov 5 18:48:54 2013##Merge branch 'master' of git@astpa.plan.io:astpa-stupro2013.anwendung.git\**
+ aa84994##Lukas Balzer##Tue Nov 5 18:44:53 2013##bug fix refs #445 @0.25h\**
+ 644cd48##Jarkko Heidenwag##Tue Nov 5 08:43:07 2013##Layout des Filters angepasst (konstante horizontalSpan)\**
+ 6283cf2##Jarkko Heidenwag##Tue Nov 5 02:50:28 2013##erledigt refs #443 @15min\**
+ 5dbd11d##Sebastian Sieber##Mon Nov 4 23:40:52 2013##Merge branch 'master' of ssh://git@astpa.plan.io/astpa-stupro2013.anwendung.git\**
+ 68d85bf##Sebastian Sieber##Mon Nov 4 23:40:06 2013##Merge remote-tracking branch 'origin/anforderung/370'\**
+ 90e81d9##Sebastian Sieber##Mon Nov 4 23:39:18 2013##refs 370 start line count in the status bar at one and not zero.\**
+ 8b677d2##Fabian Toth##Mon Nov 4 23:34:32 2013##refs #420 @5m Menüeinträge zum Exportieren werden wie die zum Speichern verwaltet\**
+ d650f1a##Lukas Balzer##Mon Nov 4 23:25:46 2013##disabled zoom and fixed typo in the pallett refs #439\**
+ a6a1e87##Lukas Balzer##Mon Nov 4 23:15:47 2013##Merge branch 'anforderung/338'\**
+ 890c2fb##Lukas Balzer##Mon Nov 4 22:43:55 2013##Merge branch 'master' into anforderung/338\**
+ cb98edf##Fabian Toth##Mon Nov 4 22:08:57 2013##refs #420 @2m noch einen kleinen Fehler der durchs Mergen kam gefixt\**
+ 80955bc##Fabian Toth##Mon Nov 4 22:05:24 2013##Merge branch 'master' of git@astpa.plan.io:astpa-stupro2013.anwendung.git\**
+ fcde27d##Fabian Toth##Mon Nov 4 22:04:07 2013##refs #420 @1,5 Einträge für das Speichern werden nun deaktiviert wenn noch kein Projekt erstellt wurde\**
+ fedbeba##Patrick Wickenhaeuser##Mon Nov 4 21:08:45 2013##Merge remote-tracking branch 'origin/398'\**
+ 8aba8f0##Patrick Wickenhaeuser##Mon Nov 4 20:49:28 2013##Merge remote-tracking branch 'origin/377'\**
+ 6a49ded##Fabian Toth##Mon Nov 4 20:36:32 2013##refs #424 Vor dem Überschreiben wird jetzt nachgefragt\**
+ 3db9f02##Patrick Wickenhaeuser##Mon Nov 4 20:34:32 2013##Merge remote-tracking branch 'origin/master' into 377\**
+ dff08de##Fabian Toth##Mon Nov 4 20:17:33 2013##refs #432 @5m Der Menüeintrag hat jetzt ein kleines Logo\**
+ 8486254##Fabian Toth##Mon Nov 4 20:14:18 2013##refs #434 @5m Beschreibung der Menu Einträge geändert\**
+ 6766112##Fabian Toth##Mon Nov 4 19:57:11 2013##refs #428 @30m Die geladenen Datei wird jetzt zum Standard für das Speichern\**
+ 7e6cf3d##Fabian Toth##Mon Nov 4 19:23:44 2013##refs #423 @1m Causal Analysis verbessert\**
+ 8fb961f##Sebastian Sieber##Mon Nov 4 18:24:05 2013##Merge remote-tracking branch 'origin/anforderung/370'\**
+ f45085f##Sebastian Sieber##Mon Nov 4 18:23:55 2013##Merge branch 'master' of ssh://git@astpa.plan.io/astpa-stupro2013.anwendung.git\**
+ efb7612##Sebastian Sieber##Mon Nov 4 18:22:30 2013##refs #370 removed code violation\**
+ 28d9e1e##Sebastian Sieber##Mon Nov 4 18:22:30 2013##refs #370 removed code violation\**
+ 91aca12##Fabian Toth##Mon Nov 4 17:41:13 2013##refs #373 @5m Violation der statischen Code Analyse entfernt\**
+ 6ce8a4f##Sebastian Sieber##Mon Nov 4 16:16:51 2013##Merge remote-tracking branch 'origin/anforderung/403'\**
+ acf30ca##Sebastian Sieber##Mon Nov 4 15:58:51 2013##refs #403 added JUnit test\**
+ b326ef0##Toth Fabian##Mon Nov 4 13:58:09 2013##Merge remote-tracking branch 'origin/anforderung/366'\**
+ d7adfff##Toth Fabian##Mon Nov 4 13:42:27 2013##refs #423 @2m Einträge geändert\**
+ 336560c##Toth Fabian##Mon Nov 4 13:28:45 2013##refs #373 @1m Fehler in den Tests behoben\**
+ 84f42c4##Lukas Balzer##Mon Nov 4 13:18:26 2013##fixed compiler warnings refs #376 @1h\**
+ 65bcfe1##Toth Fabian##Mon Nov 4 12:21:16 2013##refs #132 TSM Test in ein eigenes Repo ausgelagert\**
+ a1250e4##Toth Fabian##Mon Nov 4 09:35:25 2013##refs #429 @5m Control Action VIew in die Navigation aufgenommen\**
+ 5fb1eb6##Jarkko Heidenwag##Mon Nov 4 01:22:16 2013##erledigt refs #409 @4\**
+ a7bd0d2##Lukas Balzer##Mon Nov 4 01:19:17 2013##connection router finished refs #389 @6h\**
+ 66a47e7##Patrick Wickenhaeuser##Sun Nov 3 23:46:51 2013##Es werden Zellen zum hinzufügen von unsafe control actions angehängt. Refactoring und Warnings behoben.\**
+ 84d7d6e##Jarkko Heidenwag##Sun Nov 3 22:02:36 2013##Merge remote-tracking branch 'origin/master' into anforderung/399\**
+ 776a389##Jarkko Heidenwag##Sun Nov 3 22:02:13 2013##Merge branch 'master' of git@astpa.plan.io:astpa-stupro2013.anwendung.git\**
+ 73044a2##Fabian Toth##Sun Nov 3 21:57:36 2013##refs #373 @5m Kommentare geändert\**
+ ffb59aa##Jarkko Heidenwag##Sun Nov 3 21:38:23 2013##Merge remote-tracking branch 'origin/anforderung/399'\**
+ 6670512##Fabian Toth##Sun Nov 3 21:29:52 2013##refs #375 @30m Statusline angepasst\**
+ 4ab6c79##Patrick Wickenhaeuser##Sun Nov 3 20:54:30 2013##Unsafe control action Tabelle auf das data model interface umgestellt und Versuche buttons in die Zellen einzufuegen.\**
+ 54cb11d##Fabian Toth##Sun Nov 3 18:40:57 2013##Merge remote-tracking branch 'origin/master' into anforderung/375\**
+ dfab072##Fabian Toth##Sun Nov 3 18:32:25 2013##Merge branch 'anforderung/375' of git@astpa.plan.io:astpa-stupro2013.anwendung.git into anforderung/375\**
+ 23221c3##Fabian Toth##Sun Nov 3 12:51:01 2013##refs #373 @10m Bugs welche das Speichern einer Analyse verhindert haben entfernt\**
+ c2fad0c##Jarkko Heidenwag##Sun Nov 3 07:02:16 2013##erledigt refs #117 @4\**
+ 112ee25##Patrick Wickenhaeuser##Sat Nov 2 21:26:12 2013##Altes Datenmodell als Dummy eingebaut um es wieder lauffähig zu machen.\**
+ 11d138f##Fabian Toth##Sat Nov 2 20:48:18 2013##refs #373 @10m In Master gemerged\**
+ 5488a1c##Patrick Wickenhaeuser##Sat Nov 2 17:07:28 2013##Fop xsl datei integriert.\**
+ 1e67ffa##Patrick Wickenhaeuser##Sat Nov 2 15:04:19 2013##Merge branch 'master' of git@astpa.plan.io:astpa-stupro2013.anwendung.git into 398\**
+ d53692f##Patrick Wickenhaeuser##Sat Nov 2 15:01:31 2013##Pdf wird direkt vom JAXB stream gerendert. Save file dialog statt absoluten Pfaden. Benoetigte jar files in den build integriert.\**
+ 8f71c4a##Lukas Balzer##Fri Nov 1 15:02:17 2013##little bug in backtracking refs #389 @2.5h\**
+ 648c2ab##Sebastian Sieber##Wed Oct 30 23:36:42 2013##refs #403 redesign + new functions 		  bullet button fix 		  set focus on project name 		  limit project name length\**
+ b8325c7##Lukas Balzer##Wed Oct 30 15:51:25 2013##Merge branch 'master' of git@astpa.plan.io:astpa-stupro2013.anwendung.git\**
+ 9a0ea98##Lukas Balzer##Wed Oct 30 15:49:52 2013##adapt ICSDataBase refs #373 #0.5h\**
+ 2cac961##Lukas Balzer##Wed Oct 30 15:44:19 2013##refs #389 @1h\**
+ bf55cca##Grahovac Adam##Wed Oct 30 13:11:16 2013##warning entfernt : /bin in property\**
+ 3330ca2##Lukas Balzer##Wed Oct 30 00:22:04 2013##made some changes in the useability of the textboxes and added more actions to the context menu refs #387 @2.5h\**
+ 4dbde0d##Lukas Balzer##Tue Oct 29 22:38:30 2013##fixed bug refs #402 @0.3h\**
+ 27165b6##Toth Fabian##Mon Oct 28 09:34:49 2013##refs #375 @15m Neue Anzeige für die StatusLine\**
+ c663c3f##Sebastian Sieber##Mon Oct 28 07:43:00 2013##refs #403 UI-Redesign\**
+ 0783fe1##Fabian Toth##Sun Oct 27 20:00:25 2013##refs #366 @15m Dialog beim Laden einer Analyse, wenn schon eine geöffnet ist hinzugefügt\**
+ 48a9780##Fabian Toth##Sun Oct 27 19:45:02 2013##refs #366 @30m Dialog beim öffnen einer neuen Analyse wenn schon eine in Barbeitung ist hinzugefügt\**
+ d99c3ff##Fabian Toth##Sat Oct 26 17:50:52 2013##refs #375 @1h Ein paar Anzeigen ausprobiert\**
+ a05e571##Sebastian Sieber##Sat Oct 26 09:57:35 2013##refs #403 new branch\**
+ f14816a##Jarkko Heidenwag##Fri Oct 25 02:32:15 2013##erledigt refs #399 @0.5\**
+ 3e9d1fd##Lukas Balzer##Thu Oct 24 10:16:49 2013##Merge branch 'master' into anforderung/338\**
+ c883ef4##Lukas Balzer##Thu Oct 24 10:10:29 2013##idealPath Algorithm is working almost good refs #389 @2h\**
+ 65e7164##Fabian Toth##Thu Oct 24 00:11:52 2013##refs #375 @20m Statusline Prototyp gebaut\**
+ 8b2a4d2##Fabian Toth##Wed Oct 23 23:49:59 2013##refs #366 @30m Dialog beim Schließen des Programms hinzugefügt\**
+ 7a7afca##Patrick Wickenhaeuser##Wed Oct 23 21:49:04 2013##Link adden/loeschen bug fixed.\**
+ c3dbf7f##Fabian Toth##Wed Oct 23 18:49:39 2013##refs #373 @5m Warnings entfernt\**
+ 04ac8e9##Fabian Toth##Wed Oct 23 18:44:14 2013##refs #373 @15m Datenmodell für Control Actions hinzugefügt\**
+ 26747cf##Fabian Toth##Wed Oct 23 18:23:44 2013##refs #404 @10m Project Name entfernt und den eigentlichen Namen zentriert\**
+ 0faa8ac##Fabian Toth##Wed Oct 23 15:22:17 2013##TSM Test Projekt erstellt. SWT Bot Test Projekt entfernt\**
+ 3953de5##Fabian Toth##Wed Oct 23 13:28:21 2013##Namen in der Navigation geändert\**
+ e834ce5##Sebastian Sieber##Wed Oct 23 09:21:39 2013##Merge remote-tracking branch 'origin/anforderung/369'\**
+ 7054a5c##Sebastian Sieber##Wed Oct 23 09:12:57 2013##refs #369 removed bugs 		  set default project name to "New Analysis" 		  removed static code violations\**
+ 9b475ac##Fabian Toth##Wed Oct 23 00:31:19 2013##refs #132 @10 Version auf 0.8.0-SNAPSHOT gesetzt und den Master damit auf Sprint 8 vorbereitet\**
+ 2e05cc6##Fabian Toth##Wed Oct 23 00:22:17 2013##refs #132 auf 0.7.0 Release Version gesetzt und batch zum Version setzen hinzugefügt\**
+ ab4962a##Fabian Toth##Tue Oct 22 21:04:11 2013##refs #354 @5m angezeigte Links angepasst\**
+ 924e695##Jarkko Heidenwag##Tue Oct 22 20:43:57 2013##Delete messages fixed\**
+ f2b5bbc##Fabian Toth##Tue Oct 22 19:24:30 2013##refs #360 @10m Views auf Number umgestellt Löschen Dialoge fehlen noch\**
+ 8a35fe1##Fabian Toth##Tue Oct 22 19:16:13 2013##refs #360 @10m Interfaces und DataModelController vereinheitlicht\**
+ c968e60##Jarkko Heidenwag##Tue Oct 22 16:13:58 2013##in Views eingebunden refs #354 @30min\**
+ 9817b65##Fabian Toth##Tue Oct 22 15:53:23 2013##refs #360 @10m Warnungen der statischen Analyse entfernt\**
+ 4f67316##Fabian Toth##Tue Oct 22 15:38:39 2013##refs #360 @1m warning entfernt\**
+ eb5c185##Fabian Toth##Tue Oct 22 15:37:45 2013##refs #132 @1m unnötige Dateien gelöscht\**
+ ae2fa7a##Fabian Toth##Tue Oct 22 15:36:56 2013##refs #132 @1m gitignore angepasst\**
+ b30998d##Fabian Toth##Tue Oct 22 15:15:00 2013##refs #360 fixed laden und speichern. Views werden nach dem Laden neu gezeichnet\**
+ 77214e6##Fabian Toth##Tue Oct 22 14:51:58 2013##refs #360 @5m Tests gefixt\**
+ f5b31d9##Lukas Balzer##Tue Oct 22 14:12:51 2013##fixed problem with border refs #159\**
+ 2e99db6##Jaqueline##Tue Oct 22 13:32:12 2013##Merge remote-tracking branch 'origin/origin/anforderung/159'\**
+ 6e0c85e##Jaqueline##Tue Oct 22 13:30:31 2013##refs #318 intro-checkbox\**
+ 06ff940##Fabian Toth##Tue Oct 22 13:14:42 2013##refs #360 pom gefixt\**
+ 9860050##Jaqueline##Tue Oct 22 13:12:04 2013##refs #318 pre final intro\**
+ e39ec1a##Fabian Toth##Tue Oct 22 13:11:02 2013##refs #360 gemerged\**
+ 6b49d03##Fabian Toth##Tue Oct 22 13:08:44 2013##Merge remote-tracking branch 'origin/origin/anforderung/159'\**
+ da18933##Fabian Toth##Tue Oct 22 13:03:57 2013##refs #360 fixed build.properties and tests\**
+ 2c2d461##Jaqueline##Tue Oct 22 12:49:06 2013##refs #318 @1h border corrected\**
+ 7f3e3c4##Jaqueline##Tue Oct 22 12:45:42 2013##refs #318 Shadow removed\**
+ d843537##Fabian Toth##Tue Oct 22 12:43:33 2013##refs #360 pom fehler korrigiert\**
+ acbdd83##Fabian Toth##Tue Oct 22 12:39:09 2013##Merge remote-tracking branch 'origin/master' into anforderung/360\**
+ fe03f22##Fabian Toth##Tue Oct 22 12:39:00 2013##refs #360 angepasst\**
+ b3eff37##Jaqueline##Tue Oct 22 12:36:56 2013##refs #318 resized icons\**
+ 5a7ab20##Fabian Toth##Tue Oct 22 12:26:42 2013##refs #360 @1h Datenmodellanbindung für die neuen Views erstellt\**
+ 231239e##Lukas Balzer##Tue Oct 22 11:39:11 2013##wrote CSConnectionRouter almost finished refs #347 @25h\**
+ 64982ea##Sebastian Sieber##Tue Oct 22 01:15:24 2013##refs #333 change project name while typing\**
+ 1777422##Fabian Toth##Tue Oct 22 00:48:36 2013##Merge remote-tracking branch 'origin/anforderung/357' into anforderung/360\**
+ de0a2a3##Jarkko Heidenwag##Mon Oct 21 19:42:01 2013##three new views and their data model interfaces refs #357 @1\**
+ f046a23##Fabian Toth##Mon Oct 21 19:32:45 2013##refs #360 @25m Tests für das Linking und das UpdatedValue enum\**
+ 4c6d7a6##Fabian Toth##Mon Oct 21 17:42:09 2013##Merge remote-tracking branch 'origin/origin/anforderung/159' into anforderung/360\**
+ 34fb97d##Fabian Toth##Mon Oct 21 17:31:08 2013##refs #360 @5m Warnings asu dem DataModelController entfernt\**
+ a8fdadc##Fabian Toth##Mon Oct 21 17:27:03 2013##Merge branch 'anforderung/360' of git@astpa.plan.io:astpa-stupro2013.anwendung.git into anforderung/360\**
+ 4e1a3bc##Fabian Toth##Mon Oct 21 17:22:54 2013##refs #360 @30m Das komplette Datenmodell funktioniert jetzt mit ids als parameter\**
+ cd7ae2e##Jaqueline##Mon Oct 21 12:37:50 2013##refs #321 @30m About-Dialog-Created\**
+ e7c56dd##Jaqueline##Mon Oct 21 12:16:21 2013##refs #318 @12h new icons, new background, method-calls, tried to remove the tab\**
+ e9b1448##Fabian##Mon Oct 21 11:44:08 2013##refs #360 @30m im View Container Platz für die Statusline geschaffen\**
+ dd73cf1##Jarkko Heidenwag##Mon Oct 21 06:44:24 2013##Added interfaces for the data model refs #357 @15min\**
+ 3aa46f0##Fabian Toth##Sun Oct 20 16:18:15 2013##refs #360 @30m Tests hinzugefügt\**
+ 1b43fe2##Fabian Toth##Sun Oct 20 13:04:10 2013##refs #360 @15m Tests angepasst\**
+ 5385f59##Fabian Toth##Sun Oct 20 11:47:39 2013##Merge remote-tracking branch 'origin/anforderung/357' into anforderung/360\**
+ efc25c0##Fabian Toth##Sun Oct 20 11:35:43 2013##refs #360 @2h added changed SafetyConstraint, SystemGoal, DesignRequirement, ControlAction\**
+ e5b2a23##Fabian Toth##Thu Oct 17 22:37:40 2013##refs #360 @10m Test hinzugefügt\**
+ c6bdf9b##Fabian Toth##Thu Oct 17 22:27:01 2013##refs #360 @1m Rootelement für Hazards und Accidents umbenannt\**
+ 569ce06##Lukas Balzer##Thu Oct 17 20:44:58 2013##chose to manipulate a ManhattanConnection instead of writing a own router refs #347 @6h\**
+ 96ae4b4##Fabian Toth##Thu Oct 17 20:19:14 2013##refs #360 @45m mehr Tests hinzugefügt\**
+ 8da899b##Fabian Toth##Thu Oct 17 19:11:13 2013##refs #360 @1h ein paar Tests hinzugefügt\**
+ 518e459##Fabian Toth##Thu Oct 17 18:00:58 2013##refs #360 @1,5h Links im Datenmodell umgestellt\**
+ 1aa4c18##Fabian##Thu Oct 17 13:56:52 2013##refs #360 @15m Weitere Anpassungen\**
+ eb7c0e5##Fabian##Thu Oct 17 11:27:57 2013##refs #360 Accidents und Hazards können nun gespeichert werden\**
+ af787a2##Fabian Toth##Thu Oct 17 00:32:36 2013##refs #360 @1 Datenmodell angepasst\**
+ 99c9943##Fabian Toth##Wed Oct 16 22:52:34 2013##Merge remote-tracking branch 'origin/anforderung/333' into anforderung/360\**
+ 930f0fa##Sebastian Sieber##Wed Oct 16 21:45:21 2013##refs #333 update project name\**
+ 375c033##Sebastian Sieber##Wed Oct 16 17:08:36 2013##refs #333 @5min changed label "New STPA Analysis" to "New Project"\**
+ 436853f##Jarkko Heidenwag##Tue Oct 15 20:48:20 2013##fixed a little bug refs #357 @10min\**
+ 52777f6##Lukas Balzer##Tue Oct 15 09:31:10 2013##Delete CSTest\**
+ 88a2c65##Lukas Balzer##Mon Oct 14 18:34:04 2013##added highlighter to the connection anchors and started research about connectionRouter refs #347 @3h\**
+ 3661ae0##Fabian Toth##Mon Oct 14 17:36:48 2013##refs #360 @30m Dialoge zur Dateiauswahl erstellt\**
+ 99079db##Fabian Toth##Mon Oct 14 17:15:40 2013##refs #360 @30m added commands and tried to change data model\**
+ 1c3e446##Fabian Toth##Mon Oct 14 16:35:16 2013##refs #326 @45m Navigation angepasst\**
+ a635dbc##Fabian##Mon Oct 14 13:35:39 2013##refs #326 @5m Link zu Unsafe COntrol Actions korrigiert\**
+ d375312##Fabian Toth##Mon Oct 14 10:35:18 2013##refs #326 @45m Navigation geändert\**
+ 2f90232##Jarkko Heidenwag##Sun Oct 13 22:27:47 2013##Bug fixed, AccidentsView and HazardsView adjusted refs #357 @1h\**
+ 56f5d99##Jarkko Heidenwag##Sun Oct 13 20:04:48 2013##erledigt refs #355 @1.5h\**
+ c7e5e9a##Jarkko Heidenwag##Sun Oct 13 18:27:16 2013##CommonTableView implemented refs #357 @30min\**
+ 57828bf##Jarkko Heidenwag##Sun Oct 13 17:55:11 2013##more CommonTableView work refs #357 @2h\**
+ 05bb0e8##Jarkko Heidenwag##Fri Oct 11 19:00:46 2013##CommonTableView angefangen refs #357 @1h\**
+ 691a892##Lukas Balzer##Thu Oct 10 10:29:13 2013##performed code analysis refs #338 @1h\**
+ 6bf74a3##Fabian##Wed Oct 9 19:02:37 2013##refs #341 @1m Überflüssigen Code entfernt\**
+ 57dee1c##Fabian##Wed Oct 9 19:02:04 2013##refs #341 @45m Bug gefixt\**
+ 1a170df##Fabian##Wed Oct 9 17:37:59 2013##Merge branch 'master' into anforderung/286\**
+ 50ff359##Fabian##Wed Oct 9 17:32:06 2013##refs #15m Neue Einträge hinzugefügt\**
+ d1dc0bc##Fabian##Wed Oct 9 17:16:54 2013##refs #343 @2m Kommentar hinzugefügt\**
+ 75281ad##Fabian##Wed Oct 9 17:01:58 2013##refs #132 @15m Version auf 0.7.0-SNAPSHOT gesetzt und den master damit für den siebten Sprint fertig gemacht\**
+ 2fee6be##Fabian##Wed Oct 9 16:56:29 2013##Merge branch 'master' of astpa.plan.io:astpa-stupro2013.anwendung\**
+ ed61ceb##Fabian##Wed Oct 9 16:55:44 2013##refs #132 Version auf 0.6.0 gesetzt\**
+ d4490c8##Fabian##Wed Oct 9 12:35:52 2013##refs #350 NAmen angepasst\**
+ ad0f039##Fabian##Wed Oct 9 10:07:16 2013##Merge remote-tracking branch 'origin/master' into anforderung/286\**
+ 27721a1##Markt Benedikt##Wed Oct 9 03:17:04 2013##Updating implemented refs #286 @30m\**
+ 1eca92d##Markt Benedikt##Wed Oct 9 02:40:46 2013##Data Model Updating partly implemented refs #286 @1.6h\**
+ c1d47e1##Markt Benedikt##Wed Oct 9 01:00:18 2013##Control Actions Table now actually editable refs #286 @30min\**
+ 49f4574##Markt Benedikt##Wed Oct 9 00:28:57 2013##Grid Editor Implemented refs #286 @30m\**
+ e9ecf8e##Fabian##Tue Oct 8 23:44:09 2013##refs #320 @30m Datei vergessen und versucht linking view zu fixen\**
+ 8c94c08##Markt Benedikt##Tue Oct 8 23:42:30 2013##Control Actions Table implemented refs #286 @13h\**
+ 658d085##Fabian##Tue Oct 8 23:21:24 2013##refs #320 @2 View Container komplett umgestellt\**
+ db4d585##Fabian##Tue Oct 8 00:37:46 2013##Merge remote-tracking branch 'origin/master' into anforderung/293\**
+ de348c0##Fabian##Tue Oct 8 00:32:06 2013##refs #320 @10m noch ein Versuch\**
+ 49d0ebf##Fabian##Tue Oct 8 00:20:04 2013##refs #320 @1 versucht den Bug zu fixen\**
+ 21561f1##Patrick Wickenhaeuser##Tue Oct 8 00:02:28 2013##Hazard, Accident und system description views auf die observer umgestellt. Kleine Aenderungen an den interfaces, IViewBase und dem Datenmodellcontroller\**
+ fdc789f##Fabian##Mon Oct 7 22:58:21 2013##refs #320 #297 @2,5 Trennstrich hinzugefügt Layout umgestellt. Nicht fertig\**
+ b3b8ad5##Zotov Aleksander##Mon Oct 7 21:42:25 2013##refs #323 fixed bug\**
+ 59b849e##Fabian##Mon Oct 7 20:02:05 2013##refs #293 Rechtschreibfehler korrigiert\**
+ 91a9e39##Fabian##Mon Oct 7 19:05:12 2013##Merge remote-tracking branch 'origin/master' into anforderung/293\**
+ b3f0c57##Fabian##Mon Oct 7 18:46:08 2013##fixes #325 @5m Falscher Methodenname korrigiert\**
+ e247a01##Zotov Aleksander##Mon Oct 7 16:47:59 2013##refs #305 Prefs aus dem branch 301 kopiert\**
+ 8050d2a##Zotov Aleksander##Mon Oct 7 13:59:23 2013##Merge branch 'master' into anforderung/305\**
+ 80d7052##Lukas Balzer##Mon Oct 7 13:06:20 2013##Merge branch 'master' into anforderungen/288\**
+ 0971ac9##Lukas Balzer##Mon Oct 7 12:13:17 2013##Merge branch 'anforderungen/291' into anforderungen/288\**
+ 2336de3##Sebastian Sieber##Mon Oct 7 12:10:40 2013##Merge remote-tracking branch 'origin/anforderung/281'\**
+ 903104a##Sebastian Sieber##Mon Oct 7 11:54:45 2013##refs #281 added parser class 		  added enumeration class\**
+ ef904ec##Lukas Balzer##Mon Oct 7 11:02:05 2013##changed controlstucture to controlstructure\**
+ baff19c##Fabian##Mon Oct 7 10:32:24 2013##Merge remote-tracking branch 'origin/anforderung/298'\**
+ 1d9f151##Jarkko Heidenwag##Mon Oct 7 10:25:07 2013##Merge branch 'anforderung/299'\**
+ f8c19a4##Sebastian Sieber##Mon Oct 7 05:41:32 2013##refs #308 added comments\**
+ 7084881##Patrick Wickenhaeuser##Mon Oct 7 00:22:44 2013##Tests und swt bot utility erweitert\**
+ cfc90b4##Jaqueline##Sun Oct 6 22:50:30 2013##refs #287 @4h Prototype designed - non-usable\**
+ 8acf0d5##Zotov Aleksander##Sun Oct 6 17:24:38 2013##refs #301 default fonts set\**
+ 80a77c7##Zotov Aleksander##Sun Oct 6 17:15:58 2013##refs #316 fixed imports. setters/getters for colors now work with Color objects.\**
+ 8d29bd5##Jaqueline##Sun Oct 6 14:27:27 2013##refs #287 @5h Prototype designed NOT final\**
+ 0fe21fb##Fabian##Sun Oct 6 13:57:03 2013##refs #302 @20m An Preferences angepasst\**
+ e02d476##Fabian##Sun Oct 6 13:43:35 2013##Merge remote-tracking branch 'origin/anforderung/298' into anforderung/293\**
+ c517afb##Fabian##Sun Oct 6 13:38:03 2013##refs #302, #293 @1 An neues Datenmodell und Preferences angepasst\**
+ ce925b8##Patrick Wickenhaeuser##Sun Oct 6 13:19:57 2013##fixed Datenmodellinterface im navigation mit falschem Typ\**
+ 3fcff82##Fabian##Sun Oct 6 12:37:54 2013##Merge remote-tracking branch 'origin/anforderung/301' into anforderung/293\**
+ 8fe1059##Fabian##Sun Oct 6 12:30:58 2013##Merge remote-tracking branch 'origin/anforderung/298' into anforderung/293\**
+ 71b2d29##Fabian##Sun Oct 6 12:10:18 2013##Merge remote-tracking branch 'origin/master' into anforderung/293\**
+ 0f39efb##Patrick Wickenhaeuser##Fri Oct 4 13:40:51 2013##Alle views und die Status Line umgestellt fix: Hazard mit Accident im ILinkingViewDataModel vertauscht DataModelController angepasst Dummy Klassen geloescht und mit den richtigen ersetzt.\**
+ 573aee9##Patrick Wickenhaeuser##Fri Oct 4 12:24:29 2013##Merge remote-tracking branch 'origin/anforderung/305' into anforderung/298\**
+ aa07e28##Patrick Wickenhaeuser##Fri Oct 4 12:23:07 2013##observer methoden in accident, hazard view und status line\**
+ 77ce66c##Patrick Wickenhaeuser##Fri Oct 4 12:20:31 2013##Merge remote-tracking branch 'origin/anforderung/290' into anforderung/298\**
+ 459a4aa##Patrick Wickenhaeuser##Fri Oct 4 12:20:21 2013##Dateninterface und observer methoden in alle views eingebaut\**
+ 73a7e70##Zotov Aleksander##Wed Oct 2 17:10:05 2013##refs #305 2 more interfaces implemented\**
+ b70ec42##Zotov Aleksander##Wed Oct 2 16:52:17 2013##refs #305 Interfaces implemented @2\**
+ ce4a73f##Lukas Balzer##Wed Oct 2 11:48:11 2013##renamed cs package and made research about the swtBot for gef refs #288 @1h\**
+ 113383b##Lukas Balzer##Wed Oct 2 10:03:34 2013##Merge remote-tracking branch 'origin/master' into anforderungen/288\**
+ 354913a##Lukas Balzer##Wed Oct 2 09:54:06 2013##finished the self formatting textbox refs #288 @0.5h\**
+ 06c4b82##Lukas Balzer##Tue Oct 1 23:25:17 2013##fixed very silly bug in the refrshVisuals routine refs #288 @3h\**
+ 0dd2371##Lukas Balzer##Mon Sep 30 13:47:35 2013##source knots are unique and mapped to a partid use of tempAnchor improved refs #291 @5.5h\**
+ 1b106e3##Lukas Balzer##Fri Sep 27 21:27:51 2013##fixed problem that figure could only store one anchor refs #291 @3h\**
+ 0fcfcc2##Patrick Wickenhaeuser##Fri Sep 27 13:33:58 2013##Aenderungen beim letzten commit vergessen\**
+ f9c1357##Lukas Balzer##Thu Sep 26 18:10:39 2013##added anchors and began to implement logik refs #291 @6h\**
+ f0dd22d##Jarkko Heidenwag##Thu Sep 26 00:45:47 2013##few DataModel Interface changes refs #290 @0.3\**
+ dfa7992##Patrick Wickenhaeuser##Wed Sep 25 20:41:00 2013##linking view komplett umgestellt\**
+ 3b2ceed##Patrick Wickenhaeuser##Wed Sep 25 20:16:40 2013##controller und enum dummies\**
+ 2f91e48##Patrick Wickenhaeuser##Wed Sep 25 19:29:40 2013##Merge branch 'anforderung/283' into anforderung/298\**
+ cfddd6c##Fabian##Wed Sep 25 14:25:30 2013##refs #132 updated to 0.6.0-SNAPHSOT\**
+ ae21a1b##Lukas Balzer##Wed Sep 25 11:23:29 2013##Merge branch 'master' of git@astpa.plan.io:astpa-stupro2013.anwendung.git\**
+ 2b18576##Lukas Balzer##Wed Sep 25 11:23:10 2013##adapt interface refs #289 @0.3h\**
+ 366ac83##Fabian##Wed Sep 25 10:52:52 2013##refs #308 added setter\**
+ 4d5ae20##Lukas Balzer##Wed Sep 25 10:38:32 2013##fixed bug refs #312\**
+ 2faf88b##Lukas Balzer##Wed Sep 25 10:36:47 2013##Merge branch 'anforderungen/289'\**
+ 3b6d54a##Lukas Balzer##Wed Sep 25 10:34:10 2013##tryed to fix update Bug refs #288 @2h\**
+ 42c6562##Markt Benedikt##Tue Sep 24 23:48:41 2013##Merge branch 'master' of ssh://astpa.plan.io/astpa-stupro2013.anwendung into anforderung/300\**
+ cf60736##Markt Benedikt##Tue Sep 24 23:40:50 2013##Logger Formatting fixed @1h\**
+ 77ad8a3##Markt Benedikt##Tue Sep 24 23:35:53 2013##Merge branch 'master' of ssh://astpa.plan.io/astpa-stupro2013.anwendung into anforderung/300\**
+ 5a00599##Markt Benedikt##Tue Sep 24 23:32:08 2013##Minimum Window size enforced refs #300 @10min\**
+ 1020d57##Patrick Wickenhaeuser##Tue Sep 24 22:35:46 2013##Tests angepasst.\**
+ 037b67c##Zotov Aleksander##Tue Sep 24 18:50:37 2013##Preferences class modified: - Added default Color values\**
+ 53e7ced##Zotov Aleksander##Tue Sep 24 18:40:22 2013##Preferences class modified: - String return value changed to Color - Added new setter/getter for splitter font color\**
+ 9a61c3e##Lukas Balzer##Tue Sep 24 17:25:40 2013##implemented ICSDataModel Interface refs #289 @1h\**
+ fd241ab##Lukas Balzer##Tue Sep 24 16:31:21 2013##Fixed bug with the cursor in textbox and fixed problem with linefeeds refs #288 @2.5\**
+ 470cae9##Sebastian Sieber##Tue Sep 24 16:02:20 2013##refs #308 added ISystemDescriptionDataModel Interface\**
+ 0320dab##Fabian##Tue Sep 24 11:11:49 2013##refs #132 @30m removed category.xml and added scm setting to pom\**
+ dd9f88a##Fabian##Mon Sep 23 21:13:35 2013##refs #293 added label for the project name and added it also to the titlebar\**
+ bfa80ae##Patrick Wickenhaeuser##Mon Sep 23 20:52:18 2013##Swt bot util klasse fuer die navigation bar und probleme mit dependencies im ui.test projekt fixed. Noch nicht alle tests daran angepasst.\**
+ 6bc1c4f##Lukas Balzer##Mon Sep 23 13:39:58 2013##added own editable anchorPoints refs #291 @5h\**
+ d2720b2##Patrick Wickenhaeuser##Sun Sep 22 22:15:33 2013##View Container und navigation container kombiniert, abstraktion entfernt. Hat noch einen layout bug, der zu leerem platz zwischen navigation und view area fuehrt. Loesst auch BLI 250.\**
+ b3a54df##Patrick Wickenhaeuser##Sun Sep 22 19:12:00 2013##Linking view interface fertig\**
+ 2dce493##Patrick Wickenhaeuser##Sun Sep 22 18:37:07 2013##view container mit navigation container zu einem Container kombiniert und controller klasse angefangen\**
+ 3325f89##Jarkko Heidenwag##Sun Sep 22 05:36:48 2013##Interfaces implemented refs #290 @0.6\**
+ 093bb00##Lukas Balzer##Sat Sep 21 14:20:23 2013##started implementing an algorithm to find anchorpoints refs #291 @2h\**
+ 2a3b331##Lukas Balzer##Sat Sep 21 11:44:06 2013##encountered problem with the getText routine in CSTextLabel refs #288 @1.5h\**
+ 8f3220e##Fabian##Fri Sep 20 10:42:08 2013##fixes #309 @1m corrected typo\**
+ 62c15de##Fabian##Fri Sep 20 10:08:52 2013##refs #285 @10m implemented the interface\**
+ 460fe29##Fabian##Fri Sep 20 09:59:01 2013##refs #284 @30m implemented IDataModel Interface\**
+ aebe5ca##Fabian##Thu Sep 19 15:15:59 2013##merged #272\**
+ cd47ea8##Fabian##Thu Sep 19 15:08:54 2013##Merge remote-tracking branch 'origin/master' into anforderung/272\**
+ 0bf2718##Sebastian Sieber##Mon Sep 16 15:52:48 2013##refs #270 changed package name and references\**
+ a7ccddf##Sebastian Sieber##Mon Sep 16 15:51:14 2013##Merge remote-tracking branch 'origin/anforderung/270'\**
+ 2880f38##Sebastian Sieber##Mon Sep 16 15:37:04 2013##refs #270 added black button icon\**
+ 082cbf1##Sebastian Sieber##Mon Sep 16 15:35:05 2013##refs #270 changed project name size 		  changed layout 		  changed colors\**
+ 2833807##Lukas Balzer##Mon Sep 16 15:10:10 2013##fixed error with properties\**
+ 0b3ea81##Lukas Balzer##Mon Sep 16 12:56:35 2013##deleted package\**
+ 3616798##Lukas Balzer##Mon Sep 16 10:52:38 2013##added content to #275 merged with master\**
+ 653b28e##Lukas Balzer##Mon Sep 16 10:40:21 2013##Merge branch 'master' into anforderung/275\**
+ fd2ff06##Lukas Balzer##Mon Sep 16 10:38:15 2013##Merge remote-tracking branch 'origin/anforderung/207' into anforderung/275\**
+ 9236b09##Jarkko Heidenwag##Sun Sep 15 11:38:09 2013##merge in den master\**
+ 29f5619##Zotov Aleksander##Sun Sep 15 22:48:53 2013##refs #272 prefs implemented @9h\**
+ 4835faa##Lukas Balzer##Sun Sep 15 18:08:43 2013##removed properties view and bug fix in 275 refs #273 @2.5h\**
+ 0ec212e##Jarkko Heidenwag##Fri Sep 13 22:01:26 2013##zur Abnahme refs #271 @8\**
+ 9c3e13c##Jarkko Heidenwag##Fri Sep 13 13:43:44 2013##zur Abnahme refs #279 @2\**
+ c87e316##Lukas Balzer##Fri Sep 13 10:12:35 2013##merged master in #275 refs #275\**
+ ae346a1##Lukas Balzer##Fri Sep 13 10:10:52 2013##Merge branch 'master' into anforderung/275\**
+ 7eb1b74##Lukas Balzer##Fri Sep 13 10:02:39 2013##Textbox with a fixed width refs #275 @1h\**
+ 360e900##Lukas Balzer##Mon Sep 9 20:09:11 2013##began to store the text with linebreaks refs #275 @2.5h\**
+ 0b72804##Babkovich Aliaksei##Sun Sep 8 18:07:34 2013##90 angle edges added\**
+ f22ec7a##Fabian##Sat Sep 7 00:00:48 2013##refs #132 @15m SWTBotTests are running now in Jenkins. Trying Code Coverage\**
+ 2a80ba8##Lukas Balzer##Fri Sep 6 18:57:59 2013##created CSDirectEditor and adjust the edit text to its label refs #275 @3.5h\**
+ feede82##Fabian##Fri Sep 6 18:50:14 2013##refs #254 @10m some more improvements on quality\**
+ 7da6dc4##Fabian##Fri Sep 6 18:40:34 2013##refs #254 @15m Qualität verbessert\**
+ 2d6eb43##Fabian##Fri Sep 6 00:21:42 2013##refs #132 @15m added generation of javadoc\**
+ fc44930##Fabian##Thu Sep 5 23:54:04 2013##refs #132 @15m moved UI Tests to own project. The tests will now be skipped until they can run\**
+ b8374bb##Sebastian Sieber##Thu Sep 5 22:43:45 2013##refs #270 improved code quality\**
+ 50ee95b##Fabian##Thu Sep 5 17:13:39 2013##fixes #269 Fixed the bug\**
+ 29889e4##Lukas Balzer##Wed Sep 4 20:44:05 2013##anfangsgröße von componenten im CSDiagramm angepasst refs #276 @0.5h\**
+ c62d33a##Lukas Balzer##Wed Sep 4 20:40:28 2013##little Bugfix with the Drag and Drop refs #234 @1h\**
+ ce988ff##Lukas Balzer##Wed Sep 4 13:30:19 2013##Merge branch 'master' of astpa.plan.io:astpa-stupro2013.anwendung\**
+ a58fafc##Lukas Balzer##Wed Sep 4 13:27:36 2013##implented CsEditor GetTitle() and fixed BLI274 refs #274 @0.5h\**
+ 6124649##Fabian##Wed Sep 4 10:33:54 2013##fixed Jenkins Build\**
+ a806d47##Lukas Balzer##Tue Sep 3 12:11:00 2013##added the icons for/in the CSPalette #240 @0.5\**
+ 81dce5c##Sebastian Sieber##Mon Sep 2 23:24:41 2013##refs #238 removed description label\**
+ a8beae1##Sebastian Sieber##Mon Sep 2 23:02:46 2013##refs #238 added test class for system description\**
+ 97d2089##Sebastian Sieber##Mon Sep 2 22:30:30 2013##refs #238 common preferences\**
+ 88145e5##Sebastian Sieber##Mon Sep 2 21:36:46 2013##Merge branch 'master' of ssh://git@astpa.plan.io/astpa-stupro2013.anwendung.git\**
+ 89472b0##Sebastian Sieber##Mon Sep 2 21:32:11 2013##Merge remote-tracking branch 'origin/anforderung/247'\**
+ b6d3bf6##Sebastian Sieber##Mon Sep 2 21:28:02 2013##refs #247 changed method to add images\**
+ b867cfa##Zotov Aleksander##Mon Sep 2 19:39:15 2013##Merge branch 'master' of git@astpa.plan.io:astpa-stupro2013.anwendung.git\**
+ f641fa2##Zotov Aleksander##Mon Sep 2 19:06:52 2013##Merge branch 'master' into anforderung/239\**
+ 6983a7b##Zotov Aleksander##Mon Sep 2 19:06:52 2013##Merge branch 'master' into anforderung/239\**
+ 6a2f78a##Sebastian Sieber##Mon Sep 2 17:58:33 2013##Merge remote-tracking branch 'origin/anforderung/247'\**
+ 275a7d4##Sebastian Sieber##Mon Sep 2 16:55:42 2013##refs #247 added icon to bullet button\**
+ 58b5783##Sebastian Sieber##Mon Sep 2 16:50:08 2013##refs #247 added icons\**
+ f2e33cc##Sebastian Sieber##Mon Sep 2 16:49:32 2013##refs #247 added icons\**
+ ebb34ba##Sebastian Sieber##Mon Sep 2 16:45:31 2013##refs #247 added different colors 		  added test icons 		  set selection to first step 		  wrap textfield\**
+ 4869852##Fabian##Mon Sep 2 15:17:17 2013##fixes #265 Added icons to build properties. Updated to Kepler repository\**
+ ef078d4##Fabian##Mon Sep 2 12:04:23 2013##refs #254 changed color of splitter\**
+ 7cb4fd1##Fabian##Mon Sep 2 12:00:51 2013##refs #254 changed color\**
+ 7f7b917##Fabian##Mon Sep 2 11:22:52 2013##Merge remote-tracking branch 'origin/master' into anforderung/203\**
+ 5b32350##Fabian##Mon Sep 2 11:14:49 2013##Merge remote-tracking branch 'origin/master' into anforderung/251\**
+ dbb8ee6##Fabian##Mon Sep 2 10:51:32 2013##refs #256 added new icons\**
+ 7ad656a##Fabian##Mon Sep 2 10:46:36 2013##Merge remote-tracking branch 'origin/master' into anforderung/242\**
+ ba1a5ad##Fabian##Mon Sep 2 10:43:39 2013##Merge remote-tracking branch 'origin/anforderung/254'\**
+ 7267696##Lukas Balzer##Mon Sep 2 10:18:59 2013##Merge branch 'anforderung/234'\**
+ bda9502##Lukas Balzer##Mon Sep 2 09:52:16 2013##Merge branch 'anforderung/234' of astpa.plan.io:astpa-stupro2013.anwendung into anforderung/234 src/astpa/ui/common/ViewContainer.java 	astpa/src/astpa/ui/navigation/NavigationView.java\**
+ 5bfd659##Lukas Balzer##Mon Sep 2 08:49:42 2013##initialized CSTest #240 @0.5h\**
+ 0e7b3ef##Fabian##Mon Sep 2 08:39:09 2013##refs #254 @30m removed name label\**
+ f4154a5##Fabian##Mon Sep 2 08:38:28 2013##refs #254 changed Colors of the splitter\**
+ ebae728##Markt Benedikt##Sun Sep 1 23:20:50 2013##Exceptions für nicht initialisierte Status Line hinzugefügt Kommentare Kleinere Verschönerungen\**
+ 6db0056##Markt Benedikt##Sun Sep 1 22:44:56 2013##Status Bar Widget mit Projektdetails hinzugefügt\**
+ 9cf6d92##Patrick Wickenhaeuser##Sun Sep 1 22:26:18 2013##Titlebar in der view area eingebaut\**
+ e537f55##Patrick Wickenhaeuser##Sun Sep 1 22:03:16 2013##Merge remote-tracking branch 'origin/anforderung/254' into anforderung/251\**
+ 8aea00d##Patrick Wickenhaeuser##Sun Sep 1 21:28:56 2013##Astpa package quali angepasst\**
+ 0fbb318##Markt Benedikt##Sun Sep 1 21:15:36 2013##Status Bar hinzugefügt.\**
+ 0072c30##Zotov Aleksander##Sun Sep 1 20:53:43 2013##refs #239 Author added for every method\**
+ b32899d##Patrick Wickenhaeuser##Sun Sep 1 20:44:41 2013##Leere Spalten in den Tabellen entfernt und nicht mehr resizable\**
+ eac82ed##Lukas Balzer##Sat Aug 31 19:20:02 2013##corrected error in PalettePreferences refering to deprecated Preference class  refs #234 @2h\**
+ 1dbe703##Lukas Balzer##Sat Aug 31 19:17:29 2013##made a whole bunch of refactorings and documentation refs #240 @4h\**
+ 799deb2##Lukas Balzer##Thu Aug 29 18:49:11 2013##Bug fixed refs #262 @0.5h\**
+ 01ae1c0##Fabian##Wed Aug 28 16:03:21 2013##refs #254 @20m changed colors\**
+ 862fc13##Fabian##Wed Aug 28 11:14:27 2013##refs #235 changed to juno\**
+ d974ab8##Fabian##Wed Aug 28 00:13:58 2013##Merge branch 'anforderung/234' into anforderung/254\**
+ f86e896##Fabian##Wed Aug 28 00:06:10 2013##Merge remote-tracking branch 'origin/master' into anforderung/234\**
+ 1e2477b##Lukas Balzer##Tue Aug 27 12:17:59 2013##add direct Edit to the ComponntsEditParts refs #245 @2.5h\**
+ c2111d2##Lukas Balzer##Tue Aug 27 11:59:33 2013##suit quality standarts to commonPreferences, cleaned up a bit refs #240 @3h\**
+ 277c514##Fabian##Sun Aug 25 21:32:39 2013##refs #254 changed Pom Structure\**
+ 3254e2b##Lukas Balzer##Sun Aug 25 17:34:08 2013##CSEditor is displayed as IViewBase refs #234 @3h\**
+ c0ada00##Lukas Balzer##Sat Aug 24 18:10:17 2013##started implementing CSGraphicalEditor, encountered problems with IEditorView  refs #234 @6h\**
+ 866b5b2##Fabian##Fri Aug 23 23:44:04 2013##refs #254 @1m removed status line\**
+ dce1bc3##Fabian##Fri Aug 23 23:39:14 2013##Merge remote-tracking branch 'origin/master' into anforderung/254\**
+ b3b754e##Fabian##Fri Aug 23 23:33:23 2013##refs #254 @30m improved quality of the code\**
+ 9bb2307##Fabian##Fri Aug 23 23:01:22 2013##refs #254 @45m fixed "show active item"\**
+ e150f9a##Fabian##Fri Aug 23 21:44:43 2013##refs #254 @1 changed to navigation container implementation\**
+ 76267f6##Jarkko Heidenwag##Fri Aug 23 20:05:35 2013##Deletion confirmation Ok/Cancel replaced with Yes/No refs #242\**
+ 3d9a24d##Lukas Balzer##Fri Aug 23 19:37:29 2013##added TextFieldCreateCommand refs #210\**
+ 627d075##Lukas Balzer##Fri Aug 23 19:32:54 2013##class TextFieldCreateCommand added refs #234 @1,5\**
+ aa14bbe##Jarkko Heidenwag##Fri Aug 23 19:04:10 2013##adapted tests to fit the new master. also contains BLIs #189, #191 and #252 refs #242\**
+ e825ae8##Fabian##Fri Aug 23 18:58:40 2013##refs 254 @2,5 improved whole navigation\**
+ 211065c##Lukas Balzer##Fri Aug 23 17:47:16 2013##Revert "first researches aubout the howto #234 @1.5h"\**
+ 1f96994##Lukas Balzer##Fri Aug 23 17:43:20 2013##first researches aubout the howto #234 @1.5h\**
+ 7b605aa##Lukas Balzer##Fri Aug 23 13:12:19 2013##Merge branch 'master' of git@astpa.plan.io:astpa-stupro2013.anwendung.git\**
+ c4263a5##Lukas Balzer##Fri Aug 23 12:21:40 2013##merged branch 197 manually #197 @1h\**
+ 35c4438##Fabian##Fri Aug 23 12:11:30 2013##refs #254 @1,5 added first version of the new navigation\**
+ d005af4##Fabian##Fri Aug 23 09:35:53 2013##refs #200 @1m removed Print Report\**
+ 1760416##Patrick Wickenhaeuser##Thu Aug 22 23:40:02 2013##Leere Spalte aus der Tabelle entfernt und fill layout eingebaut Warnings beseitigt\**
+ 343b27e##Patrick Wickenhaeuser##Thu Aug 22 23:00:34 2013##Short description in Title umbenannt. Vertauschte content provider fixed\**
+ 5198841##Patrick Wickenhaeuser##Thu Aug 22 22:14:00 2013##Logger sollte jetzt laufen. (war zur compilezeit konfiguriert aber nicht zur runtime). Auskommentierte Loggerzeilen wieder eingebaut + statische code analyse fixes\**
+ 777b687##Patrick Wickenhaeuser##Thu Aug 22 20:31:07 2013##log4j.jar im lib Ordner zum classpath hinzugefuegt und view container package fuer Tests exportiert.\**
+ 79a4642##Sebastian Sieber##Thu Aug 22 11:26:19 2013##Merge remote-tracking branch 'origin/master' into anforderung/222\**
+ 22d13ec##Sebastian Sieber##Thu Aug 22 11:13:13 2013##refs #232 fixed\**
+ 72ae488##Sebastian Sieber##Thu Aug 22 11:08:05 2013##refs #232 fixed bugs\**
+ aea6176##Sebastian Sieber##Thu Aug 22 10:58:04 2013##Merge remote-tracking branch 'origin/master' into anforderung/232\**
+ 1bfbae8##Sebastian Sieber##Thu Aug 22 10:27:55 2013##Merge remote-tracking branch 'origin/anforderung/167'\**
+ 006038b##Sebastian Sieber##Thu Aug 22 10:24:01 2013##refs #167\**
+ 2f05678##Patrick Wickenhaeuser##Wed Aug 21 23:55:43 2013##zwei Warnings entfernt\**
+ a5ec074##Patrick Wickenhaeuser##Wed Aug 21 22:48:01 2013##Bugfix im linking view und letzte Aenderungen am view container Test\**
+ abda06b##Sebastian Sieber##Wed Aug 21 22:44:50 2013##refs #167 added bold, italic, underline ,strikeout, fontsize and font formats\**
+ 81dcd1e##Patrick Wickenhaeuser##Tue Aug 20 22:58:27 2013##Linking view: Relatives layout, Buttons fuer Auswahl fuer Modus geaendert, Groessere Schrift. Beinhaltet items 228 und 229\**
+ 75f7647##Patrick Wickenhaeuser##Mon Aug 19 21:45:41 2013##log4j in ViewContainer und swt bot tests eingebaut logger wird in Application::start konfiguriert\**
+ 629065c##Patrick Wickenhaeuser##Mon Aug 19 21:44:18 2013##log4j in ViewContainer und swt bot tests eingebaut logger wird in Application::start konfiguriert\**
+ 6a52509##Fabian##Sun Aug 18 11:54:35 2013##Merge branch 'master' into anforderung/149\**
+ 94b97e3##Fabian##Sun Aug 18 11:50:21 2013##Merge remote-tracking branch 'origin/master' into anforderung/155\**
+ b9970c7##Fabian##Fri Aug 16 22:09:19 2013##refs #132 fixed swtbot dependencies\**
+ 891b8d3##Patrick Wickenhaeuser##Fri Aug 16 12:11:15 2013##Lazy initialization eingebaut, views umgestellt und Tests erstellt\**
+ e630fb7##Patrick Wickenhaeuser##Fri Aug 16 03:04:15 2013##ViewContainer noch einfacher zu benutzen und an LinkingView getestet. AccidentViewPart zum Testen auf neuen ViewManager umgestellt.\**
+ f62132a##Patrick Wickenhaeuser##Fri Aug 16 01:45:55 2013##ViewManagement verbessert\**
+ 450b104##Jarkko Heidenwag##Thu Aug 15 14:49:36 2013##swtbot test for accident and hazard management views refs #222 @3\**
+ 424f617##Jarkko Heidenwag##Thu Aug 15 01:39:29 2013##refs #222 @0.2\**
+ 2e9fddb##Patrick Wickenhaeuser##Wed Aug 14 20:20:15 2013##ViewContainer und Interface für views angelegt, um das Problem mit den Tabs zu umgehen. Die Größe des Fensters muss erst verändert werden, bevor man etwas sieht, weil sich die Views erst dann neu Zeichnen. Bis jetzt nur am LinkingView implementiert.\**
+ 5708ce6##Sebastian Sieber##Wed Aug 14 15:34:13 2013##refs #149 mark active step\**
+ 1415629##Patrick Wickenhaeuser##Wed Aug 14 14:54:34 2013##LinkingView Test mit SWT bot eingebaut\**
+ 69f03a6##Sebastian Sieber##Wed Aug 14 14:51:39 2013##refs #149 added resource manager\**
+ 0bb52a0##Sebastian Sieber##Wed Aug 14 13:16:20 2013##refs #149 added test images\**
+ 7811719##Sebastian Sieber##Wed Aug 14 12:44:55 2013##refs #155 added expansion of first step for a new analysis\**
+ 49da0c8##Jarkko Heidenwag##Mon Aug 12 17:40:47 2013##Erledigt. Außerdem BLI #223 erledigt. refs #227 @2.5\**
+ bb37eea##Fabian##Mon Aug 12 12:16:17 2013##refs #219 @15m Wizard entfernt\**
+ 4f2781d##Jarkko Heidenwag##Sun Aug 11 15:08:48 2013##Erledigt. refs #224 @1.5\**
+ 878e5fa##Jarkko Heidenwag##Sat Aug 10 21:26:02 2013##kleiner Fehler behoben refs #222\**
+ 20f8432##Jarkko Heidenwag##Sat Aug 10 18:54:26 2013##Erledigt. Deselektieren funktioniert durch klicken auf den selektierten Eintrag refs #222 @2.5\**
+ 8081d4b##Fabian##Wed Aug 7 00:31:23 2013##refs #187 @15m fixed new bug from Daniel\**
+ ab89dfe##Fabian##Tue Aug 6 23:49:24 2013##refs #192 @20m .class Dateien entfernt\**
+ 6afc8b6##Fabian##Tue Aug 6 17:26:34 2013##Merge remote-tracking branch 'origin/bug/188'\**
+ 1c7c717##Fabian##Tue Aug 6 17:24:22 2013##Merge branch 'master' into bug/187\**
+ 8b0b913##Fabian##Tue Aug 6 17:18:56 2013##refs #181 @15m Merged in master\**
+ d86d619##Fabian##Mon Aug 5 21:29:59 2013##refs #168 changed encoding\**
+ 5956176##Jaqueline##Mon Aug 5 20:29:41 2013##Splash-Screen-Fix refs #188 @5min\**
+ 5d2a7c8##Fabian##Mon Aug 5 17:36:43 2013##refs #187 @45m fixed some things\**
+ 4183122##Fabian##Mon Aug 5 17:32:12 2013##refs #187 temporary solution\**
+ f19bd40##Fabian##Mon Aug 5 15:27:35 2013##refs #168 chnaged Test from assertNotEquals to assertTrze(obj1 != obj2) so Jenkins can build it - Removed Checkstyle checks\**
+ 46dc3af##Jarkko Heidenwag##Mon Aug 5 13:30:42 2013##Bug fixed refs #173\**
+ a8438f6##Fabian##Mon Aug 5 12:12:37 2013##refs #173 In Master gemerged\**
+ d5bea16##Fabian##Mon Aug 5 11:46:55 2013##refs #166 In Master gemerged\**
+ 4b52a93##Fabian##Mon Aug 5 11:35:02 2013##refs #153 plugins.xml angepasst\**
+ 5f56130##Fabian##Mon Aug 5 11:24:54 2013##refs #184 Tests in Master gemerged\**
+ f12e146##Fabian##Mon Aug 5 11:23:26 2013##refs #184 In Master gemerged\**
+ bb01527##Fabian##Mon Aug 5 11:16:49 2013##refs #153 In Master gemerged\**
+ 2a20844##Fabian##Mon Aug 5 10:51:29 2013##refs #168 in Master gemerged\**
+ 894aa14##Fabian##Sat Aug 3 23:03:39 2013##refs #168 @15m added checkstyle analysis\**
+ 8b3cea8##Fabian##Sat Aug 3 15:47:08 2013##refs #168 2m changed gitignore\**
+ 66586f7##Fabian##Sat Aug 3 15:42:20 2013##refs #168 @15m bugfixes\**
+ 2df81f4##Fabian##Sat Aug 3 13:11:25 2013##refs #168 removed maven surefire plugin\**
+ b69db11##Fabian##Sat Aug 3 12:59:35 2013##refs #168 @10m added version to maven-surefire-plugin\**
+ 2aed1e2##Fabian##Sat Aug 3 12:50:45 2013##refs #168 @1 tests will now be executed on build\**
+ 96c01a9##Fabian##Sat Aug 3 11:11:10 2013##refs #168 @5m changed test project\**
+ ac87849##Patrick Wickenhaeuser##Fri Aug 2 23:42:39 2013##Alte Views zum Verlinken entfernt, weil sie nicht mit den Aenderungen am Datenmodell kompatibel sind. Die Views werden mit dem neuen Editor, aus BLI 182, ersetzt.\**
+ d305dd8##Fabian##Thu Aug 1 16:36:17 2013##refs #168 @1 Added Test project and automatic testing on build\**
+ ffd18f3##Fabian##Wed Jul 31 16:17:42 2013##refs #168 @15m added pmd, checkstyle and findbugs to poms\**
+ 58db1df##Fabian##Wed Jul 31 15:52:20 2013##refs #137 @10m Added Splashscreeen\**
+ 0e6efa9##Fabian##Wed Jul 31 15:31:48 2013##refs #168 @15m fixed poms so that the build successes\**
+ a0a70e7##Fabian##Wed Jul 31 00:27:51 2013##refs #168 @10m added tycho versions plugin to synchronize version of plugins and features with pom versions\**
+ e760e76##Fabian##Wed Jul 31 00:05:18 2013##refs #168 @2m added .settings folder to gitignore\**
+ 1d2c10e##Fabian##Wed Jul 31 00:03:26 2013##refs #168 @15m changed name of the .exe in the build folders. Made improvements on some views\**
+ 166dd1f##Fabian##Tue Jul 30 23:48:43 2013##refs #168 @45m added temporary layout\**
+ 29008ca##Fabian##Tue Jul 30 16:11:28 2013##refs #168 @15m added Control Structure Diagram components\**
+ 4acebe5##Fabian##Tue Jul 30 16:07:23 2013##refs #168 added Gef Dependency and updated to indigo repository\**
+ 4c22221##Fabian##Tue Jul 30 15:55:33 2013##refs #168 @30m removed target project and added target definition to parent pom\**
+ 9b8ce3a##Fabian##Tue Jul 30 00:06:12 2013##refs #168 @0,5 tried to get the control structure diagram working.\**
+ 573c39d##Fabian##Mon Jul 29 23:38:50 2013##refs #168 @2,5 added dependency project and tried to resolve external libs\**
+ 1e3e783##Fabian##Mon Jul 29 21:58:24 2013##refs #168 changed path to target definition\**
+ 6d5b5fe##Fabian##Mon Jul 29 17:54:43 2013##refs #168 @2 Changed whole project structure\**
+ 56fddab##Fabian##Mon Jul 29 01:12:04 2013##refs #168 @2m forgot some files\**
+ 636bebe##Fabian##Mon Jul 29 01:10:46 2013##refs #168 @ 15m first builds can run now\**
+ 1f5ae5f##Fabian##Wed Jul 24 16:00:52 2013##fixes #164 @5m Draw Control Structure in Control Structure umbenannt\**
+ 26f7a75##Lukas Balzer##Wed Jul 24 12:21:20 2013##Merged anforderung/60 and master #ref60\**
+ a4c61bc##Lukas Balzer##Tue Jul 23 21:29:41 2013##Merge branch 'anforderung/60'\**
+ 27dde01##Zotov Aleksander##Tue Jul 23 15:45:10 2013##Bug fixed im master\**
+ 66b0999##Lukas Balzer##Mon Jul 22 16:46:32 2013##res #60\**
+ 34253c3##Lukas Balzer##Mon Jul 22 16:26:32 2013##refs #60\**
+ 6baf072##Lukas Balzer##Mon Jul 22 16:12:46 2013##refs #60 @15m Merge remote-tracking branch 'origin/master' into anforderung/60\**
+ 80de085##Fabian##Fri Jul 19 00:37:05 2013##refs #132 Product Configuration angelegt. Jetzt kann unser Produkt exportiert und ausgeführt werden. @15m\**
+ f690c42##Lukas Balzer##Wed Jul 17 13:00:45 2013##Merge remote-tracking branch 'origin/anforderung/85' into anforderung/60\**
+ e07ca0e##Lukas Balzer##Wed Jul 17 12:53:02 2013##refs #60\**
+ 6c60073##Lukas Balzer##Wed Jul 17 12:48:44 2013##Merge remote-tracking branch 'origin/anforderung/85' into anforderung/60\**
+ e6dfc48##Fabian##Wed Jul 17 12:36:09 2013##Merge branch 'master' into anforderung/59\**
+ a482257##Fabian##Wed Jul 17 12:23:31 2013##refs #95 wirklich gemerged\**
+ 0bfdf8e##Fabian##Wed Jul 17 12:20:49 2013##refs #59 gemerged\**
+ 82a835a##wickenpk##Wed Jul 17 13:28:04 2013##mit dem aktuellsten Datenmodell gemerged\**
+ 42e1084##Markt Benedikt##Wed Jul 17 12:03:10 2013##Snap to grid active by default, actions removed refs #85 @1h\**
+ 1d42f4f##Lukas Balzer##Wed Jul 17 11:57:32 2013##refs #90\**
+ 0a8c69b##Fabian##Tue Jul 16 23:45:08 2013##refs #95 Navigation kann jetzt den System Descriptor Editor anzeigen @30m\**
+ 38a9d56##Fabian##Tue Jul 16 21:20:11 2013##refs #95 Ordnerstruktur geändert. Navigation wird jetzt richtig angezeigt @20m\**
+ a1e68db##Lukas Balzer##Tue Jul 16 17:07:00 2013##refs #90 @30\**
+ 3d57f1f##Lukas Balzer##Tue Jul 16 16:21:26 2013##extract superclass for view and model refs #60 @1\**
+ ecad28d##Fabian##Tue Jul 16 14:04:43 2013##Merge branch 'anforderung/95' of ssh://git@astpa.plan.io/astpa-stupro2013.anwendung.git into anforderung/95\**
+ f4d1585##Fabian##Tue Jul 16 14:03:59 2013##refs #95 and #52 Editor zur Navigation hinzugefügt\**
+ ca65d0b##Fabian##Tue Jul 16 14:03:59 2013##refs #95 and #52 Editor zur Navigation hinzugefügt\**
+ 4303810##Fabian##Tue Jul 16 13:30:19 2013##refs #95 Conflict gelöst @10m\**
+ 45ccfa7##Lukas Balzer##Tue Jul 16 13:19:58 2013##added CSTextLabel to display multi-lined Text refs #90 @5h\**
+ 603716e##Patrick Wickenhaeuser##Mon Jul 15 23:59:47 2013##-Datenmodell reingemerged und darauf umgestellt -Dummy-Klassen geloescht -Views umbenannt\**
+ 6575f6b##Patrick Wickenhaeuser##Mon Jul 15 22:43:53 2013##Merge remote-tracking branch 'origin/anforderung/110' into anforderung/59\**
+ b1d91d8##Sebastian Sieber##Sat Jul 13 01:16:46 2013##refs #52 added UI to describe a system\**
+ 98108de##Fabian##Mon Jul 15 14:24:17 2013##refs #95 Paketstruktur geändert. Versucht Größe der Navigation zu setzen @15m\**
+ e9f6979##Fabian##Mon Jul 15 14:00:31 2013##refs #95 Leerer View entfernt. View wird jetzt nach dem Wizard angezeigt @30m\**
+ 48353fb##Lukas Balzer##Mon Jul 15 11:50:29 2013##added Text editing feature refs #90 @3h\**
+ b6e0ae0##Fabian##Sun Jul 14 13:43:47 2013##refs #95 Auf Command umgestellt @20m\**
+ 9b7684b##Lukas Balzer##Sun Jul 14 12:57:27 2013##Einpflegen einer showEditorComand\**
+ 9c01d12##Sebastian Sieber##Fri Jul 12 21:33:02 2013##refs #52 -changed class name from Description to SystemDescription 		 -added class SystemDescriptionInput\**
+ e5ac52a##Sebastian Sieber##Fri Jul 12 21:18:22 2013##refs #52 initial\**
+ 0c68764##Patrick Wickenhaeuser##Fri Jul 12 01:21:00 2013##-Hazard dummy hinzugefuegt -Checkboxes werden automatisch den Links entsprechend gesetzt -apply button uebernimmt die Aenderungen an den Verlinkungen -views rufen gegenseitig updates auf, sobald eine Aenderung im View den anderen beeinflusst\**
+ 72ebfb6##Markt Benedikt##Thu Jul 11 14:06:54 2013##Snap to grid implemented refs #85 @10m\**
+ 9bc2ff7##Markt Benedikt##Thu Jul 11 13:56:53 2013##refs #59 @2h\**
+ 64cfc71##wickenpk##Wed Jul 10 17:28:12 2013##-Filter implementiert\**
+ 209c16c##wickenpk##Wed Jul 10 17:11:13 2013##-Edit Button -Links werden bei apply geupdated\**
+ 567c11b##Sebastian Sieber##Wed Jul 10 16:29:29 2013##refs #95 @2\**
+ 045003f##Sebastian Sieber##Wed Jul 10 14:43:19 2013##refs #95 added navigation view\**
+ cb66dbd##Markt Benedikt##Wed Jul 10 11:38:15 2013##Merge branch 'anforderung/60' into anforderung/85\**
+ 9c5b7c9##Fabian##Wed Jul 10 11:23:49 2013##Merge branch 'anforderung/53'\**
+ 2e1b868##Fabian##Wed Jul 10 10:38:03 2013##Revert "Initial implementation of the AccidentsViewPart with all related Classes (inclusive temporary plugin.xml and Perspective) refs #57 @12h"\**
+ 7b1c353##Jarkko Heidenwag##Wed Jul 10 12:19:50 2013##Initial implementation of the AccidentsViewPart with all related Classes (inclusive temporary plugin.xml and Perspective) refs #57 @12h\**
+ 533ecc5##Zotov Aleksander##Tue Jul 9 20:40:31 2013##test refs #110\**
+ a37d49b##Zotov Aleksander##Tue Jul 9 20:19:34 2013##refs #110 test\**
+ 5e9113c##Patrick Wickenhaeuser##Tue Jul 9 19:43:32 2013##-Tabelle mit checkboxes zum Auswaehlen von Links -Tabelle nach der descriptions filterbar -Apply und Cancel button -Anzeige fuer ausgewaehlten Accident\**
+ f1ad0dd##Lukas Balzer##Tue Jul 9 18:13:06 2013##added text refs #90 @1h\**
+ 6ccd14b##Lukas Balzer##Tue Jul 9 15:38:35 2013##Edit funktion hinzugefügt refs #88 @2,5h\**
+ f9b1e78##Patrick Wickenhaeuser##Tue Jul 9 13:59:01 2013##-Liste von Links in AccidentDummy eingebaut -Tabelle zeigt 0 bis n Links an -Edit Links und remove Button pro Tabelleneintrag eingebaut\**
+ 8ca7fe8##Patrick Wickenhaeuser##Tue Jul 9 13:26:58 2013##-Dummy Accident Klasse -View eingebaut 	-Tabelle, die Accidents anzeigt 	-2 Testeinträge\**
+ a86c021##Zotov Aleksander##Sun Jul 7 18:24:13 2013##accident-hazard controller klassen fertig implementiert refs #110 @1h\**
+ 8c2634c##Zotov Aleksander##Sun Jul 7 17:36:51 2013##refs #110 @1h Datenstruktur für accident-hazard Verlinkung geändert\**
+ e0f2e68##Lukas Balzer##Sun Jul 7 14:35:09 2013##Componente mit Text hinzugefügt refs #88 @2,5h\**
+ 8052055##Lukas Balzer##Sun Jul 7 11:25:11 2013##branchname geändert refs #60 @10m\**
+ d51e311##Fabian##Sat Jul 6 21:38:38 2013##refs #53 @10m\**
+ 7242a7c##Fabian##Sat Jul 6 21:36:36 2013##refs #53 Test @5m\**
+ 96c3cdd##Zotov Aleksander##Sat Jul 6 20:36:15 2013##ref #110 @1m\**
+ 9caab04##Zotov Aleksander##Sat Jul 6 20:01:30 2013##ref #110 @1min\**
+ 9399071##Zotov Aleksander##Sat Jul 6 19:04:15 2013##refs #110 @2h\**
+ 3bab595##Lukas Balzer##Sat Jul 6 14:10:40 2013##refs #60 @2h\**
+ 648c7db##Fabian Toth##Sat Jul 6 08:51:27 2013##refs #53 @0.1h Rechtschreibfehler entfernt\**
+ 2e9f7c7##Fabian Toth##Sat Jul 6 08:48:05 2013##refs #53 @10m Kommentare hinzugefügt\**
+ 4503cb3##Fabian Toth##Fri Jul 5 19:26:29 2013##refs #53 @1.5 Exit hinzugefügt. Pfadauswahl hinzugefügt.\**
+ b43f3ca##Fabian Toth##Wed Jul 3 17:20:51 2013##refs #53 Erster einfacher Wizard erstellt @1,5\**
+ d333fa5##Fabian Toth##Fri Jun 21 21:57:33 2013##Dummy Projekt entfernt\**
+ b6d28a0##Lukas Balzer##Tue Jun 18 15:35:16 2013##refs#35\**
+ e8226b0##Fabian##Wed Jun 5 23:00:23 2013##refs #34 Anwendungs-Repo initalisieren\**

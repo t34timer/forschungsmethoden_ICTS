@@ -43,9 +43,11 @@ public class TokenManager {
         }
 
         for (Commit commit : commits) {
-            //for (WordFrequency frequency : commit) {
+            for (WordFrequency frequency : commit.getCommentTokens().getTokens().values()) {
 
-            //}
+                String word = frequency.getWord();
+                _commitMessageWordMap.put(word, calcNewWordFrequency(frequency, _commitMessageWordMap));
+            }
         }
     }
 

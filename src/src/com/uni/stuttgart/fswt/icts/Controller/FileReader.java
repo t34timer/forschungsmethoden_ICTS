@@ -12,6 +12,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.Locale;
 import java.util.regex.Pattern;
 
 /**
@@ -24,8 +25,10 @@ public class FileReader {
     // Regex to match CSV-Lines
     private static String CSV_REGEX = "[0-9]+(;[^;]*?){21}(?=(\\n[0-9]+;)|$)";
 
-    private static DateFormat DATE_FORMAT_MINUTES = new SimpleDateFormat("dd.MM.yyyy HH:mm");
-    private static DateFormat DATE_FORMAT_DATE = new SimpleDateFormat("dd.MM.yyyy");
+    private static DateFormat ISSUE_DATE_FORMAT_MINUTES = new SimpleDateFormat("dd.MM.yyyy HH:mm");
+    private static DateFormat ISSUE_DATE_FORMAT_DATE = new SimpleDateFormat("dd.MM.yyyy");
+
+    private static DateFormat COMMIT_DATE_FORMAT = new SimpleDateFormat("EEE MMM d HH:mm:ss yyyy", Locale.ENGLISH);
 
     // Lädt die Issues
     public static Result<ArrayList<Issue>> readIssueCSV(String issueCsvFilePath) {
@@ -70,16 +73,16 @@ public class FileReader {
                 issue.setTopic(values[6]);
                 issue.setAuthor(values[7]);
                 issue.setAssignedTo(values[8]);
-                issue.setUpdateDate(tryParseDate(values[9], DATE_FORMAT_MINUTES));
+                issue.setUpdateDate(tryParseDate(values[9], ISSUE_DATE_FORMAT_MINUTES));
                 issue.setCategory(values[10]);
                 issue.setMilestone(values[11]);
-                issue.setStartDate(tryParseDate(values[12], DATE_FORMAT_DATE));
-                issue.setEndDate(tryParseDate(values[13], DATE_FORMAT_DATE));
+                issue.setStartDate(tryParseDate(values[12], ISSUE_DATE_FORMAT_DATE));
+                issue.setEndDate(tryParseDate(values[13], ISSUE_DATE_FORMAT_DATE));
                 issue.setEstimatedEffort(tryParseInt(values[14]));
                 issue.setWorkedTime(tryParseDouble(values[15]));
                 issue.setPercentageDone(tryParseDouble(values[16]));
-                issue.setCreationDate(tryParseDate(values[17], DATE_FORMAT_MINUTES));
-                issue.setCloseDate(tryParseDate(values[18], DATE_FORMAT_MINUTES));
+                issue.setCreationDate(tryParseDate(values[17], ISSUE_DATE_FORMAT_MINUTES));
+                issue.setCloseDate(tryParseDate(values[18], ISSUE_DATE_FORMAT_MINUTES));
                 issue.setRelatedTasks(values[19].split(", "));
                 issue.setIsPrivate(values[20].equalsIgnoreCase("true"));
 
@@ -122,8 +125,51 @@ public class FileReader {
 
     // Lädt die Commit-Messages
     public static Result<ArrayList<Commit>> readCommits(String commitLogFilePath) {
-        // todo
-        return null;
+        ArrayList<Commit> commits = new ArrayList<>();
+        ArrayList<Exception> exceptions = new ArrayList<>();
+        ArrayList<String> lines = new ArrayList<>();
+
+        try {
+
+            BufferedReader reader = new BufferedReader(
+                    new InputStreamReader(
+                            new FileInputStream(commitLogFilePath), "Cp1252"));
+            String line = reader.readLine();
+
+            while (line != null) {
+                lines.add(line);
+                line = reader.readLine();
+            }
+
+            reader.close();
+
+        } catch (Exception ex) {
+            return new Result<>(new Exception("Fehler beim Einlesen der Datei: " + commitLogFilePath));
+        }
+
+        int currentLineIndex = 0;
+
+        while (currentLineIndex < lines.size()) {
+            Commit commit = new Commit();
+            String[] values = lines.get(currentLineIndex).split("##");
+
+            try {
+                commit.setId((values[0]));
+                commit.setAuthor(values[1]);
+                commit.setCommitDate(tryParseDate(values[2], COMMIT_DATE_FORMAT));
+                commit.setComment(values[3]);
+            } catch (Exception ex) {
+                exceptions.add(ex);
+                return null;
+            }
+
+            // Zeile gelesen -> Zeilenindex hochzählen
+            currentLineIndex += 1;
+
+            commits.add(commit);
+        }
+
+        return new Result<>(commits, exceptions);
     }
 
 

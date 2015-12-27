@@ -13,7 +13,6 @@ import java.util.ArrayList;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
 
         Result<ArrayList<Issue>> issues;
         Result<ArrayList<Commit>> commits;
@@ -33,7 +32,9 @@ public class Main {
             printExceptions("FileReader@Commits", commits.getExceptions());
 
             // 2.) Wort-Tabelle erstellen
-            TokenManager.initialize(issues.getResult(), new ArrayList<>());
+            TokenManager.initialize(issues.getResult(), commits.getResult());
+
+            // 3.) Commits und Issues matchen
 
         } catch (Exception e) {
             e.printStackTrace();
