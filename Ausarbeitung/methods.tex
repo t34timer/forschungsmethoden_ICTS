@@ -65,12 +65,12 @@ The information about the commit is separated by ''\#\#'' characters and each li
 Some commits also contain the duration of that particular task in the commit message, encoded by the ''@'' character followed by the time taken for that task.
 An example line of commit can be seen in Figure \ref{fig:commitLine}.
 
-\begin{figure}
+\begin{figure*}
 \centering
 \verb/4013453##Markt Benedikt##Thu Feb 20 04:39:35 2014##Delete Button Problem bei Links umgangen refs #803 @1h\**  /
 \caption{An example line of commit}
 \label{fig:commitLine}
-\end{figure}
+\end{figure*}
 
 We have parsed each commit line in our Java program by separating them by ''\#\#'' characters, and then mapping them to an instance of our Commit Java class, shown in Figure \ref{fig:commit}.
 We also detect the duration of each task by searching the ''@'' character inside the commit message.
