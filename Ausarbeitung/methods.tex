@@ -114,7 +114,7 @@ Given a table of lemmatized tokens and their corresponding frequency for both th
 Each token in the issue table gets a rating based on its frequency.
 If a token occurs less often it has a higher rating and if the token occurs in the issue title its value can get multiplied by a certain factor to give stronger weightings to the issue titles.\\
 For each token from the commit message, we try to find the same token in the issue token table.
-If there is a match we increase the similarity value of relation of the commit and the issue the matching token corresponds to, by considering the token rating.
+If there is a match we increase the similarity value of the relation of the commit and the issue the matching token corresponds to, by considering the token rating.
 
 Let's say for example that the token ''T1'' exists in the commit message of commit ''C1''.
 The token ''T1'' also occurs in the issue title of the issue ''I1'' and in the issue description of the issue ''I2''.
@@ -122,5 +122,15 @@ We now have to create relations for ''C1'' and ''I1'' as well as for ''C1'' and 
 Both relations now have an initial similarity value depending on the frequency of ''T1'' and depending on whether ''W1'' occurs in the title or in the description (token rating).
 The relation rating increases with each token match.
 
-After calculating the relations based on the token similarity, we enrich the relation rating with some extra points, which we calculate from meta information about the commits and issues.
-The relation gets extra points if [TODO: Bonus bei Abschlussdatum issue und commit datum nah beieinander, theme/author/... wie beruecksichtigen?] 
+After calculating the relations based on the token similarity, we enrich the relation rating with some bonus points, which we calculate from meta information about the commits and issues.
+Firstly, the relation gets bonus points if the closing date of the issue is very close to the commit date.
+We assume that these bonus points are justified, because it is common practice to close an issue after it has been processed.
+In a software project this is typically done by committing changes to the version control system.
+So in the event that a new commit is done and an issue gets closed right after or right before we assume that there is a correlation between the commit and the issue.
+Secondly, we compare the author of the commit with the person, who is assigned to the issue.
+If the author of the commit matches the person, who is assigned to the issue, we add some bonus points to the relation, because it seems likely that in most cases the assigned person commits some issue related changes.
+
+It is recalled that we already have a relation between an issue and a commit based on the token similarity when considering the meta information of issues and commits.
+Hence there is the risk of adding bonus points to an wrongly assumed relation, which makes the result even worse.
+On the other hand we would also have the chance of correcting false positives by reducing the relation rating if we see no correlation in the meta information.
+Test runs with data from a real project can give insights about the usefulness of bonus points we discussed in this section.
