@@ -30,6 +30,10 @@ public class Lemmatizer {
         for (int i = 0; i < words.length; i++) {
             try {
                 result[i] = LemmatizerAhmetAker.getLemma(Lemmatizer.resourcesFolder, words[i], "de", generalType);
+
+                if (result[i] == null) {
+                    result[i] = words[i];
+                }
             } catch (Exception e) {
                 result[i] = words[i];
             }
