@@ -17,7 +17,7 @@ public class Commit {
 
     public String getId() { return _id; }
     public void setId(String id) {
-        this._id = _id;
+        this._id = id;
     }
 
     public String getAuthor() {
