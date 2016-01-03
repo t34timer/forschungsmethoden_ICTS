@@ -2,6 +2,7 @@ package com.uni.stuttgart.fswt.icts;
 
 import com.uni.stuttgart.fswt.icts.Controller.FileReader;
 import com.uni.stuttgart.fswt.icts.Controller.Lemmatizer;
+import com.uni.stuttgart.fswt.icts.Controller.Matcher;
 import com.uni.stuttgart.fswt.icts.Controller.TokenManager;
 import com.uni.stuttgart.fswt.icts.Model.Commit;
 import com.uni.stuttgart.fswt.icts.Model.Issue;
@@ -35,6 +36,7 @@ public class Main {
             TokenManager.initialize(issues.getResult(), commits.getResult());
 
             // 3.) Commits und Issues matchen
+            Matcher.match(issues.getResult(), commits.getResult());
 
         } catch (Exception e) {
             e.printStackTrace();

@@ -23,6 +23,35 @@ public class TokenManager {
 
     private TokenManager() { /* Singleton */ }
 
+    private static int getIssueTopicWordCount(String word) {
+        if (_issueTopicWordMap.containsKey(word)) {
+            return _issueTopicWordMap.get(word).getWordCount();
+        }
+
+        return 0;
+    }
+
+    private static int getIssueDescriptionWordCount(String word) {
+        if (_issueDesctiptionWordMap.containsKey(word)) {
+            return _issueDesctiptionWordMap.get(word).getWordCount();
+        }
+
+        return 0;
+    }
+
+    private static int getCommitMessageWordCount(String word) {
+        if (_commitMessageWordMap.containsKey(word)) {
+            return _commitMessageWordMap.get(word).getWordCount();
+        }
+
+        return 0;
+    }
+
+    public static int getWordCount(String word) {
+        return TokenManager.getCommitMessageWordCount(word)
+                + TokenManager.getIssueTopicWordCount(word)
+                + TokenManager.getIssueDescriptionWordCount(word);
+    }
 
     public static void initialize(ArrayList<Issue> issues, ArrayList<Commit> commits) {
 
