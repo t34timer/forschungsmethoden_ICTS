@@ -3,16 +3,20 @@ package com.uni.stuttgart.fswt.icts.Controller;
 import com.uni.stuttgart.fswt.icts.Model.Commit;
 import com.uni.stuttgart.fswt.icts.Model.Issue;
 
+import java.io.File;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 
-/**
- * Created by Benedikt on 03.01.2016.
- */
 public class Matcher {
 
     private Matcher() { /* Singleton */ }
 
-    public static void match(ArrayList<Issue> issues, ArrayList<Commit> commits) {
+    public static void match(ArrayList<Issue> issues, ArrayList<Commit> commits) throws IOException {
+        File file = new File("results.txt");
+        file.createNewFile();
+        PrintWriter out = new PrintWriter(file);
+
         for (Commit commit : commits) {
             Issue bestIssue = null;
             int bestScore = 0;
@@ -52,10 +56,13 @@ public class Matcher {
             if (bestScore > 0) {
                 System.out.println("Matching commit " + commit.getId() + " with issue " + bestIssue.getId()
                 + " (score: " + bestScore + ")");
+                out.println(commit.getId() + " " + bestIssue.getId());
             } else {
                 System.out.println("No Match found for " + commit.getId());
             }
         }
+
+        out.close();
     }
 
     private static int calculateWeight(int wordCount) {
