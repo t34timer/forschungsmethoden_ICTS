@@ -92,7 +92,7 @@ public class FileReader {
 
             } catch (Exception ex) {
                 exceptions.add(ex);
-                return null;
+                continue;
             }
 
             // Zeile gelesen -> Zeilenindex hochzählen
@@ -160,7 +160,7 @@ public class FileReader {
                 commit.setComment(values[3]);
             } catch (Exception ex) {
                 exceptions.add(ex);
-                return null;
+                continue;
             }
 
             // Zeile gelesen -> Zeilenindex hochzählen
