@@ -4,4 +4,22 @@ To test the algorithm described in \nameref{sec:methods} we implemented a protot
 We used real data from an academic software project to test different variants of the mapping algorithm.
 In this section we describe the results we achieve with the sample data with different variants of the algorithm.
 
-[TODO]
+\subsection{Data requirements}
+To achieve useful results it is important to have a reasonable data basis.
+That means the issues need to describe the required task and do not just consist of a title, the commit messages need to describe the functional background and not the implementation details and, what is very important, the commit messages need to be in the same language as the issue descriptions.
+In German projects a very common approach is to write the code documentation in English, this mostly includes the commit messages, too.
+On the other hand the issue descriptions, the wiki entries, mailing lists etc. are often held in German.
+
+\subsection{Our data basis}
+We used the data from a real project, i.e. a students' academic project which took place at university Stuttgart in winter term 2013/14.
+The data set contains 1107 commits and 500 issues.
+The commit messages mostly start with a reference number to link with an issue.
+Of course we did not use them to match the commit to that issue, but we used them to check our results.
+The issue descriptions are mostly in German, whereas the commit messages are partly German and partly English.
+This led to problems, as only the German commit messages could be used.
+But the biggest problem originated from the commit messages themselves.
+The project members mostly described the technical background instead of providing a functional description of what they did.
+As the issue descriptions did not prescribe the implementation details, the words used in the commit message and that given in the issue description usually differed.
+For example one project member often started his commit messages with the issue reference number, followed by the word ''Erledigt'', which means ''Done''.
+After that he described how he implemented the feature.
+For instance he names hotkeys he used for activating the feature.
