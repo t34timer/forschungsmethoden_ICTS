@@ -23,3 +23,17 @@ As the issue descriptions did not prescribe the implementation details, the word
 For example one project member often started his commit messages with the issue reference number, followed by the word ''Erledigt'', which means ''Done''.
 After that he described how he implemented the feature.
 For instance he names hotkeys he used for activating the feature.
+
+\subsection{Implementation Approach}
+A token that occurs less often needs to have a higher rating, so we tried to use the Euler function to the power of a negative factor multiplied with the number of times the token occurs.
+This results in a positive number which is greater than zero and decreases with increasing token count.
+It turned out that the negative factor should not be -1 as the resulting rating would decrease to fast.
+It proved -0.01 to be a good factor for the token distribution in our data basis.
+In order to handle the rating as integer values, we multiplied the result from the previous steps by 1000 thousand.
+In summary we get a integer rating from 0 to thousand depending on the token count.
+
+As previously described we also evaluated the meta information of issues and commits.
+For specific occurrences we added extra points to our rating. In that way we indicated it would be more likely that commit matched that issue.
+Of course it is important to adjust this extra points to the range of our previous rating.
+This turned out to be hard, as we could not really test this for the reasons concerning our data basis described before.
+Probably it would be a good idea to choose the extra points in a range of about 10\% of the maximum rating.
