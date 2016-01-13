@@ -37,24 +37,24 @@ WHERE
 The application of the method on the Mozilla project stated that it was possible to link bug reports with version control data in an effective way \cite{fischer2003populating}. 
 
 \subsection{Commit Message Standard}
-Code developing should not start until a commit message standard has been established. Otherwise many programmer only writer commit messages since it has to be done \ref{git_commit}. By unifying the commit messages, they can be read with more ease and automatically processed by an algorithm. \\
-\begin{figure}[ht]
-\includegraphics[scale=0.6]{images/git_commit.png}
+Code developing should not start until a commit message standard has been established. Otherwise many programmer only writer commit messages since it has to be done, like shown in figure \ref{git_commit}. By unifying the commit messages, they can be read with more ease and automatically processed by an algorithm. \\
+\begin{figure}[b]
+\includegraphics[scale=0.6666]{images/git_commit.png}
 \caption{Bad practice example}
 \label{git_commit}
 \end{figure}
-A good commit message standard suggests that a message should consist of a \textit{task reference}, \textit{commit type} and a \textit{Description}.\\ 
+A good commit message standard suggests that a report should consist of a \textit{task reference}, \textit{commit type} and a \textit{Description}. Always try to use imperative speech, for instance "Implement Class", not "Implemented Class" or "Implementing Class". 
 \paragraph{Task reference}
-By connecting tasks and commits 
+By connecting tasks and commit messages developer can easily relate code to the issues. Also many bug tracker or task scheduler like redmine use the information to display the commit messages in the different task or issues.
 \paragraph{Commit Type}
-Commit types can be \textit{Fix}, \textit{Implement}, \textit{Refactor} or \textit{Update}. This gives the readers a quick overview of the commit messages.
+Commit types can be \textit{Fix}, \textit{Implement}, \textit{Refactor} or \textit{Update}. This gives the readers a quick overview of purpose of the modification.
 \paragraph{Description}
-Here, try to summarize the changes in about 50 characters. Always try to use imperative speech, for instance "Implement Class", not "Implemented Class" or "Implementing Class". \\
-If necessary explain the causing problem or the feature being implemented in more detail in about 72 characters in a new paragraph. By using indets or bullet points the readability can be heavily improved. Bullet points are usually hyphons or asterisks follwed by a blank space and are separated by an empty line.
+Here, try to summarize the changes in about 50 characters. 
+If necessary explain the causing problem or the feature being implemented in more detail in a new paragraph using about 72 characters. By using indents or bullet points the readability can be heavily improved. Bullet points are usually hyphons or asterisks follwed by a blank space and are separated by an empty line.
+\\\\
+Always try to address only one issue or task on each commit message. If inevitable separate the descriptions leaving a line blank.
 
 
-
-[TODO]
 %Wie hat sich die Wissenschaft bis jetzt entwickelt?
 %Wer hat welche Voraussetzungen geschaffen?
 %Welche vergleichbaren Ergebnisse gibt es bisher?
