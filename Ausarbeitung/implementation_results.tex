@@ -18,13 +18,13 @@ Of course we did not use them to match the commit to that issue, but we used the
 The issue descriptions are mostly in German, whereas the commit messages are partly German and partly English.
 This led to problems, as only the German commit messages could be used.
 But the biggest problem originated from the commit messages themselves.
-The project members mostly described the technical background instead of providing a functional description of what they did.
-As the issue descriptions did not prescribe the implementation details, the words used in the commit message and that given in the issue description usually differed.
+The project members, in the majority of cases, described the technical background instead of providing a functional description of what they did.
+As the issue descriptions did not prescribe the implementation details, the words used in the commit message and the ones given in the issue description usually differed.
 For example one project member often started his commit messages with the issue reference number, followed by the word ''Erledigt'', which means ''Done''.
 After that he described how he implemented the feature.
 For instance he names hotkeys he used for activating the feature.
 
-Another problem we faced in our test data where spelling mistakes.
+Another problem we faced in our test data were spelling mistakes.
 These spelling mistakes lead to words that can't be lemmatized, as they can't be assigned to a word stem.
 They can also lead to wrong results when the same word is misspelled in the same way at another point in the test data.
 This word will occur only two times in the whole data set, which leads to a high rating for these two artifacts.
@@ -35,14 +35,15 @@ We could then reduce the rating of that word, as we can't be sure we matched it 
 
 \subsection{Implementation Approach}
 A token that occurs less often needs to have a higher rating, so we tried to use the Euler function to the power of a negative factor multiplied with the number of times the token occurs.
-This results in a positive number which is greater than zero and decreases with increasing token count.
-It turned out that the negative factor should not be -1 as the resulting rating would decrease to fast.
+This results in a positive number which is greater than zero and decreases with an increasing token count.
+It turned out that the negative factor should not be -1 as the resulting rating would decrease too fast.
 It proved -0.01 to be a good factor for the token distribution in our data basis.
-In order to handle the rating as integer values, we multiplied the result from the previous steps by 1000 thousand.
-In summary we get a integer rating from 0 to thousand depending on the token count.
+In order to handle the rating as integer values, we multiplied the result from the previous steps by 1000.
+In summary we get an integer rating from 0 to 1000 depending on the token count.
 
 As previously described we also evaluated the meta information of issues and commits.
-For specific occurrences we added extra points to our rating. In that way we indicated it would be more likely that commit matched that issue.
+For specific occurrences we added extra points to our rating.
+This way we indicated it would be more likely that a commit matched an issue.
 Of course it is important to adjust this extra points to the range of our previous rating.
 This turned out to be hard, as we could not really test this for the reasons concerning our data basis described before.
 Probably it would be a good idea to choose the extra points in a range of about 10\% of the maximum rating.
