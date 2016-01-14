@@ -13,7 +13,7 @@ On the other hand the issue descriptions, the wiki entries, mailing lists etc. a
 \subsection{Our data basis}
 We used the data from a real project, i.e. a students' academic project which took place at university Stuttgart in winter term 2013/14.
 The data set contains 1107 commits and 500 issues.
-The commit messages mostly start with a reference number to link with an issue.
+The commit messages mostly start with a reference number to link it with an issue.
 Of course we did not use them to match the commit to that issue, but we used them to check our results.
 The issue descriptions are mostly in German, whereas the commit messages are partly German and partly English.
 This led to problems, as only the German commit messages could be used.
@@ -23,6 +23,15 @@ As the issue descriptions did not prescribe the implementation details, the word
 For example one project member often started his commit messages with the issue reference number, followed by the word ''Erledigt'', which means ''Done''.
 After that he described how he implemented the feature.
 For instance he names hotkeys he used for activating the feature.
+
+Another problem we faced in our test data where spelling mistakes.
+These spelling mistakes lead to words that can't be lemmatized, as they can't be assigned to a word stem.
+They can also lead to wrong results when the same word is misspelled in the same way at another point in the test data.
+This word will occur only two times in the whole data set, which leads to a high rating for these two artifacts.
+A possible workaround would be to detect the word the author possibly intended.
+This would maybe be possible with a similarity algorithm for words like the Levenshtein algorithm.
+We could calculate which word in a dictionary is the closest to the misspelled word.
+We could then reduce the rating of that word, as we can't be sure we matched it with the correct dictionary word.
 
 \subsection{Implementation Approach}
 A token that occurs less often needs to have a higher rating, so we tried to use the Euler function to the power of a negative factor multiplied with the number of times the token occurs.
