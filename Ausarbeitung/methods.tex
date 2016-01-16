@@ -15,7 +15,7 @@ Lemmatization normalizes every word so that we have one token for every word wit
 After the lemmatization step, we need to remove stop words so that only the interesting tokens are left.
 The resulting tokens will then be placed in a table where the frequency of each token is stated for each commit message and issue.
 Using this frequency table of tokens, we can compare the tokens of commit messages with the tokens of issues and find out the similarities based on the common tokens.
-Figure \ref{fig:methods_vis} shows how these steps are to be processed one after another.
+Figure \ref{fig:methods_vis} shows how these steps are to be processed one after another.\\
 
 
 We also have access to the date, theme and the author for both commit messages and issues.
@@ -30,7 +30,7 @@ This might make it easier to find the commit manually, since the user has to onl
 \subsubsection{Parsing Issues}
 Issues are provided as a .csv file, which is extracted from JIRA issue tracking system.
 When we investigate the file, we realize that it follows the common .csv features and uses '';'' to separate the columns.
-We have read and separated the values in our Java code and mapped it to an instance of our Issue class shown in Figure \ref{fig:issue}. 
+We have read and separated the values in our Java code and mapped it to an instance of our Issue class shown in Figure \ref{fig:issue}. \\
 
 \begin{figure}
 \centering
@@ -41,7 +41,7 @@ We have read and separated the values in our Java code and mapped it to an insta
 
 One difference from a standard .csv format that the file exported from JIRA issue tracking system had was the additional description lines. Some issues have exception messages and log files attached to them to make it easier to describe the issue and provide further resources for the developer, who will fix the issue.
 These descriptions contain multiple lines and thus a standard .csv parser cannot properly detect them.
-Since the additional descriptions might be useful to understand more on what the issue is about, which is important for our case, we have implemented an additional functionality to detect these description lines and store them in our object.
+Since the additional descriptions might be useful to understand more on what the issue is about, which is important for our case, we have implemented an additional functionality to detect these description lines and store them in our object.\\
 
 We have created a regular expression shown in Figure \ref{fig:regexp} that detects whether a string is a new data record or not.
 
@@ -63,11 +63,11 @@ Commits are extracted from an SVN repository as a .txt file.
 Each line in the file represents a single commit.
 The information about the commit is separated by ''\#\#'' characters and each line is ended with ''\**'' characters.
 Some commits also contain the duration of that particular task in the commit message, encoded by the ''@'' character followed by the time taken for that task.
-An example line of commit can be seen in Figure \ref{fig:commitLine}.
+An example line of commit can be seen in Figure \ref{fig:commitLine}.\\
 
 \begin{figure*}
 \centering
-\verb/4013453##Markt Benedikt##Thu Feb 20 04:39:35 2014##Delete Button Problem bei Links umgangen refs #803 @1h\**  /
+\verb/4013453##Anonymous##Thu Feb 20 04:39:35 2014##Delete Button Problem bei Links umgangen refs #803 @1h\**  /
 \caption{An example line of commit}
 \label{fig:commitLine}
 \end{figure*}
@@ -96,10 +96,17 @@ Later we can use the TokenContainer object to access every token and their frequ
 
 We use a library developed by Dr. Dipl. Inf. Ahmet Aker from University of Sheffield to do the lemmatization.
 The library provides a functionality to determine the part-of-speech of a word and then it gives the lemma for that word given the correct part-of-speech.
-The library has its own dictionary for part-of-speech tagging and lemmatization, and it supports English, German, Dutch, Spanish, Italian and French languages.
+The library has its own dictionary for part-of-speech tagging and lemmatization, and it supports English, German, Dutch, Spanish, Italian and French languages.\\
 
 After getting the lemma for each word, we remove that token from our TokenContainer and instead insert the lemma as a new token.
-This way different words that have the same lemma are counted as a single type of token and the frequency is also properly calculated.
+This way different words that have the same lemma are counted as a single type of token and the frequency is also properly calculated. Some example words that are taken from the issue and commit messages and their corresponding lemmas are shown in Figure \ref{fig:lemma}.\\
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.25]{lemmaExample}
+\caption{Lemmatization examples from the issue and commit messages}
+\label{fig:lemma}
+\end{figure}
 
 There are other lemmatization libraries, e.g. OpenNLP or StanfordNLP, but most of these libraries only offer English lemmatizers.
 Our commit messages and issue descriptions are mostly German, so we looked for a tool with support for the German language.
@@ -113,17 +120,18 @@ Our aim is to connect each commit with at least one issue.
 Given a table of lemmatized tokens and their corresponding frequency for both the commit messages and issue titles and descriptions we are able to calculate a first similarity value.\\
 Each token in the issue table gets a rating based on its frequency.
 If a token occurs less often it has a higher rating and if the token occurs in the issue title its value can get multiplied by a certain factor to give stronger weightings to the issue titles.\\
+
 For each token from the commit message, we try to find the same token in the issue token table.
 If there is a match we increase the similarity value of the relation of the commit and the issue the matching token corresponds to, by considering the token rating.
 To not give relations a higher rating just because their descriptions, titles and commit messages consist of many tokens, we limit the number of tokens which add a value to the relation.
 If we only consider a limited number of tokens with the highest rating we do not increase the similarity value of the relation each time there is any match but only for the rarest and most valuable tokens.
-This means short titles, descriptions and commit messages will not get unfairly disadvantaged compared to those with more tokens.
+This means short titles, descriptions and commit messages will not get unfairly disadvantaged compared to those with more tokens.\\
 
 Let's say for example that the token ''T1'' exists in the commit message of commit ''C1''.
 The token ''T1'' also occurs in the issue title of the issue ''I1'' and in the issue description of the issue ''I2''.
 We now have to create relations for ''C1'' and ''I1'' as well as for ''C1'' and ''I2''.
 Both relations now have an initial similarity value depending on the frequency of ''T1'' and depending on whether ''W1'' occurs in the title or in the description (token rating).
-The relation rating increases with each token match for a limited number of the highest rated tokens.
+The relation rating increases with each token match for a limited number of the highest rated tokens.\\
 
 After calculating the relations based on the token similarity, we enrich the relation rating with some bonus points, which we calculate from meta information about the commits and issues.
 Firstly, the relation gets bonus points if the closing date of the issue is very close to the commit date.
@@ -131,7 +139,7 @@ We assume that these bonus points are justified, because it is common practice t
 In a software project this is typically done by committing changes to the version control system.
 So in the event that a new commit is done and an issue gets closed right after or right before we assume that there is a correlation between the commit and the issue.
 Secondly, we compare the author of the commit with the person, who is assigned to the issue.
-If the author of the commit matches the person, who is assigned to the issue, we add some bonus points to the relation, because it seems likely that in most cases the assigned person commits some issue related changes.
+If the author of the commit matches the person, who is assigned to the issue, we add some bonus points to the relation, because it seems likely that in most cases the assigned person commits some issue related changes.\\
 
 It is recalled that we already have a relation between an issue and a commit based on the token similarity when considering the meta information of issues and commits.
 Hence there is the risk of adding bonus points to an wrongly assumed relation, which makes the result even worse.
