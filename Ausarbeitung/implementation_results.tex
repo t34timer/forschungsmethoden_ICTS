@@ -22,7 +22,7 @@ The project members, in the majority of cases, described the technical backgroun
 As the issue descriptions did not prescribe the implementation details, the words used in the commit message and the ones given in the issue description usually differed.
 For example one project member often started his commit messages with the issue reference number, followed by the word ''Erledigt'', which means ''Done''.
 After that he described how he implemented the feature.
-For instance he names hotkeys he used for activating the feature.
+For instance he names hotkeys he used for activating the feature.\\
 
 Another problem we faced in our test data were spelling mistakes.
 These spelling mistakes lead to words that can't be lemmatized, as they can't be assigned to a word stem.
@@ -39,7 +39,7 @@ This results in a positive number which is greater than zero and decreases with 
 It turned out that the negative factor should not be -1 as the resulting rating would decrease too fast.
 It proved -0.01 to be a good factor for the token distribution in our data basis.
 In order to handle the rating as integer values, we multiplied the result from the previous steps by 1000.
-In summary we get an integer rating from 0 to 1000 depending on the token count.
+In summary we get an integer rating from 0 to 1000 depending on the token count.\\
 
 As previously described we also evaluated the meta information of issues and commits.
 For specific occurrences we added extra points to our rating.
