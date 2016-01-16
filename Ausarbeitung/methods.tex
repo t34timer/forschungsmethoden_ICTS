@@ -99,7 +99,14 @@ The library provides a functionality to determine the part-of-speech of a word a
 The library has its own dictionary for part-of-speech tagging and lemmatization, and it supports English, German, Dutch, Spanish, Italian and French languages.
 
 After getting the lemma for each word, we remove that token from our TokenContainer and instead insert the lemma as a new token.
-This way different words that have the same lemma are counted as a single type of token and the frequency is also properly calculated.
+This way different words that have the same lemma are counted as a single type of token and the frequency is also properly calculated. Some example words that are taken from the issue and commit messages and their corresponding lemmas are shown in Figure \ref{fig:lemma}.
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.25]{lemmaExample}
+\caption{Lemmatization examples from the issue and commit messages}
+\label{fig:lemma}
+\end{figure}
 
 There are other lemmatization libraries, e.g. OpenNLP or StanfordNLP, but most of these libraries only offer English lemmatizers.
 Our commit messages and issue descriptions are mostly German, so we looked for a tool with support for the German language.
